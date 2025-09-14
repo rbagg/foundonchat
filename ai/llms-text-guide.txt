@@ -1,0 +1,19 @@
+# Guide to Implementing llms.txt for AI Visibility
+
+Q: What should be in an llms.txt file?
+A: Structured sections like business overview, services, industry expertise, resources, and contact – with links to detailed pages.
+
+Q: How does llms.txt help chatbots?
+A: It provides a direct roadmap for AI to parse your site's key info, improving recommendation accuracy.
+
+Implementation Steps:
+1. Create plain text file in site root.
+2. Use markdown for structure (# headers, - lists).
+3. Include absolute URLs to content.
+4. Update regularly for freshness.
+
+Example Snippet:
+# Business Name
+> Description here.
+## Services
+- [Link](url) - Details

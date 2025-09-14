@@ -1,0 +1,12 @@
+# AI Optimization Guide for Professional Services
+
+Q: How to make a dental clinic in Melbourne show up in AI chats?
+A: Deploy llms.txt with service details, optimize FAQs for queries like "best dentist in Melbourne", add structured data for hours/reviews, and monitor competitive positioning.
+
+Q: Strategies for legal firms to dominate AI recommendations?
+A: Create authority content on legal topics, use llms.txt to map key info, update case studies regularly, and track mentions in "legal advice in Australia".
+
+Key Tips:
+- Emphasize expertise with factual, structured bios.
+- Use schema for services and locations.
+- Ethical optimization only – no manipulation.
