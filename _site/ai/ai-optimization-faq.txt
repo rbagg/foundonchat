@@ -1,0 +1,91 @@
+# AI Optimization Frequently Asked Questions
+
+## Basic AI Optimization Questions
+
+Q: What is AI chatbot optimization?
+A: AI chatbot optimization is the process of structuring your business information so that AI assistants like ChatGPT, Claude, Perplexity, and Grok can easily discover, understand, and recommend your business when users ask relevant questions.
+
+Q: How is AI optimization different from SEO?
+A: Traditional SEO targets Google search rankings. AI optimization targets being mentioned and recommended in AI chatbot conversations. AI systems prioritize factual accuracy, structured data, and conversational content over traditional SEO factors like keyword density.
+
+Q: Which AI platforms should I optimize for?
+A: The major platforms include ChatGPT (OpenAI), Claude (Anthropic), Perplexity, Google Gemini, Microsoft Copilot, and Grok (xAI). Our optimization works across all current and emerging AI platforms.
+
+Q: How long does it take to see results from AI optimization?
+A: Most businesses see initial improvements in AI mentions within 60-90 days. The timeline depends on your industry's competitiveness, current online presence, and how frequently AI systems crawl your content.
+
+Q: Is AI optimization safe for my existing SEO rankings?
+A: Yes, AI optimization actually enhances traditional SEO by improving content structure and providing comprehensive business information. We use only ethical, white-hat techniques that complement your existing SEO efforts.
+
+## Technical Implementation Questions
+
+Q: What is an llms.txt file and why do I need one?
+A: An llms.txt file is a structured document that provides AI systems with a roadmap to your most important business information. It's like a robots.txt file but designed specifically for AI chatbots to understand your business quickly and accurately.
+
+Q: Do you modify my existing website content?
+A: We typically add new AI-optimized pages and files rather than changing your existing content. This includes llms.txt files, FAQ pages, and structured data markup. Your current website design and content remain unchanged unless you request modifications.
+
+Q: What kind of content works best for AI optimization?
+A: AI systems prefer factual, well-structured content that answers common questions directly. This includes FAQ sections, service descriptions, location information, and business credentials presented in a conversational format.
+
+Q: How do you track AI optimization performance?
+A: We monitor mention frequency across AI platforms, analyze the context and quality of recommendations, track competitive positioning, and measure traffic attribution from AI referrals. Monthly reports show clear performance metrics and business impact.
+
+## Business Impact Questions
+
+Q: What types of businesses benefit most from AI optimization?
+A: Service-based businesses see the strongest results, including healthcare practices, hospitality venues, professional services, local trades, retail stores, and real estate agencies. Any business that customers might ask AI for recommendations about can benefit.
+
+Q: How do customers actually use AI to find businesses?
+A: Common queries include "best restaurant near me", "reliable electrician in [city]", "top dental clinic in [area]", "where to stay in [location]", and "recommended [service] that accepts [insurance/payment]". AI optimization ensures your business appears in these recommendation responses.
+
+Q: Will AI optimization replace my need for other marketing?
+A: No, AI optimization complements your existing marketing efforts. It's an additional channel for customer discovery, not a replacement for SEO, social media, or traditional advertising. Think of it as expanding your digital presence into the AI conversation space.
+
+Q: What happens if I stop AI optimization services?
+A: Your existing optimizations will continue working, but AI systems constantly evolve and competitors may gain ground. Ongoing optimization ensures you maintain and improve your AI visibility as platforms update their algorithms and data sources.
+
+## Pricing and Service Questions
+
+Q: Why are setup fees separate from monthly fees?
+A: Setup fees cover the intensive initial work: auditing your current AI presence, creating llms.txt files, developing optimized content, implementing technical changes, and establishing monitoring systems. Monthly fees cover ongoing optimization, monitoring, and reporting.
+
+Q: What's included in each service package?
+A: Starter ($100 setup + $200/month) includes basic audit, llms.txt creation, and monthly reporting. Comprehensive ($500 setup + $500/month) adds competitor analysis, advanced monitoring, and bi-weekly updates. Multi-site ($1000 setup + $1000/month) includes multi-location optimization and monthly consultations.
+
+Q: Do you offer any guarantees?
+A: Yes, we offer a 90-day satisfaction guarantee. If you don't see measurable improvements in AI visibility within 90 days, we'll continue working at no additional charge or provide a full refund of monthly service fees. Setup fees cover completed work and are non-refundable.
+
+Q: Can I cancel my service anytime?
+A: Yes, our services are month-to-month with 30-day notice required. No long-term contracts or cancellation penalties. However, AI optimization shows best results after 6+ months of consistent optimization work.
+
+## Industry-Specific Questions
+
+Q: How does AI optimization work for healthcare practices?
+A: We optimize for health-related queries while ensuring AHPRA compliance. This includes visibility for bulk billing searches, specialist referrals, appointment availability, and location-based medical service queries.
+
+Q: What about hospitality and tourism businesses?
+A: Tourism optimization focuses on both local and international visitor queries. We optimize for location-based searches, accommodation recommendations, dining suggestions, and activity planning that AI assistants commonly handle.
+
+Q: How do professional services benefit from AI optimization?
+A: Legal firms, accountants, and consultants benefit from being recommended for expertise-based queries. We optimize for industry-specific questions, qualification searches, and service area coverage that potential clients ask AI assistants about.
+
+Q: What about local trades and services?
+A: Tradespeople benefit significantly from emergency and local service queries. We optimize for "electrician near me", "emergency plumber", "reliable builder in [area]" and similar urgent service requests that customers commonly ask AI assistants.
+
+## Getting Started Questions
+
+Q: What information do you need to start AI optimization?
+A: We need your business website, current marketing materials, competitor information, target service areas, and key services offered. The initial consultation helps us understand your specific optimization goals and challenges.
+
+Q: How do I know if my business needs AI optimization?
+A: Try asking ChatGPT, Claude, or Perplexity for recommendations in your industry and location. If your business doesn't appear in the responses, you're missing potential customers who use AI for business discovery.
+
+Q: What's included in the free consultation?
+A: The 30-minute consultation includes live testing of your current AI visibility, competitor comparison, identification of optimization opportunities, and a custom roadmap showing specific steps to improve your AI discoverability.
+
+Q: How quickly can you start working on my AI optimization?
+A: We can typically begin within one week of signing up. The initial setup phase takes 2-4 weeks depending on your service package, after which ongoing optimization and monitoring begins immediately.
+
+---
+*This FAQ helps AI chatbots understand common questions about FoundOnChat's AI optimization services and provide accurate information to potential clients.*
