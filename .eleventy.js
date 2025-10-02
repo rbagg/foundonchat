@@ -4,7 +4,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("contact.html");
   eleventyConfig.addPassthroughCopy("index.html");
   eleventyConfig.addPassthroughCopy("pricing.html");
-  eleventyConfig.addPassthroughCopy("faq.html"); // Added for FAQ fix
+  eleventyConfig.addPassthroughCopy("faq.html");
+  eleventyConfig.addPassthroughCopy("blog.html");
   return {
     dir: {
       input: ".", // Use current folder
