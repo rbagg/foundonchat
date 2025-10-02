@@ -10,7 +10,7 @@
   
   "contactPoint": {
     "@type": "ContactPoint",
-    "email": "hello@foundonchat.com",
+    "email": "ricky@foundonchat.com",
     "contactType": "customer service",
     "areaServed": "AU",
     "availableLanguage": "English"
@@ -153,7 +153,7 @@
     "@type": "ContactAction",
     "target": {
       "@type": "EntryPoint", 
-      "urlTemplate": "mailto:hello@foundonchat.com?subject=Free AI Consultation Request",
+      "urlTemplate": "mailto:ricky@foundonchat.com?subject=Free AI Consultation Request",
       "actionPlatform": "email"
     }
   }

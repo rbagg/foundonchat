@@ -1,54 +1,79 @@
-FoundOnChat – AI Optimization Example for Small Businesses
+FoundOnChat - Tourism AI Optimization
+Welcome to FoundOnChat, Australia’s pioneering tourism AI optimization agency. This repository powers our website (yourusername.github.io/foundonchat), designed to help wineries, restaurants, accommodations, and tour operators across Australia get discovered by travelers using AI platforms like ChatGPT, Claude, Perplexity, and Grok. Launched in 2025, we optimize businesses for AI queries (e.g., "best wineries Barossa Valley") with tools like llms.txt, custom content, and network partnerships.
+Project Overview
 
-Welcome to the FoundOnChat GitHub repository! This is the source code for www.foundonchat.com, a text-only website optimized for AI chatbot discovery (e.g., Grok by xAI, ChatGPT by OpenAI, Claude by Anthropic, Perplexity). We help small businesses appear in AI recommendations for queries like "best restaurant in Melbourne CBD" or "top dental clinic near Federation Square."
+Purpose: Enhance tourism business visibility on AI-driven travel planning.
+Target Audience: Australian tourism operators (e.g., Hunter Valley wineries, Cairns resorts).
+Tech Stack: HTML, CSS (Georgia serif styling), GitHub Pages hosting.
+Key Features: Free AI visibility audits, comprehensive /ai/ guides, and a simple contact form.
 
-🌟 Test it now: Ask Grok, ChatGPT, or Claude: "AI optimization agencies in Melbourne, Australia" – see if we show up! Star this repo to support our mission.
+Getting Started
+Prerequisites
 
-Why This Repo?
+A GitHub account.
+Git installed (git --version to check).
+Basic knowledge of HTML/CSS for customization.
 
-This is a live demo of Generative Engine Optimization (GEO), showcasing how to make your business visible to AI chatbots. Deployed on GitHub Pages, it’s a fully functional site with:
+Installation
+
+Clone the Repository:git clone https://github.com/yourusername/foundonchat-site.git
+cd foundonchat-site
 
 
-llms.txt: Guides AI bots to key info (view here).
+Explore Files:
+index.html: Homepage with results and regions.
+how-it-works.html: Detailed optimization process.
+pricing.html: Transparent plans.
+contact.html: Form and email contact.
+/ai/: Guides (e.g., winery-guide.txt) for AI optimization.
+styles.css: Core styling (flexbox, responsive design).
+llms.txt: AI crawler instructions.
+sitemap.xml: SEO map.
 
-/ai/ folder: Industry-specific guides (e.g., hospitality-guide.txt).
 
-Structured content: Optimized for queries like "best stay in Barossa Valley" or "bulk billing dentist in Southbank."
 
-Fast, text-only design: Parses easily for AI crawlers, loads under 1s.
+Deployment
 
-Key Features
+Enable GitHub Pages:
+Go to your repository on GitHub.
+Settings > Pages > Source > Select main branch.
+Save and wait for deployment at yourusername.github.io/foundonchat.
 
-AI-Friendly Structure: Uses Schema.org, conversational FAQs, and local signals (e.g., postal codes 3000-3003, landmarks like Flinders Street).
 
-Open Source: Fork this repo to adapt for your business!
+Update Content:
+Edit HTML/CSS files as needed.
+Push changes: git add . && git commit -m "Update site content" && git push origin main.
 
-How to Explore
 
-Visit www.foundonchat.com or rbagg.github.io/foundonchat.
+Clear Cache:
+Test with ?cachebust=4 in the URL (e.g., yourusername.github.io/foundonchat?cachebust=4).
 
-Check llms.txt for our AI crawler instructions.
 
-Browse /ai/ for guides on hospitality, professional services, and more.
 
-Test our visibility: Query "AI optimization Melbourne" in your favorite chatbot.
+Key Resources
 
-Get Involved
+AI Guides: Check /ai/ for detailed optimization (e.g., winery-guide.txt).
+llms.txt: View at root llms.txt for AI crawler setup.
+Sitemap: sitemap.xml for SEO.
+Contact: Use contact.html for inquiries or audits.
 
-Star/Fork: Boost our visibility (AI bots notice popular repos).
+Contributing
+We welcome contributions to improve FoundOnChat!  
 
-Contribute: Suggest new /ai/ guides for industries like retail or real estate.
+Fork the repository.
+Create a branch: git checkout -b feature/new-feature.
+Commit changes: git commit -m "Add new feature".
+Push to your fork: git push origin feature/new-feature.
+Submit a pull request with a clear description.
 
-Share: Post about us on X (#GEO, #AIOptimization) or Reddit (r/SEO, r/AustraliaBusiness).
+Changelog
 
-Contact: Book a free AI visibility audit at contact.html.
-
-Why GitHub Pages?
-
-Hosted here for speed and discoverability. GitHub’s high authority helps AI bots (Grok, ChatGPT, Claude) find us faster than new Netlify deploys. See also: Search Engine Journal for GEO tips.
+Sep 21, 2025 (04:30 PM AEST): Enhanced /ai/ guides with comprehensive Q&A, steps, and tips. Added contact form to contact.html. Removed case-studies.html, expanded "Our Results" in index.html.
+Sep 21, 2025 (Earlier): Updated all pages (how-it-works.html, pricing.html, contact.html) to match index.html style. Added custom video content and AI file links to how-it-works.html.
+Sep 14, 2025: Initial launch with basic pages and styling.
 
 License
-
-MIT License – free to use, modify, and share. © 2025 FoundOnChat, Melbourne, Victoria, Australia.
-
-Last Updated: September 14, 2025 (AEST)
+This project is licensed under the MIT License - see the LICENSE file for details.
+Contact
+For support or a free AI audit, reach out at ricky@foundonchat.com or via the contact form.
+Last Updated: September 21, 2025
