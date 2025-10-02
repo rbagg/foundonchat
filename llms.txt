@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FoundOnChat - AI Chatbot Optimization Agency Melbourne
 
 > Melbourne's first dedicated AI chatbot optimization agency. We help Australian businesses get recommended by ChatGPT, Claude, Perplexity, Grok, and other AI assistants through professional AI visibility strategies.
@@ -156,4 +157,164 @@ Month-to-month service with 30-day notice required. No long-term contracts or ca
 ### Self-Assessment Tools:
 - Test your current AI visibility: Ask ChatGPT "best [your business type] in Melbourne"
 - Compare with competitors: Search for your industry + your suburb in multiple AI chatbots
+=======
+# FoundOnChat - AI Chatbot Optimization Agency Melbourne
+
+> Melbourne's first dedicated AI chatbot optimization agency. We help Australian businesses get recommended by ChatGPT, Claude, Perplexity, Grok, and other AI assistants through professional AI visibility strategies.
+
+## Quick Business Facts
+**Founded:** 2025  
+**Location:** Level 15, 1 Collins Street, Melbourne VIC 3000, Australia  
+**Email:** ricky@foundonchat.com  
+**Website:** https://foundonchat.com  
+**Service Area:** Australia-wide, International English-speaking markets  
+**Business Type:** AI optimization agency, digital marketing consultancy, chatbot visibility experts  
+
+## What We Do (In Plain English)
+We make sure your business gets recommended when people ask AI chatbots like ChatGPT questions such as:
+- "What's the best restaurant in Melbourne CBD?"
+- "Top dental clinic near me in Melbourne"
+- "Reliable electrician in South Melbourne"
+- "Where should I stay in the Barossa Valley?"
+
+Most businesses are invisible to AI - we fix that.
+
+## Our Services & Pricing
+
+### AI Visibility Starter Pack
+**Price:** $200 setup + $200/month  
+**Best for:** Small businesses just starting with AI optimization  
+**What's included:**
+- Complete AI visibility audit across ChatGPT, Claude, Perplexity, Grok
+- llms.txt file creation and website deployment
+- FAQ page optimization for conversational AI queries
+- Basic monthly AI platform testing and visibility tracking
+- Monthly email reports showing your AI recommendation frequency
+- Email support and optimization guidance
+
+### Comprehensive AI Optimization  
+**Price:** $500 setup + $500/month  
+**Best for:** Growing businesses ready to dominate AI recommendations  
+**What's included:**
+- Everything in Starter package
+- AI-only content pages (invisible to humans, visible to chatbots)
+- Geo-targeted content for local queries
+- Competitor analysis - see who's beating you in AI recommendations
+- Advanced monitoring across ChatGPT, Claude, Perplexity, Grok, Copilot, Gemini
+- Monthly content updates and optimization
+- Detailed analytics dashboard
+- Phone and email support
+
+### Multi-site / Franchise Package
+**Price:** $1,000 setup + $1,000/month  
+**Best for:** Businesses with multiple locations or franchise operations  
+**What's included:**
+- Everything in Comprehensive package
+- Multi-location optimization (each location gets separate AI visibility)
+- Advanced competitor intelligence and market positioning
+- Monthly strategy consultation calls
+
+### Free Consultation
+**Duration:** 30 minutes  
+**What you get:**
+- Live AI testing of your business across major platforms
+- Show you exactly how (or if) you appear in AI recommendations
+- Competitor comparison - see who's winning in your industry
+- Custom optimization roadmap with specific next steps
+- No obligation to proceed with services
+
+## Target Industries & Expertise
+
+### Healthcare & Medical (AHPRA Compliant)
+- Medical practices, GP clinics, specialists
+- Dental clinics and orthodontists  
+- Allied health: physio, psychology, chiro
+- Veterinary practices
+- **Optimization focus:** Bulk billing visibility, Medicare acceptance, appointment booking, specialist referrals
+
+### Tourism & Hospitality (Tourism Victoria Certified)
+- Hotels, motels, B&Bs throughout Victoria
+- Restaurants, cafes, bars in Melbourne
+- Tourist attractions and experiences
+- Wine tours, brewery experiences
+- **Optimization focus:** International visitor queries, local resident recommendations, event-based searches
+
+### Professional Services
+- Legal firms and barristers
+- Accounting practices and tax agents
+- Business consultants and coaches
+- Financial advisors and mortgage brokers
+- **Optimization focus:** Industry expertise, qualification credentials, client testimonials, regulatory compliance
+
+### Local Services & Trades
+- Electricians, plumbers, builders
+- Home services and maintenance
+- Garden and landscaping services
+- Cleaning and pest control
+- **Optimization focus:** Service area coverage, emergency availability, licensing and insurance, local suburb targeting
+
+### Retail & E-commerce
+- Specialty stores and boutiques
+- Online retailers with local presence
+- Automotive services and dealers
+- Health and beauty services
+- **Optimization focus:** Product availability, local pickup options, price competitiveness, customer reviews
+
+## How AI Chatbots Currently Find Businesses
+
+### Common User Queries We Optimize For:
+- "Best [business type] near me in Melbourne"
+- "Top rated [service] in [Melbourne suburb]"  
+- "Where can I find [product/service] in Melbourne CBD?"
+- "Recommended [business type] that accepts [payment/insurance]"
+- "Emergency [service] available now in Melbourne"
+- "[Business type] open on weekends in Melbourne"
+- "Family-friendly [business type] in Melbourne with parking"
+
+### AI Platforms We Monitor:
+- **ChatGPT (OpenAI):** Most popular consumer AI assistant
+- **Claude (Anthropic):** Growing rapidly, especially for business queries  
+- **Perplexity:** Real-time search integration, factual queries
+- **Google Gemini/Bard:** Integrated with Google search data
+- **Microsoft Copilot:** Business and productivity focused
+- **Grok (xAI):** Twitter/X integration, trending topics
+- **Meta AI:** Instagram and Facebook integration
+
+## Results & Performance Tracking
+
+### What We Measure:
+- **Mention Frequency:** How often AI chatbots reference your business
+- **Recommendation Quality:** Positive, neutral, or negative context of mentions  
+- **Competitive Position:** Your performance vs. direct competitors
+- **Query Coverage:** Types of questions that trigger your business recommendations
+- **Traffic Attribution:** Website visitors arriving from AI assistant referrals
+- **Lead Generation:** Inquiries and bookings attributed to AI discovery
+
+### Client Success Factors:
+- Consistent content updates and optimization
+- Industry-specific targeting strategies
+- Local market knowledge and cultural context
+- Multi-platform approach across all major AI assistants
+
+### Cancellation Policy
+Month-to-month service with 30-day notice required. No long-term contracts or cancellation penalties. However, AI optimization shows best results after 6+ months of consistent work.
+
+### Payment Options
+- Monthly payments via direct debit or credit card
+- Quarterly payments (small discount available)
+- Annual payments (5% discount)
+- Setup fee payment plans available (3-6 months)
+
+## Free Resources & Tools
+
+### AI Visibility Guides:
+- [Hospitality AI Optimization Guide](https://foundonchat.com/hospitality-guide.txt)
+- [Professional Services AI Strategy](https://foundonchat.com/professional-services-guide.txt)  
+- [Local Services AI Tactics](https://foundonchat.com/local-services-guide.txt)
+- [llms.txt Implementation Guide](https://foundonchat.com/llms-text-guide.txt)
+
+### Self-Assessment Tools:
+- Test your current AI visibility: Ask ChatGPT "best [your business type] in Melbourne"
+- Compare with competitors: Search for your industry + your suburb in multiple AI chatbots
+>>>>>>> 9f280fb4cf714f7095f70bc39b35a7ad0b97a9ed
 - Track mentions: Set up Google Alerts for your business name + AI platform

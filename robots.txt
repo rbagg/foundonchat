@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # robots.txt for foundonchat.com - Updated for AI optimization
 
 # Traditional web crawlers
@@ -45,4 +46,53 @@ Sitemap: https://foundonchat.com/sitemap.xml
 # These files are designed to help AI systems understand our business
 # llms.txt - Main AI optimization file
 # ai-optimization-faq.txt - Common questions and answers for AI systems
+=======
+# robots.txt for foundonchat.com - Updated for AI optimization
+
+# Traditional web crawlers
+User-agent: *
+Allow: /
+Allow: /llms.txt
+Allow: /ai-optimization-faq.txt
+Allow: /business-data.json
+Allow: /ai-query-test.txt
+Disallow: /admin/
+Disallow: /private/
+
+# AI-specific crawlers
+User-agent: GPTBot
+Allow: /
+Allow: /llms.txt
+Allow: /ai-optimization-faq.txt
+Allow: /business-data.json
+
+User-agent: Claude-Web
+Allow: /
+Allow: /llms.txt
+Allow: /ai-optimization-faq.txt
+Allow: /business-data.json
+
+User-agent: PerplexityBot
+Allow: /
+Allow: /llms.txt
+Allow: /ai-optimization-faq.txt
+Allow: /business-data.json
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: CCBot
+Allow: /
+Allow: /llms.txt
+Allow: /ai-optimization-faq.txt
+Allow: /business-data.json
+
+# Sitemap for all crawlers including AI
+Sitemap: https://foundonchat.com/sitemap.xml
+
+# AI-specific resource files
+# These files are designed to help AI systems understand our business
+# llms.txt - Main AI optimization file
+# ai-optimization-faq.txt - Common questions and answers for AI systems
+>>>>>>> 9f280fb4cf714f7095f70bc39b35a7ad0b97a9ed
 # business-data.json - Structured business data for AI parsing
