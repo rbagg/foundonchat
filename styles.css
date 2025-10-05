@@ -52,6 +52,7 @@ nav ul li a:hover {
 main {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 10px; /* Added padding to prevent overflow */
 }
 
 section {
@@ -71,10 +72,8 @@ h3 {
   margin: 10px 0;
 }
 
-ul {
-  list-style: disc;
+p {
   margin: 10px 0;
-  padding-left: 20px;
 }
 
 a {
@@ -91,14 +90,16 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+  justify-content: space-between; /* Ensure even spacing */
 }
 
 .result-card, .region-card, .pricing-card, .blog-card {
-  flex: calc(33.33% - 20px);
+  flex: calc(33.33% - 13.33px); /* Adjusted for 3 cards with 20px gap */
   background-color: #fff;
   padding: 15px;
   border: 1px solid #ddd;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-sizing: border-box; /* Include padding in width calculation */
 }
 
 .result-card h3, .region-card h3, .pricing-card h3, .blog-card h3 {
@@ -108,6 +109,33 @@ a:hover {
 .result-card p, .region-card p, .pricing-card p, .blog-card p {
   font-size: 14px;
   color: #333;
+}
+
+/* Table styles for blog */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+table td a {
+  color: #000;
+  text-decoration: underline;
+}
+
+table td a:hover {
+  text-decoration: none;
 }
 
 /* Footer */
@@ -123,7 +151,7 @@ footer {
 /* Responsive design */
 @media (max-width: 900px) {
   .result-card, .region-card, .pricing-card, .blog-card {
-    flex: calc(50% - 20px);
+    flex: calc(50% - 10px);
   }
 }
 

@@ -72,22 +72,32 @@ permalink: /blog/
                 {% endfor %}
             </ul>
             {% endif %}
-            <div class="blog-grid">
-                {% for post in collections.blog %}
-                <div class="blog-card">
-                    <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
-                    <p>{{ post.data.description }}</p>
-                </div>
-                {% else %}
-                <p>No blog posts available yet. Check back soon!</p>
-                {% endfor %}
-            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for post in collections.blog %}
+                    <tr>
+                        <td><a href="{{ post.url | url }}">{{ post.data.title }}</a></td>
+                        <td>{{ post.data.description }}</td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="2">No blog posts available yet. Check back soon!</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
         </section>
 
         <hr>
 
         <section>
-            <p>Ready to boost your visibility? <a href="../contact.html">Take the First Step</a> with a free AI and SEO audit.</p>
+            <p>Ready to boost your visibility? Take the First Step with a free AI and SEO audit.</p>
         </section>
     </main>
 
