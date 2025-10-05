@@ -1,18 +1,11 @@
----
-title: Blog - FoundOnChat AI Optimisation for Tourism
-description: Insights on AI optimisation for Australian tourism businesses, including Network Effects, content creation, and SEO strategies for wineries, restaurants, and more.
-keywords: tourism AI blog Australia, network effects tourism, ChatGPT for wineries, SEO for restaurants
-permalink: /blog/
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
-    <meta name="description" content="{{ description }}">
-    <meta name="keywords" content="{{ keywords }}">
+    <title>Blog - FoundOnChat AI Optimisation for Tourism</title>
+    <meta name="description" content="Insights on AI optimisation for Australian tourism businesses, including Network Effects, content creation, and SEO strategies for wineries, restaurants, and more.">
+    <meta name="keywords" content="tourism AI blog Australia, network effects tourism, ChatGPT for wineries, SEO for restaurants">
     <link rel="stylesheet" href="../styles.css">
     <script type="application/ld+json">
     {
@@ -63,15 +56,6 @@ permalink: /blog/
         <section>
             <h2>Blog Posts</h2>
             <p>Explore insights on AI optimisation and Network Effects to help your Australian tourism business thrive on ChatGPT, Claude, and Google. Refer a partner to our Network Partnership plan and save up to 30% on fees.</p>
-            <!-- Debug: Check collection contents and URLs -->
-            {% if collections.blog.length %}
-            <p>Debug: Found {{ collections.blog.length }} blog posts.</p>
-            <ul>
-                {% for post in collections.blog %}
-                <li>Debug: Post title: {{ post.data.title }}, URL: {{ post.url }}</li>
-                {% endfor %}
-            </ul>
-            {% endif %}
             <table>
                 <thead>
                     <tr>
@@ -80,24 +64,16 @@ permalink: /blog/
                     </tr>
                 </thead>
                 <tbody>
-                    {% for post in collections.blog %}
                     <tr>
-                        <td><a href="{{ post.url | url }}">{{ post.data.title }}</a></td>
-                        <td>{{ post.data.description }}</td>
+                        <td><a href="network-effect-strategy.html">Network Effect Strategy for Tourism Businesses</a></td>
+                        <td>Learn how leveraging network effects can boost your winery, restaurant, or tour business’s visibility on AI chatbots and Google.</td>
                     </tr>
-                    {% else %}
-                    <tr>
-                        <td colspan="2">No blog posts available yet. Check back soon!</td>
-                    </tr>
-                    {% endfor %}
                 </tbody>
             </table>
         </section>
 
-        <hr>
-
         <section>
-            <p>Ready to boost your visibility? Take the First Step with a free AI and SEO audit.</p>
+            <p>Ready to boost your visibility? <a href="../contact.html">Take the First Step</a> with a free AI and SEO audit.</p>
         </section>
     </main>
 

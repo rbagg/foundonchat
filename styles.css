@@ -102,6 +102,10 @@ a:hover {
   box-sizing: border-box; /* Include padding in width calculation */
 }
 
+.pricing-card {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Ensure drop shadow for pricing cards */
+}
+
 .result-card h3, .region-card h3, .pricing-card h3, .blog-card h3 {
   margin-top: 0;
 }
