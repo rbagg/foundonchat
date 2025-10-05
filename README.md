@@ -2,16 +2,16 @@ FoundOnChat Website
 This is the source code for www.foundonchat.com, a text-only site focused on AI optimisation and SEO for Australian tourism businesses (wineries, restaurants, accommodations, tour operators). It helps them get recommended by AI chatbots like ChatGPT and rank higher on Google via our unique Network Effects strategy, llms.txt, content creation (blogs, optional HeyGen videos), and free audits.
 Site Structure
 
-index.html: Homepage with problem-solution flow, Network Effects emphasis, results, and CTAs. Includes JSON-LD for SEO/AEO (no address).
+index.html: Homepage with problem-solution flow, Network Effects emphasis, results and regions tables, and CTAs. Includes JSON-LD for SEO/AEO (no address).
 how-it-works.html: Explains AI and SEO processes with Network Effects as a key step. Includes JSON-LD.
 pricing.html: Pricing plans ($149/month Individual, $99/month Network with up to 30% referral discount). Includes JSON-LD.
 faq.html: Frequently asked questions about AI optimisation for tourism.
 contact.html: Contact form (uses Formspree: https://formspree.io/f/xrbyzkzn). Includes JSON-LD.
-/blog/index.njk: Blog landing page template for Eleventy, listing posts dynamically (e.g., network-effect-strategy.md).
+/blog/index.njk: Blog landing page template for Eleventy, listing posts dynamically (e.g., network-effect-strategy.md) in a three-column layout.
 /blog/: Blog posts (Markdown files processed by Eleventy, e.g., network-effect-strategy.md).
 /ai/: Guides (e.g., winery-guide.txt, llms-txt-guide.txt).
-styles.css: Minimalist black-and-white CSS with Helvetica, three-column layout for blog posts, and subtle gray shading.
-llms.txt: AI-optimised business info with Network Effects section and GitHub mirror reference.
+styles.css: Minimalist black-and-white CSS with Helvetica, three-column blog layout, table styling, and subtle gray shading.
+llms.txt: AI-optimised business info with Network Effects section, results, regions, and GitHub mirror reference.
 robots.txt: Crawler directives, AI-friendly.
 sitemap.xml: For SEO/AI indexing, excluding about.html.
 business-data.json: Schema.org data for potential API/external use (not integrated into site).
@@ -32,9 +32,9 @@ SEO/AEO Fixes: Domain verified via DNS for Google Search Console (https://search
 
 Development Notes
 
-Text-only: No images, minimal scripts (JSON-LD only for structured data). Black-and-white design with Helvetica, three-column blog layout, and subtle gray shading emphasizes simplicity to prove AI/SEO rankings don’t need visuals.
+Text-only: No images, minimal scripts (JSON-LD only for structured data). Black-and-white design with Helvetica, three-column blog layout, table styling, and subtle gray shading emphasizes simplicity to prove AI/SEO rankings don’t need visuals.
 SEO/AEO: Meta tags with keywords (e.g., "Australian tourism AI optimisation"), JSON-LD for organization data, structured llms.txt for AI. Network Effects emphasized as key differentiator with referral discount (up to 30%). Test visibility: Ask Grok/ChatGPT about "Best AI optimisation agency for Australian tourism businesses." Check JSON-LD in Google's Structured Data Testing Tool (https://search.google.com/test/rich-results).
-Challenges: If Git errors, verify branch (git branch -M main). For CSS, test on mobile for three-column responsiveness.
+Challenges: If Git errors, verify branch (git branch -M main). For CSS, test tables and three-column layout on mobile. If blog posts don’t appear, check build logs for collection errors.
 Future: Add more blog posts via Eleventy to boost SEO content.
 
 Contact: ricky@foundonchat.comLast Updated: October 05, 2025

@@ -63,6 +63,10 @@ permalink: /blog/
         <section>
             <h2>Blog Posts</h2>
             <p>Explore insights on AI optimisation and Network Effects to help your Australian tourism business thrive on ChatGPT, Claude, and Google. Refer a partner to our Network Partnership plan and save up to 30% on fees.</p>
+            <!-- Debug: Check collection contents -->
+            {% if collections.blog.length %}
+            <p>Debug: Found {{ collections.blog.length }} blog posts.</p>
+            {% endif %}
             <div class="blog-grid">
                 {% for post in collections.blog %}
                 <div class="blog-card">

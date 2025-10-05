@@ -1,4 +1,4 @@
-/* Minimalist black-and-white CSS for FoundOnChat with modern Helvetica and three-column layout */
+/* Minimalist black-and-white CSS for FoundOnChat with Helvetica, three-column layout, and table styling */
 body {
   margin: 20px;
   padding: 0;
@@ -108,6 +108,29 @@ a:hover {
   color: #333;
 }
 
+/* Table styling */
+.results-table, .regions-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+}
+
+.results-table th, .results-table td,
+.regions-table th, .regions-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.results-table th, .regions-table th {
+  background-color: #e5e5e5;
+  font-weight: bold;
+}
+
+.results-table td, .regions-table td {
+  background-color: #fafafa;
+}
+
 /* Footer */
 footer {
   margin-top: 20px;
@@ -121,6 +144,10 @@ footer {
 @media (max-width: 900px) {
   .blog-card {
     flex: 1 1 45%;
+  }
+
+  .results-table, .regions-table {
+    font-size: 14px;
   }
 }
 
@@ -137,6 +164,11 @@ footer {
 
   .blog-card {
     flex: 1 1 100%;
+  }
+
+  .results-table, .regions-table {
+    display: block;
+    overflow-x: auto;
   }
 
   h1 {
