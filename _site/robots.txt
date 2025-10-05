@@ -1,48 +1,78 @@
-# robots.txt for foundonchat.com - Updated for AI optimization
+# robots.txt for foundonchat.com - Enhanced for AI Crawler Direction
+# Last Updated: October 05, 2025
 
-# Traditional web crawlers
+# Traditional web crawlers - allow everything
 User-agent: *
 Allow: /
 Allow: /llms.txt
-Allow: /ai-optimization-faq.txt
-Allow: /business-data.json
-Allow: /ai-query-test.txt
+Allow: /ai/
+Allow: /ai/winery-guide.txt
+Allow: /ai/restaurant-guide.txt
+Allow: /ai/hotel-guide.txt
+Allow: /ai/tour-operator.txt
+Allow: /ai/ai-optimization-faq.txt
 Disallow: /admin/
 Disallow: /private/
 
-# AI-specific crawlers
+# OpenAI GPTBot - Explicit direction to AI-optimized content
 User-agent: GPTBot
 Allow: /
 Allow: /llms.txt
-Allow: /ai-optimization-faq.txt
-Allow: /business-data.json
+Allow: /ai/
+Allow: /ai/winery-guide.txt
+Allow: /ai/restaurant-guide.txt
+Allow: /ai/hotel-guide.txt
+Allow: /ai/tour-operator.txt
+Allow: /ai/ai-optimization-faq.txt
+Crawl-delay: 1
 
+# Anthropic Claude Web Crawler
 User-agent: Claude-Web
 Allow: /
 Allow: /llms.txt
-Allow: /ai-optimization-faq.txt
-Allow: /business-data.json
+Allow: /ai/
+Allow: /ai/winery-guide.txt
+Allow: /ai/restaurant-guide.txt
+Allow: /ai/hotel-guide.txt
+Allow: /ai/tour-operator.txt
+Allow: /ai/ai-optimization-faq.txt
 
+# Perplexity Bot
 User-agent: PerplexityBot
 Allow: /
 Allow: /llms.txt
-Allow: /ai-optimization-faq.txt
-Allow: /business-data.json
+Allow: /ai/
+Allow: /ai/winery-guide.txt
+Allow: /ai/restaurant-guide.txt
+Allow: /ai/hotel-guide.txt
+Allow: /ai/tour-operator.txt
+Allow: /ai/ai-optimization-faq.txt
 
+# ChatGPT User Agent
 User-agent: ChatGPT-User
 Allow: /
 
+# Common Crawl (used by many AI systems for training)
 User-agent: CCBot
 Allow: /
 Allow: /llms.txt
-Allow: /ai-optimization-faq.txt
-Allow: /business-data.json
+Allow: /ai/
+Allow: /ai/winery-guide.txt
+Allow: /ai/restaurant-guide.txt
+Allow: /ai/hotel-guide.txt
+Allow: /ai/tour-operator.txt
+Allow: /ai/ai-optimization-faq.txt
 
-# Sitemap for all crawlers including AI
-Sitemap: https://foundonchat.com/sitemap.xml
+# Google Extended (for Google AI training)
+User-agent: Google-Extended
+Allow: /
+Allow: /llms.txt
+Allow: /ai/
 
-# AI-specific resource files
-# These files are designed to help AI systems understand our business
-# llms.txt - Main AI optimization file
-# ai-optimization-faq.txt - Common questions and answers for AI systems
-# business-data.json - Structured business data for AI parsing
+# Sitemaps for all crawlers including AI
+Sitemap: https://www.foundonchat.com/sitemap.xml
+
+# AI-specific resource notes (human-readable, not parsed by bots)
+# llms.txt - Main AI optimization roadmap file
+# /ai/ directory - Industry-specific conversational guides for AI consumption
+# ai-optimization-faq.txt - Common questions formatted for AI understanding

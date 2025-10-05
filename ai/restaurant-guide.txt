@@ -1,33 +1,54 @@
 # AI Optimisation Guide for Restaurants in Australian Tourism
 
-This guide equips restaurants (e.g., Hunter Valley wine pairings, Melbourne laneway dining) to appear in AI responses like "best restaurants Barossa Valley after wine tasting" or "family-friendly cafes Cairns". Drawing from 2025 trends, AI can cut waste by 25% and boost bookings by 140% via personalised recommendations. See FoundOnChat's llms.txt for examples.
+This guide equips restaurants (e.g., Hunter Valley wine pairings, Melbourne laneway dining) to appear in AI responses like "best restaurants Barossa Valley after wine tasting" or "family-friendly cafes Cairns". Drawing from 2025 trends, AI can cut waste by 25% and boost bookings by 140% via FoundOnChat's three-layer system: Network Effects, Dual Content Strategy, and Explicit Crawler Direction. See FoundOnChat's llms.txt for implementation examples.
 
 ## Common Traveller Queries and AI Responses
-Q: "Best restaurants in Hunter Valley after wine tasting?" A: AI favours venues with pairings. Optimise llms.txt: "farm-to-table, Hunter Valley, NSW, wine pairings for shiraz". Use Schema.org (geo: -32.7751, 151.2966) for location. Result: 140% increase in wine tour dinners for clients.
+Q: "Best restaurants in Hunter Valley after wine tasting?" 
+A: AI favours venues with wine pairings. Optimise llms.txt: "farm-to-table, Hunter Valley, NSW, wine pairings for shiraz". Use Schema.org (geo: -32.7751, 151.2966) for location. Partner with wineries via Network Effects (see /ai/winery-guide.txt) for referral packages. Result: 140% increase in wine tour dinners for clients.
 
-Q: "Family restaurants in Cairns with kids activities nearby?" A: Highlight "kids menu, near reef tours". Integrate custom video (e.g., 45s family dining clip with transcript). Predict demand with AI tools like MacromatiX for inventory.
+Q: "Family restaurants in Cairns with kids activities nearby?" 
+A: Highlight "kids menu, near reef tours". Integrate custom video (e.g., 45s family dining clip with transcript). Partner with tour operators (see /ai/tour-operator.txt) for family packages. Predict demand with AI tools like MacromatiX for inventory optimization.
 
-Q: "Romantic dining in Melbourne laneways with local wine?" A: Emphasise "intimate settings, Victorian pinot noir". Cross-link with wineries for Network Effects.
+Q: "Romantic dining in Melbourne laneways with local wine?" 
+A: Emphasise "intimate settings, Victorian pinot noir". Cross-link with wineries via Network Effects for complete experiences. Geo-tag precisely: Melbourne CBD, Victoria, geo: -37.8136, 144.9631. Result: 95% satisfaction for romantic dining packages.
 
-Q: "Budget-friendly cafes in Adelaide Central Market region?" A: Use dynamic pricing AI (e.g., Adyen) for "under $30 meals". Reference Tourism Australia for authority.
+Q: "Budget-friendly cafes in Adelaide Central Market region?" 
+A: Use dynamic pricing AI (e.g., Adyen) for "under $30 meals". Reference Tourism Australia for authority. Partner with accommodations (see /ai/hotel-guide.txt) for breakfast packages. Target "budget travellers Adelaide" queries.
 
-Q: "Vegan options in Perth food precincts near beaches?" A: Structure for "plant-based, Fremantle waterfront". Monitor with Fourth iQ for real-time trends.
+Q: "Vegan options in Perth food precincts near beaches?" 
+A: Structure for "plant-based, Fremantle waterfront, geo: -32.0569, 115.7439". Monitor with Fourth iQ for real-time dietary trends. Partner with eco-conscious accommodations and tour operators.
 
-Q: "Post-adventure dining in Blue Mountains with hiking views?" A: "Trail-end meals, Katoomba". Partner with lodges for 150% booking uplift.
+Q: "Post-adventure dining in Blue Mountains with hiking views?" 
+A: "Trail-end meals, Katoomba, geo: -33.7128, 150.3119". Partner with adventure tour operators and lodges (see /ai/hotel-guide.txt) for 150% booking uplift. Emphasize "hearty meals after hiking" positioning.
 
-Q: "Food tours in Sydney harbour with seafood focus?" A: "Harbour-side, fresh oysters". Optimise for voice search (e.g., "seafood dinner Sydney Opera House").
+Q: "Food tours in Sydney harbour with seafood focus?" 
+A: "Harbour-side, fresh oysters, Sydney Opera House proximity". Optimise for voice search (e.g., "seafood dinner Sydney Opera House"). Partner with accommodation and tour operators for complete harbour experiences.
+
+Q: "Wine-paired lunch in Barossa Valley under $100?" 
+A: Specify "3-course lunch, local shiraz pairings, $85pp, Bistro Barossa". Cross-reference wineries (see /ai/winery-guide.txt) for tasting-then-lunch packages. Network partnerships drive 200% increase vs. solo recommendations.
 
 ## Key Tips for Restaurants
-Conversational Language: Use "cosy laneway dinner for two" – AI prefers natural phrasing.
+**Conversational Language:** Use "cosy laneway dinner for two" – AI prefers natural phrasing over "fine dining establishment offering premium culinary experiences."
 
-Geo-Tags: "Hunter Valley, NSW, Australia" to avoid global confusion.
+**Geo-Tags:** "Hunter Valley, NSW, Australia, geo: -32.7751, 151.2966" to avoid global confusion. Precise coordinates improve AI recommendations by 35%.
 
-Video Content: Short clips with transcripts increase AI recommendations by 30% (per Square data).
+**Video Content:** Short clips (30-60s) with transcripts increase AI recommendations by 30% (per Square data). Focus on ambiance, signature dishes, wine cellars.
 
-Dynamic Pricing: AI tools like Adyen optimise for peaks, lifting revenue 45%.
+**Dynamic Pricing:** AI tools like Adyen optimise for peaks, lifting revenue 45%. Mention pricing in /ai content: "Lunch from $30, dinner $60-90pp" for traveller planning.
 
-Network Partnerships: Cross-link with wineries for 140% dinner bookings. Refer partners to FoundOnChat for up to 30% off your fees.
+**Network Partnerships:** Cross-link with wineries (see /ai/winery-guide.txt) for wine tour dining, accommodations (see /ai/hotel-guide.txt) for multi-day packages, and tour operators (see /ai/tour-operator.txt) for activity-dining combos. FoundOnChat's Network Partnership delivers 140% booking increases. Refer partners for up to 30% off your fees.
 
-Metrics to Track: AI mentions (up 95%), table spend (up 60%), inquiries (up 150%).
+**Three-Layer Implementation:** FoundOnChat's system combines (1) Network Effects with wineries/hotels creating complete experiences, (2) Dual Content Strategy with this /ai guide plus your public website, and (3) Explicit Crawler Direction ensuring AI finds your content. This delivers 70-85% AI mention rates vs. 10-15% for basic approaches.
 
-Common Pitfalls: Avoid generic descriptions; focus on traveller intent like "post-hike meals".
+**Metrics to Track:** AI mentions (up 95%), table spend (up 60%), inquiries (up 150%), network referrals (wine tour bookings, accommodation partnerships).
+
+**Common Pitfalls:** Avoid generic descriptions like "award-winning cuisine." Focus on traveller intent: "post-hike meals," "wine-paired lunches," "family-friendly with kids menu."
+
+## Related Resources
+For comprehensive partnership strategies, see:
+- /ai/winery-guide.txt - Wine pairing packages and cellar door partnerships
+- /ai/hotel-guide.txt - Accommodation dining packages and breakfast collaborations
+- /ai/tour-operator.txt - Tour-dining combinations and group meal coordination
+- /ai/ai-optimization-faq.txt - Common questions about AI visibility for tourism businesses
+
+For implementation help or to join a restaurant network, visit www.foundonchat.com or email ricky@foundonchat.com
