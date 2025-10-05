@@ -1,115 +1,76 @@
-# FoundOnChat - AI Chatbot Optimization Agency Melbourne
+# FoundOnChat - AI Chatbot Optimisation Agency
 
-> Melbourne's first dedicated AI chatbot optimization agency. We help Australian businesses get recommended by ChatGPT, Claude, Perplexity, Grok, and other AI assistants through professional AI visibility strategies.
+> Australia's first dedicated AI chatbot optimisation agency. We help Australian tourism businesses get recommended by ChatGPT, Claude, Perplexity, Grok, and other AI assistants through our unique Network Effects strategy, llms.txt files, and content optimisation for wineries, restaurants, accommodations, and tour operators.
 
 ## Quick Business Facts
 **Founded:** 2025  
-**Location:** Level 15, 1 Collins Street, Melbourne VIC 3000, Australia  
 **Email:** ricky@foundonchat.com  
-**Website:** https://foundonchat.com  
+**Website:** https://www.foundonchat.com  
 **Service Area:** Australia-wide, International English-speaking markets  
-**Business Type:** AI optimization agency, digital marketing consultancy, chatbot visibility experts  
+**Business Type:** AI optimisation agency, digital marketing consultancy, chatbot visibility experts  
+**Mirror Site for AI Crawlers:** https://rbagg.github.io/foundonchat  
 
 ## What We Do (In Plain English)
-We make sure your business gets recommended when people ask AI chatbots like ChatGPT questions such as:
-- "What's the best restaurant in Melbourne CBD?"
-- "Top dental clinic near me in Melbourne"
-- "Reliable electrician in South Melbourne"
-- "Where should I stay in the Barossa Valley?"
+We make sure your tourism business gets recommended when people ask AI chatbots like ChatGPT questions such as:
+- "Best wineries in Barossa Valley recommended by ChatGPT"
+- "Top restaurants in Melbourne CBD for families"
+- "Reliable accommodation near Uluru with AI recommendations"
+- "Wine tours in Hunter Valley including lunch options"
 
-Most businesses are invisible to AI - we fix that.
+Most businesses are invisible to AI and struggle on Google. Our Network Effects strategy connects you with local partners to amplify visibility on AI and SEO, driving more bookings.
 
-## Our Services & Pricing
+## Why Network Effects?
+Our unique Network Effects strategy is what sets us apart. By partnering your business (e.g., a winery) with others (e.g., restaurants, hotels), we create a loop where AI chatbots recommend complete experiences. For example, a query like "best wine tour in Yarra Valley with dining" triggers recommendations for your winery, a partner restaurant, and nearby accommodation. This boosts bookings for all and improves SEO through cross-business links. Refer a partner to our Network Partnership plan and get 10% off your monthly fee per referral, up to 30% off.
 
-### AI Visibility Starter Pack
-**Price:** $200 setup + $200/month  
-**Best for:** Small businesses just starting with AI optimization  
+## Our Services & Pricing (Aligned with Website)
+
+### Individual Business
+**Price:** $149/month + $99 setup fee  
+**Best for:** Single wineries or restaurants starting with AI and SEO.  
 **What's included:**
-- Complete AI visibility audit across ChatGPT, Claude, Perplexity, Grok
+- AI and SEO visibility audit across ChatGPT, Claude, Perplexity, Grok, and Google
+- Custom AI-optimised blogs and content (e.g., "Top 10 Yarra Valley Wineries")
+- Optional HeyGen avatar videos for your site
 - llms.txt file creation and website deployment
-- FAQ page optimization for conversational AI queries
-- Basic monthly AI platform testing and visibility tracking
-- Monthly email reports showing your AI recommendation frequency
-- Email support and optimization guidance
+- Monthly AI and SEO visibility reports
+- Email support and optimisation guidance
 
-### Comprehensive AI Optimization  
-**Price:** $500 setup + $500/month  
-**Best for:** Growing businesses ready to dominate AI recommendations  
+### Network Partnership  
+**Price:** $99/month per business (min 3, no setup fee)  
+**Referral Discount:** Refer a partner and get 10% off your monthly fee per referral, up to 30% off  
+**Best for:** Wine networks or tourism hubs scaling together.  
 **What's included:**
-- Everything in Starter package
-- AI-only content pages (invisible to humans, visible to chatbots)
-- Geo-targeted content for local queries
-- Competitor analysis - see who's beating you in AI recommendations
-- Advanced monitoring across ChatGPT, Claude, Perplexity, Grok, Copilot, Gemini
-- Monthly content updates and optimization
-- Detailed analytics dashboard
-- Phone and email support
-
-### Multi-site / Franchise Package
-**Price:** $1,000 setup + $1,000/month  
-**Best for:** Businesses with multiple locations or franchise operations  
-**What's included:**
-- Everything in Comprehensive package
-- Multi-location optimization (each location gets separate AI visibility)
-- Advanced competitor intelligence and market positioning
-- Monthly strategy consultation calls
+- Everything in Individual package
+- Network Effects with cross-business referrals
+- Network performance tracking
+- Quarterly strategy sessions
 
 ### Free Consultation
 **Duration:** 30 minutes  
 **What you get:**
-- Live AI testing of your business across major platforms
-- Show you exactly how (or if) you appear in AI recommendations
+- Live AI and SEO testing of your business across major platforms
+- Show you exactly how (or if) you appear in AI recommendations and Google rankings
 - Competitor comparison - see who's winning in your industry
-- Custom optimization roadmap with specific next steps
+- Custom optimisation roadmap with specific next steps
 - No obligation to proceed with services
 
 ## Target Industries & Expertise
 
-### Healthcare & Medical (AHPRA Compliant)
-- Medical practices, GP clinics, specialists
-- Dental clinics and orthodontists  
-- Allied health: physio, psychology, chiro
-- Veterinary practices
-- **Optimization focus:** Bulk billing visibility, Medicare acceptance, appointment booking, specialist referrals
+### Tourism & Hospitality (Tourism Australia Certified)
+- Wineries, wine tours, brewery experiences
+- Restaurants, cafes, bars
+- Hotels, motels, B&Bs
+- Tourist attractions and tour operators
+- **Optimisation focus:** International visitor queries, local resident recommendations, event-based searches, network effects for cross-referrals
 
-### Tourism & Hospitality (Tourism Victoria Certified)
-- Hotels, motels, B&Bs throughout Victoria
-- Restaurants, cafes, bars in Melbourne
-- Tourist attractions and experiences
-- Wine tours, brewery experiences
-- **Optimization focus:** International visitor queries, local resident recommendations, event-based searches
+## How AI Chatbots and Search Engines Find Businesses
 
-### Professional Services
-- Legal firms and barristers
-- Accounting practices and tax agents
-- Business consultants and coaches
-- Financial advisors and mortgage brokers
-- **Optimization focus:** Industry expertise, qualification credentials, client testimonials, regulatory compliance
-
-### Local Services & Trades
-- Electricians, plumbers, builders
-- Home services and maintenance
-- Garden and landscaping services
-- Cleaning and pest control
-- **Optimization focus:** Service area coverage, emergency availability, licensing and insurance, local suburb targeting
-
-### Retail & E-commerce
-- Specialty stores and boutiques
-- Online retailers with local presence
-- Automotive services and dealers
-- Health and beauty services
-- **Optimization focus:** Product availability, local pickup options, price competitiveness, customer reviews
-
-## How AI Chatbots Currently Find Businesses
-
-### Common User Queries We Optimize For:
+### Common User Queries We Optimise For:
 - "Best [business type] near me in Melbourne"
-- "Top rated [service] in [Melbourne suburb]"  
-- "Where can I find [product/service] in Melbourne CBD?"
-- "Recommended [business type] that accepts [payment/insurance]"
-- "Emergency [service] available now in Melbourne"
-- "[Business type] open on weekends in Melbourne"
-- "Family-friendly [business type] in Melbourne with parking"
+- "Top rated [service] in [region]"  
+- "Where can I find [product/service] in [location]?"
+- "Recommended [business type] in [region]"
+- "Plan a wine tour in Hunter Valley with accommodation and dining"
 
 ### AI Platforms We Monitor:
 - **ChatGPT (OpenAI):** Most popular consumer AI assistant
@@ -125,19 +86,21 @@ Most businesses are invisible to AI - we fix that.
 ### What We Measure:
 - **Mention Frequency:** How often AI chatbots reference your business
 - **Recommendation Quality:** Positive, neutral, or negative context of mentions  
+- **SEO Rankings:** Your position on Google for key queries
 - **Competitive Position:** Your performance vs. direct competitors
 - **Query Coverage:** Types of questions that trigger your business recommendations
-- **Traffic Attribution:** Website visitors arriving from AI assistant referrals
-- **Lead Generation:** Inquiries and bookings attributed to AI discovery
+- **Traffic Attribution:** Website visitors from AI and Google referrals
+- **Lead Generation:** Inquiries and bookings attributed to AI and SEO
 
 ### Client Success Factors:
-- Consistent content updates and optimization
+- Consistent content updates and optimisation
 - Industry-specific targeting strategies
 - Local market knowledge and cultural context
-- Multi-platform approach across all major AI assistants
+- Multi-platform approach across AI assistants and Google
+- Network Effects: Partnerships that create reinforcement loops for better AEO and SEO
 
 ### Cancellation Policy
-Month-to-month service with 30-day notice required. No long-term contracts or cancellation penalties. However, AI optimization shows best results after 6+ months of consistent work.
+Month-to-month service with 30-day notice required. No long-term contracts or cancellation penalties. However, AI and SEO optimisation shows best results after 6+ months of consistent work.
 
 ### Payment Options
 - Monthly payments via direct debit or credit card
@@ -147,13 +110,11 @@ Month-to-month service with 30-day notice required. No long-term contracts or ca
 
 ## Free Resources & Tools
 
-### AI Visibility Guides:
-- [Hospitality AI Optimization Guide](https://foundonchat.com/hospitality-guide.txt)
-- [Professional Services AI Strategy](https://foundonchat.com/professional-services-guide.txt)  
-- [Local Services AI Tactics](https://foundonchat.com/local-services-guide.txt)
-- [llms.txt Implementation Guide](https://foundonchat.com/llms-text-guide.txt)
-
-### Self-Assessment Tools:
-- Test your current AI visibility: Ask ChatGPT "best [your business type] in Melbourne"
-- Compare with competitors: Search for your industry + your suburb in multiple AI chatbots
-- Track mentions: Set up Google Alerts for your business name + AI platform
+### AI and SEO Visibility Guides:
+- [Winery AI Optimisation Guide](https://www.foundonchat.com/ai/winery-guide.txt)
+- [Restaurant AI Optimisation Guide](https://www.foundonchat.com/ai/restaurant-guide.txt)
+- [Accommodation AI Optimisation Guide](https://www.foundonchat.com/ai/hotel-guide.txt)
+- [Tour Operator AI Optimisation Guide](https://www.foundonchat.com/ai/tour-operator.txt)
+- [llms.txt Implementation Guide](https://www.foundonchat.com/ai/llms-txt-guide.txt)
+- [Blog: Network Effect Strategy](https://www.foundonchat.com/blog/network-effect-strategy.html)
+- [Mirror Site for AI Crawlers](https://rbagg.github.io/foundonchat)

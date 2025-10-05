@@ -1,12 +1,19 @@
+---
+title: Blog - FoundOnChat AI Optimisation for Tourism
+description: Insights on AI optimisation for Australian tourism businesses, including Network Effects, content creation, and SEO strategies for wineries, restaurants, and more.
+keywords: tourism AI blog Australia, network effects tourism, ChatGPT for wineries, SEO for restaurants
+permalink: /blog/
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - FoundOnChat AI Optimisation Agency</title>
-    <meta name="description" content="Contact FoundOnChat for a free AI and SEO visibility audit. Optimise your Australian tourism business for ChatGPT and Google with our Network Effects strategy.">
-    <meta name="keywords" content="contact AI optimisation Australia, free ChatGPT audit tourism, winery AI marketing inquiry, SEO for tourism, network effects tourism">
-    <link rel="stylesheet" href="styles.css">
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
+    <meta name="keywords" content="{{ keywords }}">
+    <link rel="stylesheet" href="../styles.css">
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -43,35 +50,31 @@
         <h1>FoundOnChat</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pricing.html">Pricing</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="blog/index.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../pricing.html">Pricing</a></li>
+                <li><a href="../faq.html">FAQ</a></li>
+                <li><a href="./index.html">Blog</a></li>
+                <li><a href="../contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section>
-            <h2>Get in Touch</h2>
-            <p>Let’s boost your visibility on ChatGPT and Google with our Network Effects strategy.</p>
-            <form action="https://formspree.io/f/xrbyzkzn" method="POST">
-                <label>Your Name: <input type="text" name="name" required></label>
-                <label>Business Name: <input type="text" name="business" required></label>
-                <label>Email: <input type="email" name="email" required></label>
-                <label>Region: <input type="text" name="region" required></label>
-                <button type="submit">Send</button>
-            </form>
-            <p>Or email us directly: ricky@foundonchat.com</p>
+            <h2>Blog Posts</h2>
+            <p>Explore insights on AI optimisation and Network Effects to help your Australian tourism business thrive on ChatGPT, Claude, and Google. Refer a partner to our Network Partnership plan and save up to 30% on fees.</p>
+            <ul>
+                {% for post in collections.blog %}
+                <li><a href="{{ post.url }}">{{ post.data.title }}</a> - {{ post.data.description }}</li>
+                {% endfor %}
+            </ul>
         </section>
 
         <hr>
 
         <section>
-            <h2>Take the First Step</h2>
-            <p>Get your free AI and SEO visibility audit today and see where you stand on ChatGPT and Google.</p>
-            <p><a href="contact.html">Take the First Step</a></p>
+            <p>Ready to boost your visibility? <a href="../contact.html">Take the First Step</a> with a free AI and SEO audit.</p>
         </section>
     </main>
 

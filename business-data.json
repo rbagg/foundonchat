@@ -2,11 +2,11 @@
   "@context": "https://schema.org",
   "@type": "ProfessionalService",
   "name": "FoundOnChat",
-  "alternateName": ["AI Optimization Agency", "ChatGPT Marketing Agency", "AI Visibility Experts"],
-  "description": "Australia's leading AI chatbot optimization agency specializing in making businesses discoverable through ChatGPT, Claude, Perplexity, Grok, and other AI assistants.",
+  "alternateName": ["AI Optimisation Agency", "ChatGPT Marketing Agency", "AI Visibility Experts"],
+  "description": "Australia's leading AI chatbot optimisation agency specialising in making tourism businesses discoverable through ChatGPT, Claude, Perplexity, Grok, and other AI assistants with our unique Network Effects strategy.",
   "foundingDate": "2025",
-  "url": "https://foundonchat.com",
-  "logo": "https://foundonchat.com/logo.png",
+  "url": "https://www.foundonchat.com",
+  "logo": "https://www.foundonchat.com/logo.png",
   
   "contactPoint": {
     "@type": "ContactPoint",
@@ -16,21 +16,6 @@
     "availableLanguage": "English"
   },
   
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Level 15, 1 Collins Street",
-    "addressLocality": "Melbourne",
-    "addressRegion": "Victoria", 
-    "postalCode": "3000",
-    "addressCountry": "AU"
-  },
-  
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": "-37.8136",
-    "longitude": "144.9631"
-  },
-  
   "areaServed": [
     {
       "@type": "Country",
@@ -38,33 +23,34 @@
     }
   ],
   
-  "serviceType": "AI Chatbot Optimization",
+  "serviceType": "Tourism AI Optimisation",
   "category": "Digital Marketing Agency",
   "keywords": [
-    "AI optimization",
+    "AI optimisation",
     "chatbot visibility", 
     "ChatGPT marketing",
-    "Claude optimization",
+    "Claude optimisation",
     "Perplexity SEO",
     "AI assistant marketing",
     "digital marketing Australia",
-    "business discovery AI",
-    "conversational AI optimization",
-    "AI visibility consulting"
+    "tourism discovery AI",
+    "conversational AI optimisation",
+    "AI visibility consulting",
+    "network effects tourism"
   ],
   
   "service": [
     {
       "@type": "Service",
-      "name": "AI Visibility Starter Package",
-      "description": "Basic AI optimization including llms.txt creation, FAQ optimization, and monthly reporting",
+      "name": "Individual Business",
+      "description": "AI and SEO optimisation for single tourism businesses including audit, content, llms.txt, and reports",
       "offers": {
         "@type": "Offer",
-        "price": "200",
+        "price": "149",
         "priceCurrency": "AUD",
         "priceSpecification": {
           "@type": "UnitPriceSpecification",
-          "price": "200",
+          "price": "149",
           "priceCurrency": "AUD",
           "billingDuration": "P1M"
         }
@@ -72,31 +58,15 @@
     },
     {
       "@type": "Service", 
-      "name": "Comprehensive AI Optimization",
-      "description": "Advanced AI optimization with competitor analysis, multi-platform monitoring, and bi-weekly updates",
+      "name": "Network Partnership",
+      "description": "AI optimisation with Network Effects for tourism networks, including referrals and strategy sessions",
       "offers": {
         "@type": "Offer",
-        "price": "500",
+        "price": "99",
         "priceCurrency": "AUD",
         "priceSpecification": {
           "@type": "UnitPriceSpecification",
-          "price": "500", 
-          "priceCurrency": "AUD",
-          "billingDuration": "P1M"
-        }
-      }
-    },
-    {
-      "@type": "Service",
-      "name": "Multi-site Franchise Package", 
-      "description": "Enterprise AI optimization for multiple locations with custom reporting and monthly consultations",
-      "offers": {
-        "@type": "Offer",
-        "price": "1000",
-        "priceCurrency": "AUD",
-        "priceSpecification": {
-          "@type": "UnitPriceSpecification", 
-          "price": "1000",
+          "price": "99", 
           "priceCurrency": "AUD",
           "billingDuration": "P1M"
         }
@@ -107,46 +77,42 @@
   "audience": [
     {
       "@type": "Audience", 
-      "audienceType": "Healthcare Businesses",
+      "audienceType": "Wineries and Wine Tours",
       "geographicArea": "Australia"
     },
     {
       "@type": "Audience",
-      "audienceType": "Hospitality Businesses", 
+      "audienceType": "Restaurants and Dining",
       "geographicArea": "Australia"
     },
     {
       "@type": "Audience",
-      "audienceType": "Professional Services",
+      "audienceType": "Hotels and Accommodations",
       "geographicArea": "Australia" 
     },
     {
       "@type": "Audience",
-      "audienceType": "Local Services",
-      "geographicArea": "Australia"
-    },
-    {
-      "@type": "Audience", 
-      "audienceType": "Retail Businesses",
+      "audienceType": "Tour Operators and Attractions",
       "geographicArea": "Australia"
     }
   ],
   
   "knowsAbout": [
-    "AI chatbot optimization",
-    "ChatGPT business visibility", 
+    "AI chatbot optimisation",
+    "ChatGPT tourism visibility", 
     "Claude AI marketing",
-    "Perplexity optimization",
+    "Perplexity optimisation",
     "Grok AI strategies",
     "llms.txt implementation", 
     "Conversational AI marketing",
-    "Australian business optimization",
-    "Local search AI optimization",
-    "Multi-platform AI visibility"
+    "Australian tourism optimisation",
+    "Local search AI optimisation",
+    "Multi-platform AI visibility",
+    "Network effects for tourism"
   ],
   
   "sameAs": [
-    "https://foundonchat.com"
+    "https://www.foundonchat.com"
   ],
   
   "potentialAction": {
