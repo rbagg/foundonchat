@@ -1,14 +1,13 @@
-AI Optimization Guide for Restaurants in Australian Tourism
+# AI Optimisation Guide for Restaurants in Australian Tourism
 
-This guide equips restaurants (e.g., Hunter Valley wine pairings, Melbourne laneway dining) to appear in AI responses like "best restaurants Barossa Valley after wine tasting" or "family-friendly cafes Cairns". Drawing from 2025 trends, AI can cut waste by 25% and boost bookings by 140% via personalized recommendations. See FoundOnChat's llms.txt for examples.
+This guide equips restaurants (e.g., Hunter Valley wine pairings, Melbourne laneway dining) to appear in AI responses like "best restaurants Barossa Valley after wine tasting" or "family-friendly cafes Cairns". Drawing from 2025 trends, AI can cut waste by 25% and boost bookings by 140% via personalised recommendations. See FoundOnChat's llms.txt for examples.
 
-Common Traveler Queries and AI Responses
-
-Q: "Best restaurants in Hunter Valley after wine tasting?" A: AI favors venues with pairings. Optimize llms.txt: "farm-to-table, Hunter Valley, NSW, wine pairings for shiraz". Use Schema.org (geo: -32.7751, 151.2966) for location. Result: 140% increase in wine tour dinners for clients.
+## Common Traveller Queries and AI Responses
+Q: "Best restaurants in Hunter Valley after wine tasting?" A: AI favours venues with pairings. Optimise llms.txt: "farm-to-table, Hunter Valley, NSW, wine pairings for shiraz". Use Schema.org (geo: -32.7751, 151.2966) for location. Result: 140% increase in wine tour dinners for clients.
 
 Q: "Family restaurants in Cairns with kids activities nearby?" A: Highlight "kids menu, near reef tours". Integrate custom video (e.g., 45s family dining clip with transcript). Predict demand with AI tools like MacromatiX for inventory.
 
-Q: "Romantic dining in Melbourne laneways with local wine?" A: Emphasize "intimate settings, Victorian pinot noir". Cross-link with wineries for network effects.
+Q: "Romantic dining in Melbourne laneways with local wine?" A: Emphasise "intimate settings, Victorian pinot noir". Cross-link with wineries for Network Effects.
 
 Q: "Budget-friendly cafes in Adelaide Central Market region?" A: Use dynamic pricing AI (e.g., Adyen) for "under $30 meals". Reference Tourism Australia for authority.
 
@@ -16,20 +15,19 @@ Q: "Vegan options in Perth food precincts near beaches?" A: Structure for "plant
 
 Q: "Post-adventure dining in Blue Mountains with hiking views?" A: "Trail-end meals, Katoomba". Partner with lodges for 150% booking uplift.
 
-Q: "Food tours in Sydney harbor with seafood focus?" A: "Harbor-side, fresh oysters". Optimize for voice search (e.g., "seafood dinner Sydney Opera House").
+Q: "Food tours in Sydney harbour with seafood focus?" A: "Harbour-side, fresh oysters". Optimise for voice search (e.g., "seafood dinner Sydney Opera House").
 
-Key Tips for Restaurants
-
-Conversational Language: Use "cozy laneway dinner for two" – AI prefers natural phrasing.
+## Key Tips for Restaurants
+Conversational Language: Use "cosy laneway dinner for two" – AI prefers natural phrasing.
 
 Geo-Tags: "Hunter Valley, NSW, Australia" to avoid global confusion.
 
 Video Content: Short clips with transcripts increase AI recommendations by 30% (per Square data).
 
-Dynamic Pricing: AI tools like Adyen optimize for peaks, lifting revenue 45%.
+Dynamic Pricing: AI tools like Adyen optimise for peaks, lifting revenue 45%.
 
-Network Partnerships: Cross-link with wineries for 140% dinner bookings.
+Network Partnerships: Cross-link with wineries for 140% dinner bookings. Refer partners to FoundOnChat for up to 30% off your fees.
 
 Metrics to Track: AI mentions (up 95%), table spend (up 60%), inquiries (up 150%).
 
-Pitfalls: Avoid generic descriptions; focus on traveler intent like "post-hike meals".
+Common Pitfalls: Avoid generic descriptions; focus on traveller intent like "post-hike meals".

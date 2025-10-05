@@ -1,4 +1,4 @@
-/* Minimalist black-and-white CSS for FoundOnChat with Helvetica, three-column layout, and table styling */
+/* Minimalist black-and-white CSS for FoundOnChat with Helvetica, three-column layout, and card drop shadows */
 body {
   margin: 20px;
   padding: 0;
@@ -16,7 +16,8 @@ header {
   align-items: center;
   margin-bottom: 20px;
   background-color: #f5f5f5;
-  padding: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 h1 {
@@ -94,9 +95,10 @@ a:hover {
 
 .blog-card {
   flex: 1 1 30%;
-  background-color: #fafafa;
+  background-color: #fff;
   padding: 15px;
   border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .blog-card h3 {
@@ -108,27 +110,28 @@ a:hover {
   color: #333;
 }
 
-/* Table styling */
-.results-table, .regions-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 10px 0;
+/* Three-column results and regions grids */
+.results-grid, .regions-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
-.results-table th, .results-table td,
-.regions-table th, .regions-table td {
+.result-card, .region-card {
+  flex: 1 1 30%;
+  background-color: #fff;
+  padding: 15px;
   border: 1px solid #ddd;
-  padding: 10px;
-  text-align: left;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.results-table th, .regions-table th {
-  background-color: #e5e5e5;
-  font-weight: bold;
+.result-card h3, .region-card h3 {
+  margin-top: 0;
 }
 
-.results-table td, .regions-table td {
-  background-color: #fafafa;
+.result-card p, .region-card p {
+  font-size: 14px;
+  color: #333;
 }
 
 /* Footer */
@@ -137,17 +140,14 @@ footer {
   text-align: center;
   font-size: 14px;
   background-color: #f5f5f5;
-  padding: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 /* Responsive design */
 @media (max-width: 900px) {
-  .blog-card {
+  .blog-card, .result-card, .region-card {
     flex: 1 1 45%;
-  }
-
-  .results-table, .regions-table {
-    font-size: 14px;
   }
 }
 
@@ -162,13 +162,8 @@ footer {
     gap: 10px;
   }
 
-  .blog-card {
+  .blog-card, .result-card, .region-card {
     flex: 1 1 100%;
-  }
-
-  .results-table, .regions-table {
-    display: block;
-    overflow-x: auto;
   }
 
   h1 {
