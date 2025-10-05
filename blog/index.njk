@@ -51,7 +51,6 @@ permalink: /blog/
         <nav>
             <ul>
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="../about.html">About</a></li>
                 <li><a href="../pricing.html">Pricing</a></li>
                 <li><a href="../faq.html">FAQ</a></li>
                 <li><a href="./index.html">Blog</a></li>
@@ -64,11 +63,16 @@ permalink: /blog/
         <section>
             <h2>Blog Posts</h2>
             <p>Explore insights on AI optimisation and Network Effects to help your Australian tourism business thrive on ChatGPT, Claude, and Google. Refer a partner to our Network Partnership plan and save up to 30% on fees.</p>
-            <ul>
+            <div class="blog-grid">
                 {% for post in collections.blog %}
-                <li><a href="{{ post.url }}">{{ post.data.title }}</a> - {{ post.data.description }}</li>
+                <div class="blog-card">
+                    <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+                    <p>{{ post.data.description }}</p>
+                </div>
+                {% else %}
+                <p>No blog posts available yet. Check back soon!</p>
                 {% endfor %}
-            </ul>
+            </div>
         </section>
 
         <hr>
