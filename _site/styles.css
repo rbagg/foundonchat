@@ -1,6 +1,6 @@
-/* Minimalist black-and-white CSS for FoundOnChat with Helvetica, three-column layout, and table styling */
+/* Modern minimalist black-and-white CSS for FoundOnChat */
 body {
-  margin: 20px;
+  margin: 0;
   padding: 0;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -11,26 +11,25 @@ body {
 
 /* Header and navigation */
 header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px;
-  background-color: #f5f5f5;
-  padding: 10px;
+  border-bottom: 2px solid #000;
+  padding: 30px 20px;
+  margin-bottom: 40px;
 }
 
 h1 {
-  font-size: 26px;
-  margin: 0 0 10px 0;
+  font-size: 28px;
+  margin: 0 0 20px 0;
   font-weight: bold;
+  letter-spacing: -0.5px;
 }
 
 nav ul {
   list-style: none;
   padding: 0;
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 20px;
 }
 
 nav ul li {
@@ -41,145 +40,229 @@ nav ul li a {
   color: #000;
   text-decoration: none;
   font-size: 16px;
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
 }
 
 nav ul li a:hover {
-  text-decoration: underline;
+  border-bottom: 2px solid #000;
 }
 
 /* Main content */
 main {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 20px 60px 20px;
 }
 
 section {
-  margin-bottom: 20px;
-  padding: 15px;
-  background-color: #f5f5f5;
+  margin-bottom: 60px;
+}
+
+.blog-post {
+  margin-bottom: 60px;
 }
 
 h2 {
-  font-size: 22px;
-  margin: 10px 0;
+  font-size: 24px;
+  margin: 0 0 20px 0;
   font-weight: bold;
+  letter-spacing: -0.5px;
 }
 
 h3 {
-  font-size: 18px;
-  margin: 10px 0;
+  font-size: 20px;
+  margin: 30px 0 15px 0;
+  font-weight: bold;
 }
 
-ul {
-  list-style: disc;
-  margin: 10px 0;
-  padding-left: 20px;
+p {
+  margin: 0 0 15px 0;
+  max-width: 800px;
 }
 
 a {
   color: #000;
   text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration-thickness: 2px;
 }
 
-/* Three-column blog grid */
-.blog-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.blog-card {
-  flex: 1 1 30%;
-  background-color: #fafafa;
-  padding: 15px;
-  border: 1px solid #ddd;
-}
-
-.blog-card h3 {
-  margin-top: 0;
-}
-
-.blog-card p {
-  font-size: 14px;
-  color: #333;
-}
-
-/* Table styling */
-.results-table, .regions-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 10px 0;
-}
-
-.results-table th, .results-table td,
-.regions-table th, .regions-table td {
-  border: 1px solid #ddd;
-  padding: 10px;
-  text-align: left;
-}
-
-.results-table th, .regions-table th {
-  background-color: #e5e5e5;
+strong {
   font-weight: bold;
 }
 
-.results-table td, .regions-table td {
-  background-color: #fafafa;
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 40px 0;
+}
+
+/* Card layouts for results, regions, pricing, and blog */
+.results-grid, .regions-grid, .pricing-grid, .blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.result-card, .region-card, .pricing-card, .blog-card {
+  border: 1px solid #000;
+  padding: 25px;
+  background-color: #fff;
+  transition: transform 0.2s;
+}
+
+.result-card:hover, .region-card:hover, .pricing-card:hover, .blog-card:hover {
+  transform: translateY(-2px);
+}
+
+.result-card h3, .region-card h3, .pricing-card h3, .blog-card h3 {
+  margin: 0 0 15px 0;
+  font-size: 20px;
+}
+
+.result-card p, .region-card p, .pricing-card p, .blog-card p {
+  margin: 0 0 10px 0;
+  font-size: 15px;
+}
+
+.result-card p:last-child, .region-card p:last-child, .pricing-card p:last-child, .blog-card p:last-child {
+  margin-bottom: 0;
+}
+
+.blog-date {
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Blog content styling */
+.blog-content {
+  max-width: 800px;
+}
+
+.blog-content h2 {
+  margin-top: 40px;
+}
+
+.blog-content h3 {
+  margin-top: 30px;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 30px 0;
+  border: 1px solid #000;
+}
+
+table th, table td {
+  border: 1px solid #000;
+  padding: 12px;
+  text-align: left;
+}
+
+table th {
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+}
+
+table td a {
+  color: #000;
+  text-decoration: underline;
+}
+
+/* Forms */
+form {
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #000;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+form button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: Helvetica, Arial, sans-serif;
+  transition: background-color 0.2s;
+}
+
+form button:hover {
+  background-color: #333;
 }
 
 /* Footer */
 footer {
-  margin-top: 20px;
+  border-top: 2px solid #000;
+  padding: 30px 20px;
   text-align: center;
   font-size: 14px;
-  background-color: #f5f5f5;
-  padding: 10px;
+  margin-top: 60px;
+}
+
+footer p {
+  margin: 5px 0;
+  max-width: none;
 }
 
 /* Responsive design */
-@media (max-width: 900px) {
-  .blog-card {
-    flex: 1 1 45%;
-  }
-
-  .results-table, .regions-table {
-    font-size: 14px;
-  }
-}
-
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   header {
-    flex-direction: column;
-    text-align: center;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 18px;
   }
 
   nav ul {
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
   }
 
-  .blog-card {
-    flex: 1 1 100%;
+  .results-grid, .regions-grid, .pricing-grid, .blog-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
   }
 
-  .results-table, .regions-table {
-    display: block;
-    overflow-x: auto;
-  }
-
-  h1 {
-    font-size: 22px;
-  }
-
-  h2 {
-    font-size: 20px;
-  }
-
-  h3 {
-    font-size: 16px;
+  main {
+    padding: 0 15px 40px 15px;
   }
 }

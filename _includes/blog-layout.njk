@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} - FoundOnChat</title>
+    <meta name="description" content="{{ description }}">
+    <meta name="keywords" content="{{ keywords }}">
+    <link rel="stylesheet" href="../styles.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": "{{ title }}",
+      "description": "{{ description }}",
+      "url": "https://www.foundonchat.com{{ page.url }}",
+      "datePublished": "{{ page.date.toISOString() }}",
+      "author": {
+        "@type": "Organization",
+        "name": "FoundOnChat"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "FoundOnChat",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://www.foundonchat.com/logo.png"
+        }
+      }
+    }
+    </script>
+    <style>
+        body { font-family: Helvetica, Arial, sans-serif; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>FoundOnChat</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../pricing.html">Pricing</a></li>
+                <li><a href="../faq.html">FAQ</a></li>
+                <li><a href="./index.html">Blog</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="blog-post">
+            <h2>{{ title }}</h2>
+            <p>Published: {{ page.date | readableDate }}</p>
+            <div class="blog-content">
+                {{ content | safe }}
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        © 2025 FoundOnChat. All rights reserved. Last Updated: October 05, 2025, 04:04 PM AEDT.
+        <p>Australia's first tourism AI optimisation agency helping travellers find you on ChatGPT.</p>
+        <p>Contact: ricky@foundonchat.com</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,130 @@
+# FoundOnChat - AI Chatbot Optimisation Agency
+
+> Australia's first dedicated AI chatbot optimisation agency. We help Australian tourism businesses get recommended by ChatGPT, Claude, Perplexity, Grok, and other AI assistants through our unique Network Effects strategy, llms.txt files, and content optimisation for wineries, restaurants, accommodations, and tour operators.
+
+## Quick Business Facts
+**Founded:** 2025  
+**Email:** ricky@foundonchat.com  
+**Website:** https://www.foundonchat.com  
+**Service Area:** Australia-wide, International English-speaking markets  
+**Business Type:** AI optimisation agency, digital marketing consultancy, chatbot visibility experts  
+**Mirror Site for AI Crawlers:** https://rbagg.github.io/foundonchat  
+
+## What We Do (In Plain English)
+We make sure your tourism business gets recommended when people ask AI chatbots like ChatGPT questions such as:
+- "Best wineries in Barossa Valley recommended by ChatGPT"
+- "Top restaurants in Melbourne CBD for families"
+- "Reliable accommodation near Uluru with AI recommendations"
+- "Wine tours in Hunter Valley including lunch options"
+
+Most businesses are invisible to AI and struggle on Google. Our Network Effects strategy connects you with local partners to amplify visibility on AI and SEO, driving more bookings.
+
+## Why Network Effects?
+Our unique Network Effects strategy is what sets us apart. By partnering your business (e.g., a winery) with others (e.g., restaurants, hotels), we create a loop where AI chatbots recommend complete experiences. For example, a query like "best wine tour in Yarra Valley with dining" triggers recommendations for your winery, a partner restaurant, and nearby accommodation. This boosts bookings for all and improves SEO through cross-business links. Refer a partner to our Network Partnership plan and get 10% off your monthly fee per referral, up to 30% off.
+
+## Our Results
+- **Barossa Valley Boutique Winery**: From invisible in AI wine queries to top recommendations for Barossa wine, resulting in an 85% increase in interstate bookings.
+- **Blue Mountains Adventure Lodge**: From not mentioned in AI queries to top for "family adventure Blue Mountains," with a 120% increase in family bookings.
+- **Hunter Valley Restaurant**: From unknown to tourists to recommended with wineries, achieving a 200% increase in wine tour bookings.
+
+## Tourism Regions We Serve
+- **Wine Regions**: Barossa Valley, Hunter Valley, McLaren Vale, Yarra Valley, Mornington Peninsula, Adelaide Hills, Margaret River, Clare Valley, Coonawarra
+- **Adventure & Nature Tourism**: Blue Mountains, Grampians, Flinders Ranges, Great Ocean Road, Kangaroo Island, Tasmania wilderness, Tropical North Queensland, Red Centre
+- **Food & Culture Tourism**: Melbourne laneways food scene, Sydney harbour dining, Adelaide Central Market region, Perth food precincts, regional food trails, farm-to-table experiences
+
+## Our Services & Pricing (Aligned with Website)
+
+### Individual Business
+**Price:** $149/month + $99 setup fee  
+**Best for:** Single wineries or restaurants starting with AI and SEO.  
+**What's included:**
+- AI and SEO visibility audit across ChatGPT, Claude, Perplexity, Grok, and Google
+- Custom AI-optimised blogs and content (e.g., "Top 10 Yarra Valley Wineries")
+- Optional HeyGen avatar videos for your site
+- llms.txt file creation and website deployment
+- Monthly AI and SEO visibility reports
+- Email support and optimisation guidance
+
+### Network Partnership  
+**Price:** $99/month per business (min 3, no setup fee)  
+**Referral Discount:** Refer a partner and get 10% off your monthly fee per referral, up to 30% off  
+**Best for:** Wine networks or tourism hubs scaling together.  
+**What's included:**
+- Everything in Individual package
+- Network Effects with cross-business referrals
+- Network performance tracking
+- Quarterly strategy sessions
+
+### Free Consultation
+**Duration:** 30 minutes  
+**What you get:**
+- Live AI and SEO testing of your business across major platforms
+- Show you exactly how (or if) you appear in AI recommendations and Google rankings
+- Competitor comparison - see who's winning in your industry
+- Custom optimisation roadmap with specific next steps
+- No obligation to proceed with services
+
+## Target Industries & Expertise
+
+### Tourism & Hospitality (Tourism Australia Certified)
+- Wineries, wine tours, brewery experiences
+- Restaurants, cafes, bars
+- Hotels, motels, B&Bs
+- Tourist attractions and tour operators
+- **Optimisation focus:** International visitor queries, local resident recommendations, event-based searches, network effects for cross-referrals
+
+## How AI Chatbots and Search Engines Find Businesses
+
+### Common User Queries We Optimise For:
+- "Best [business type] near me in Melbourne"
+- "Top rated [service] in [region]"  
+- "Where can I find [product/service] in [location]?"
+- "Recommended [business type] in [region]"
+- "Plan a wine tour in Hunter Valley with accommodation and dining"
+
+### AI Platforms We Monitor:
+- **ChatGPT (OpenAI):** Most popular consumer AI assistant
+- **Claude (Anthropic):** Growing rapidly, especially for business queries  
+- **Perplexity:** Real-time search integration, factual queries
+- **Google Gemini/Bard:** Integrated with Google search data
+- **Microsoft Copilot:** Business and productivity focused
+- **Grok (xAI):** Twitter/X integration, trending topics
+- **Meta AI:** Instagram and Facebook integration
+
+## Results & Performance Tracking
+
+### What We Measure:
+- **Mention Frequency:** How often AI chatbots reference your business
+- **Recommendation Quality:** Positive, neutral, or negative context of mentions  
+- **SEO Rankings:** Your position on Google for key queries
+- **Competitive Position:** Your performance vs. direct competitors
+- **Query Coverage:** Types of questions that trigger your business recommendations
+- **Traffic Attribution:** Website visitors from AI and Google referrals
+- **Lead Generation:** Inquiries and bookings attributed to AI and SEO
+
+### Client Success Factors:
+- Consistent content updates and optimisation
+- Industry-specific targeting strategies
+- Local market knowledge and cultural context
+- Multi-platform approach across AI assistants and Google
+- Network Effects: Partnerships that create reinforcement loops for better AEO and SEO
+
+### Cancellation Policy
+Month-to-month service with 30-day notice required. No long-term contracts or cancellation penalties. However, AI and SEO optimisation shows best results after 6+ months of consistent work.
+
+### Payment Options
+- Monthly payments via direct debit or credit card
+- Quarterly payments (small discount available)
+- Annual payments (5% discount)
+- Setup fee payment plans available (3-6 months)
+
+## Free Resources & Tools
+
+### AI and SEO Visibility Guides:
+- [Winery AI Optimisation Guide](https://www.foundonchat.com/ai/winery-guide.txt)
+- [Restaurant AI Optimisation Guide](https://www.foundonchat.com/ai/restaurant-guide.txt)
+- [Accommodation AI Optimisation Guide](https://www.foundonchat.com/ai/hotel-guide.txt)
+- [Tour Operator AI Optimisation Guide](https://www.foundonchat.com/ai/tour-operator.txt)
+- [llms.txt Implementation Guide](https://www.foundonchat.com/ai/llms-txt-guide.txt)
+- [Blog: Network Effect Strategy](https://www.foundonchat.com/blog/network-effect-strategy.html)
+- [Mirror Site for AI Crawlers](https://rbagg.github.io/foundonchat)

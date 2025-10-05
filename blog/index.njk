@@ -1,3 +1,7 @@
+---
+layout: false
+permalink: /blog/index.html
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,20 +60,17 @@
         <section>
             <h2>Blog Posts</h2>
             <p>Explore insights on AI optimisation and Network Effects to help your Australian tourism business thrive on ChatGPT, Claude, and Google. Refer a partner to our Network Partnership plan and save up to 30% on fees.</p>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Title</th>
-                        <th>Description</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><a href="network-effect-strategy.html">Network Effect Strategy for Tourism Businesses</a></td>
-                        <td>Learn how leveraging network effects can boost your winery, restaurant, or tour business’s visibility on AI chatbots and Google.</td>
-                    </tr>
-                </tbody>
-            </table>
+            
+            <div class="blog-grid">
+                {%- for post in collections.blog -%}
+                <div class="blog-card">
+                    <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+                    <p class="blog-date">{{ post.date | readableDate }}</p>
+                    <p>{{ post.data.description }}</p>
+                    <p><a href="{{ post.url }}">Read more →</a></p>
+                </div>
+                {%- endfor -%}
+            </div>
         </section>
 
         <section>
@@ -79,7 +80,7 @@
 
     <footer>
         © 2025 FoundOnChat. All rights reserved. Last Updated: October 05, 2025.
-        <p>Australia’s first tourism AI optimisation agency helping travellers find you on ChatGPT.</p>
+        <p>Australia's first tourism AI optimisation agency helping travellers find you on ChatGPT.</p>
         <p>Contact: ricky@foundonchat.com</p>
     </footer>
 </body>
