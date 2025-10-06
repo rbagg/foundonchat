@@ -304,16 +304,25 @@ footer p {
   /* Horizontal scrolling nav on mobile - much more compact */
   nav {
     overflow-x: auto;
+    overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
     margin: 0 -15px; /* Extend to edges */
     padding: 0 15px;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+  }
+  
+  /* Hide scrollbar but keep functionality */
+  nav::-webkit-scrollbar {
+    display: none;
   }
   
   nav ul {
     display: flex;
     flex-wrap: nowrap; /* Don't wrap - scroll instead */
     gap: 15px;
-    padding-bottom: 5px; /* Space for scrollbar */
+    padding-bottom: 10px; /* More space for touch scrolling */
+    margin: 0;
   }
   
   nav ul li {
