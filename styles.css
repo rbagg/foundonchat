@@ -284,11 +284,13 @@ footer p {
 /* Responsive design */
 @media (max-width: 768px) {
   header {
-    padding: 20px 15px;
+    padding: 15px;
+    position: relative; /* Remove sticky on mobile for better UX */
   }
 
   h1 {
-    font-size: 24px;
+    font-size: 20px;
+    margin-bottom: 10px;
   }
 
   h2 {
@@ -299,10 +301,28 @@ footer p {
     font-size: 18px;
   }
 
-  /* Keep nav horizontal on mobile but allow wrapping */
+  /* Horizontal scrolling nav on mobile - much more compact */
+  nav {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 0 -15px; /* Extend to edges */
+    padding: 0 15px;
+  }
+  
   nav ul {
+    display: flex;
+    flex-wrap: nowrap; /* Don't wrap - scroll instead */
     gap: 15px;
+    padding-bottom: 5px; /* Space for scrollbar */
+  }
+  
+  nav ul li {
+    flex-shrink: 0; /* Don't shrink items */
+  }
+  
+  nav ul li a {
     font-size: 14px;
+    white-space: nowrap;
   }
 
   .results-grid, .regions-grid, .pricing-grid, .blog-grid {
@@ -320,6 +340,8 @@ footer p {
 
   table {
     font-size: 14px;
+    overflow-x: auto;
+    display: block;
   }
 
   table th, table td {
@@ -329,13 +351,34 @@ footer p {
   pre {
     font-size: 12px;
     padding: 10px;
+    overflow-x: auto;
   }
 }
 
-/* Very small mobile - stack nav vertically only if really necessary */
-@media (max-width: 480px) {
+/* Very small mobile - even more compact, STAY HORIZONTAL */
+@media (max-width: 400px) {
+  header {
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  nav {
+    margin: 0 -10px;
+    padding: 0 10px;
+  }
+  
   nav ul {
-    flex-direction: column;
-    gap: 10px;
+    display: flex !important; /* Force flex */
+    flex-direction: row !important; /* Force horizontal */
+    flex-wrap: nowrap !important; /* Force no wrapping */
+    gap: 12px;
+  }
+  
+  nav ul li a {
+    font-size: 12px;
   }
 }
