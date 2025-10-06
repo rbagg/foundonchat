@@ -10,6 +10,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("llms.txt");
   eleventyConfig.addPassthroughCopy("robots.txt");
   eleventyConfig.addPassthroughCopy("sitemap.xml");
+  eleventyConfig.addPassthroughCopy("our-methodology.html");
+  eleventyConfig.addPassthroughCopy("ai-resources.html");
 
   // Define blog collection for Markdown files in /blog/
   eleventyConfig.addCollection("blog", function(collectionApi) {

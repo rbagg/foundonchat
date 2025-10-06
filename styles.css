@@ -9,7 +9,7 @@ body {
   line-height: 1.6;
 }
 
-/* Header and navigation - left aligned with content */
+/* Header and navigation - left aligned with content, sticky */
 header {
   border-bottom: 2px solid #000;
   padding: 30px 20px;
@@ -17,6 +17,10 @@ header {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 h1 {
@@ -37,6 +41,7 @@ nav ul {
 
 nav ul li {
   margin: 0;
+  white-space: nowrap;
 }
 
 nav ul li a {
