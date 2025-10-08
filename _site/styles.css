@@ -1,4 +1,4 @@
-/* Modern minimalist black-and-white CSS for FoundOnChat - Refined spacing */
+/* Modern minimalist black-and-white CSS for FoundOnChat - Fixed version */
 body {
   margin: 0;
   padding: 0;
@@ -13,8 +13,8 @@ body {
 header {
   border-bottom: 1px solid #000;
   padding: 24px 20px 20px 20px;
-  margin-bottom: 48px;
-  max-width: 800px;
+  margin-bottom: 56px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
   background-color: #fff;
@@ -58,7 +58,7 @@ nav ul li a:hover {
   border-bottom: 1px solid #000;
 }
 
-/* Main content - wider for better text flow */
+/* Main content */
 main {
   max-width: 900px;
   margin: 0 auto;
@@ -70,7 +70,7 @@ section {
 }
 
 .blog-post {
-  margin-bottom: 48px;
+  margin-bottom: 56px;
 }
 
 h2 {
@@ -126,7 +126,7 @@ hr {
   margin: 40px 0;
 }
 
-/* Code blocks - refined */
+/* Code blocks */
 pre {
   background-color: #f8f8f8;
   border: 1px solid #e0e0e0;
@@ -151,45 +151,46 @@ p code, li code {
   font-size: 15px;
 }
 
-/* Card layouts for results, regions, pricing, and blog */
-.results-grid, .regions-grid, .pricing-grid, .blog-grid {
+/* Card layouts - STANDARD GRID (for most cards) */
+.results-grid, .regions-grid, .pricing-grid, .blog-grid, .ai-assessment-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 24px;
-  margin-top: 24px;
+  margin-top: 32px;
+  margin-bottom: 40px;
 }
 
-.result-card, .region-card, .pricing-card, .blog-card {
+.result-card, .region-card, .pricing-card, .blog-card, .ai-assessment-card {
   border: 1px solid #000;
   padding: 24px;
   background-color: #fff;
   transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.result-card:hover, .region-card:hover, .pricing-card:hover, .blog-card:hover {
+.result-card:hover, .region-card:hover, .pricing-card:hover, .blog-card:hover, ai-assessment-card:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
-.result-card h3, .region-card h3, .pricing-card h3, .blog-card h3 {
+.result-card h3, .region-card h3, .pricing-card h3, .blog-card, ai-assessment-card h3 {
   margin: 0 0 12px 0;
   font-size: 19px;
   font-weight: 600;
 }
 
-.result-card h4, .region-card h4, .pricing-card h4, .blog-card h4 {
+.result-card h4, .region-card h4, .pricing-card h4, .blog-card, .ai-assessment-card h4 {
   margin: 16px 0 8px 0;
   font-size: 17px;
   font-weight: 600;
 }
 
-.result-card p, .region-card p, .pricing-card p, .blog-card p {
+.result-card p, .region-card p, .pricing-card p, .blog-card, .ai-assessment-card p {
   margin: 0 0 12px 0;
   font-size: 16px;
   line-height: 1.5;
 }
 
-.result-card p:last-child, .region-card p:last-child, .pricing-card p:last-child, .blog-card p:last-child {
+.result-card p:last-child, .region-card p:last-child, .pricing-card p:last-child, .blog-card, .ai-assessment-card p:last-child {
   margin-bottom: 0;
 }
 
@@ -212,7 +213,7 @@ p code, li code {
   margin-top: 32px;
 }
 
-/* Lists - better spacing */
+/* Lists */
 ul, ol {
   margin: 16px 0;
   padding-left: 24px;
@@ -223,7 +224,7 @@ li {
   line-height: 1.6;
 }
 
-/* Table styles - refined */
+/* Table styles */
 table {
   width: 100%;
   max-width: 100%;
@@ -251,7 +252,7 @@ table td a {
   text-decoration: underline;
 }
 
-/* Forms - refined */
+/* Forms */
 form {
   max-width: 600px;
   margin-top: 24px;
@@ -315,7 +316,7 @@ form button:active {
   transform: translateY(1px);
 }
 
-/* Footer - refined */
+/* Footer */
 footer {
   border-top: 1px solid #000;
   padding: 32px 20px;
@@ -323,7 +324,7 @@ footer {
   font-size: 14px;
   line-height: 1.6;
   margin-top: 80px;
-  max-width: 800px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
   color: #333;
@@ -347,7 +348,7 @@ footer a {
   header {
     padding: 16px 16px 14px 16px;
     margin-bottom: 32px;
-    position: relative; /* Remove sticky on mobile for better UX */
+    position: relative;
   }
 
   h1 {
@@ -365,18 +366,16 @@ footer a {
     margin-top: 24px;
   }
 
-  /* Horizontal scrolling nav on mobile */
   nav {
     overflow-x: auto;
     overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
     margin: 0 -16px;
     padding: 0 16px;
-    scrollbar-width: none; /* Firefox */
-    -ms-overflow-style: none; /* IE/Edge */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
   }
   
-  /* Hide scrollbar but keep functionality */
   nav::-webkit-scrollbar {
     display: none;
   }
@@ -403,10 +402,10 @@ footer a {
   }
 
   section {
-    margin-bottom: 32px;
+    margin-bottom: 40px;
   }
 
-  .results-grid, .regions-grid, .pricing-grid, .blog-grid {
+  .results-grid, .regions-grid, .pricing-grid, .blog-grid, .ai-assessment-grid {
     grid-template-columns: 1fr;
     gap: 20px;
   }
@@ -441,7 +440,6 @@ footer a {
   }
 }
 
-/* Very small mobile */
 @media (max-width: 400px) {
   header {
     padding: 12px;
@@ -473,7 +471,6 @@ footer a {
   }
 }
 
-/* Print styles */
 @media print {
   header {
     position: relative;
@@ -493,7 +490,7 @@ footer a {
     text-decoration: underline;
   }
 
-  .result-card, .region-card, .pricing-card, .blog-card {
+  .result-card, .region-card, .pricing-card, .blog-card, .ai-assessment-card {
     border: 1px solid #000;
     page-break-inside: avoid;
   }
