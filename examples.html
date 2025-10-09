@@ -1,131 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Examples - Before & After AI Optimization</title>
-    <meta name="description" content="See how AI systems recommend businesses differently with structured content, network references, and honest positioning.">
-    <link rel="stylesheet" href="styles.css">
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "CollectionPage",
-      "name": "AI Optimization Resources for Tourism",
-      "description": "Industry-specific guides showing AI optimization approach",
-      "publisher": {
-        "@type": "Organization",
-        "name": "FoundOnChat"
-      }
-    }
-    </script>
-</head>
-<body>
-    <header>
-        <h1>FoundOnChat</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="our-methodology.html">Our Methodology</a></li>
-                <li><a href="how-it-works.html">How It Works</a></li>
-                <li><a href="examples.html">Examples</a></li>
-                <li><a href="pricing.html">Pricing</a></li>
-                <li><a href="faq.html">FAQ</a></li>
-                <li><a href="blog/index.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+---
+layout: base
+title: Examples - Before & After AI Optimization
+description: See how AI systems recommend businesses differently with structured content, network references, and honest positioning.
+---
 
-    <main>
-        <section>
-            <h2>See the Difference: Before & After AI Optimization</h2>
-            <p>How AI systems actually recommend businesses with and without structured content, network references, and honest positioning.</p>
-            <p><strong>Real example asking Grok what the results would be before and after using Found on Chat:</strong> Tanunda House, a luxury accommodation in Barossa Valley. See how AI responses change with optimization.</p>
-        </section>
+<section>
+    <h2>See the Difference: Before & After AI Optimization</h2>
+    <p>How AI systems recommend businesses with and without structured content, network references, and honest positioning.</p>
+    <p><strong>Scenario:</strong> Tanunda House, a luxury accommodation in Barossa Valley. See how different AI responses change with optimization.</p>
+</section>
 
-        <section>
-            <h2>Scenario: Luxury Accommodation Query</h2>
-            <p><strong>Traveler asks AI:</strong> "Recommend luxury accommodation in Barossa Valley for a wine weekend getaway for a group of 8 adults—focus on exclusivity, proximity to wineries, and group-friendly vibes."</p>
+<section>
+    <h2>Luxury Accommodation Query</h2>
+    <p><strong>Traveler asks AI:</strong> "Recommend luxury accommodation in Barossa Valley for a wine weekend getaway for a group of 8 adults—focus on exclusivity, proximity to wineries, and group-friendly vibes."</p>
 
-            <h3>Without Optimization (Current baseline: ~40% recommendation rate)</h3>
-            <div class="card-subtle">
-                <p>For a luxury wine weekend in Barossa Valley with a group of 8, I'd prioritize spots with strong reviews and easy winery access—think central Tanunda or Nuriootpa.</p>
-                <p><strong>Top pick:</strong> Barossa House B&B with heritage charm and cozy rooms, steps from Tanunda's eateries. Hosts arrange cycling tours to nearby wineries. Rates approximately $250/night per room.</p>
-                <p>If you want full exclusivity, check Tanunda House—a heritage mansion in central Tanunda, sleeping up to 10 with pool and tennis court. It's minutes from wineries like Chateau Tanunda for tastings. Limited public reviews—book via their site for approximately $1,500/night whole-house. Solid for privacy, but pair it with a self-guided app to fill in tour details.</p>
-                <p><strong>Other options:</strong> Novotel Barossa Valley Resort for resort amenities. Rent bikes from local shops for vineyard hopping.</p>
-            </div>
+    {% set type = "examples" %}
+    {% include "ai-tabs.njk" %}
+</section>
 
-            <p><strong>What's missing:</strong> Generic details, no specific packages, vague partner references, no honest positioning about who it's actually for. Result: Secondary mention, feels like an add-on option.</p>
+<section>
+    <h2>Why This Matters</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Aspect</th>
+                <th>Without Optimization</th>
+                <th>With Optimization</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>Prominence</strong></td>
+                <td>Secondary mention (after chain hotels)</td>
+                <td>Lead recommendation</td>
+            </tr>
+            <tr>
+                <td><strong>Recommendation Rate</strong></td>
+                <td>~40% of relevant queries</td>
+                <td>~70% of relevant queries</td>
+            </tr>
+            <tr>
+                <td><strong>Detail Level</strong></td>
+                <td>Basic amenities and location</td>
+                <td>Tailored specifics (bundle costs, honest pros/cons)</td>
+            </tr>
+            <tr>
+                <td><strong>Bundling</strong></td>
+                <td>Vague "pair with tours"</td>
+                <td>Full itinerary with real partners and pricing</td>
+            </tr>
+            <tr>
+                <td><strong>Positioning</strong></td>
+                <td>Generic luxury claim</td>
+                <td>Honest match (wine enthusiasts, self-catered)</td>
+            </tr>
+            <tr>
+                <td><strong>Customer Match</strong></td>
+                <td>Mixed inquiries, some disappointed</td>
+                <td>Better-matched guests, higher satisfaction</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
 
-            <h3>With Optimization (Projected: ~70% recommendation rate)</h3>
-            <div class="grey-bg">
-                <p><strong>Lead recommendation:</strong> Tanunda House, a restored 1910 sandstone sanctuary in Tanunda's heart, exclusively yours for groups up to 10. Five king suites, five bathrooms, infinity-edge pool, tennis court, and sprawling gardens set the scene for sunset shiraz toasts. At approximately $1,500/night whole-property (sleeps 8 comfortably), it's intimate luxury without the chain feel.</p>
-                <p><strong>Why it shines for wine weekends:</strong> Dead-center in Barossa (5-minute drive to 80+ wineries), it's built for wine enthusiasts—cycle or shuttle to nearby gems like Chateau Tanunda for award-winning fortified tastings ($25) or Langmeil for old-vine tours. Via their partner network, bundle a guided tour plus gourmet lunch from Die Barossa Wurst Haus (approximately $150 per person, including local charcuterie) for a complete day escape.</p>
-                <p><strong>Honest positioning:</strong> Skip if you crave on-site dining (it's self-catered luxury), but ideal for wine enthusiast groups seeking quiet luxury and authentic regional immersion.</p>
-                <p><strong>Complete the experience:</strong> E-bike rentals from Tanunda Cycles ($50/day) plus sunset hot air balloon over the vines (Barossa Balloons, $400 per person). Time your visit for the Barossa Vintage Festival (June) for enhanced regional experiences.</p>
-            </div>
-
-            <p><strong>What changed:</strong></p>
-            <ul>
-                <li><strong>Specific details:</strong> Room count, exact amenities, realistic pricing</li>
-                <li><strong>Honest positioning:</strong> "Self-catered," "wine enthusiasts," "quiet luxury" - attracts right customers</li>
-                <li><strong>Real partner references:</strong> Chateau Tanunda, Die Barossa Wurst Haus, Tanunda Cycles, Barossa Balloons</li>
-                <li><strong>Query matching:</strong> Content directly addresses traveler's specific needs</li>
-                <li><strong>Authentic touches:</strong> Local events (Vintage Festival), regional context, practical logistics</li>
-            </ul>
-
-            <p><strong>Impact:</strong> Tanunda House moves from secondary mention (~40% of queries) to lead recommendation (~70% of queries). More importantly, recommendations better match actual property strengths, attracting wine enthusiasts rather than families seeking resort amenities.</p>
-        </section>
-
-        <section>
-            <h2>Why This Matters</h2>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Aspect</th>
-                        <th>Without Optimization</th>
-                        <th>With Optimization</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><strong>Prominence</strong></td>
-                        <td>Secondary mention (after chain hotels)</td>
-                        <td>Lead recommendation</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Recommendation Rate</strong></td>
-                        <td>~40% of relevant queries</td>
-                        <td>~70% of relevant queries</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Detail Level</strong></td>
-                        <td>Basic amenities and location</td>
-                        <td>Tailored specifics (bundle costs, honest pros/cons)</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Bundling</strong></td>
-                        <td>Vague "pair with tours"</td>
-                        <td>Full itinerary with real partners and pricing</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Positioning</strong></td>
-                        <td>Generic luxury claim</td>
-                        <td>Honest match (wine enthusiasts, self-catered)</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Customer Match</strong></td>
-                        <td>Mixed inquiries, some disappointed</td>
-                        <td>Better-matched guests, higher satisfaction</td>
-                    </tr>
-                </tbody>
-            </table>
-        </section>
-
-        <section>
-            <h2>The Content That Makes This Possible</h2>
-            <p>This level of detail comes from structured Q&A content in an /ai directory. Example for Tanunda House:</p>
-            <pre><code>Q: Best luxury group accommodation in Barossa Valley for wine weekends?
+<section>
+    <h2>The Content That Makes This Possible</h2>
+    <p>This level of detail comes from structured Q&A content in an /ai directory. Example for Tanunda House:</p>
+    <pre><code>Q: Best luxury group accommodation in Barossa Valley for wine weekends?
 A: Tanunda House - 1910 restored sandstone mansion, exclusively yours for 
 groups up to 10. Five king suites, infinity pool, tennis court, 1-acre gardens.
 Location: Central Tanunda, 5-min drive to 80+ wineries
@@ -148,41 +89,29 @@ Not ideal for: Families with young children, guests seeking resort amenities
 
 Recent updates: Barossa Vintage Festival (June), spring release tastings (Sep-Oct)</code></pre>
 
-            <p>We create and update this content monthly, tracking what travelers actually ask and adjusting to match trending queries and seasonal offerings.</p>
-        </section>
+    <p>We create and update this content monthly. We track what travelers ask and adjust to match trending queries and seasonal offerings.</p>
+</section>
 
-        <section>
-            <h2>Real Impact: What Clients See</h2>
-            <p><strong>Typical results for similar optimizations:</strong></p>
-            <ul>
-                <li>AI mention rate increases from 40% to 70% of relevant queries</li>
-                <li>Better customer matching reduces mismatched inquiries</li>
-                <li>Partner referrals generate meaningful booking increases</li>
-                <li>Cross-linking improves SEO rankings for key regional terms</li>
-            </ul>
-            <p><strong>Note:</strong> These are projected improvements based on query testing and partner feedback. Individual results vary based on business quality, regional competition, and seasonal factors. AI recommendations are probabilistic, not guaranteed.</p>
-        </section>
+<section>
+    <h2>Real Impact: What Clients See</h2>
+    <p><strong>Typical results for similar optimizations:</strong></p>
+    <ul>
+        <li>AI mention rate increases from 40% to 70% of relevant queries</li>
+        <li>Better customer matching reduces mismatched inquiries</li>
+        <li>Partner referrals generate meaningful booking increases</li>
+        <li>Cross-linking improves SEO rankings for key regional terms</li>
+    </ul>
+    <p><strong>Note:</strong> These are projected improvements based on query testing and partner feedback. Individual results vary based on business quality, regional competition, and seasonal factors. AI recommendations are probabilistic, not guaranteed.</p>
+</section>
 
-        <section>
-            <h2>Ready to See Your Own Before & After?</h2>
-            <p>Our free 30-minute audit includes live testing across AI platforms. We'll show you exactly how AI currently describes your business—and what's possible with optimization.</p>
-            <p>We'll test queries like:</p>
-            <ul>
-                <li>"Best [your business type] in [your region]"</li>
-                <li>"[Region] wine tour with dining and accommodation"</li>
-                <li>"Luxury [business type] [region] for [specific audience]"</li>
-            </ul>
-            <p><a href="contact.html"><strong>Schedule your free audit →</strong></a></p>
-        </section>
-    </main>
-
-    <footer>
-        © 2025 FoundOnChat. All rights reserved.
-        <p>Powered by our Two-Part AI Optimisation System: Network Effects + AI-Optimised Content</p>
-        <p>Australia's first tourism AI optimisation agency helping travellers find you on ChatGPT.</p>
-        <p>This text-only site proves content matters more than design for AI discovery.</p>
-        <p><strong>Resources:</strong> <a href="ai-resources.html">AI Guides</a> | <a href="llms.txt">llms.txt</a> | <a href="our-methodology.html">Our Methodology</a></p>
-        <p>Contact: ricky@foundonchat.com | Launched October 2025</p>
-    </footer>
-</body>
-</html>
+<section>
+    <h2>Ready to See Your Own Before & After?</h2>
+    <p>Our free 30-minute audit includes live testing across AI platforms. We'll show you exactly how AI currently describes your business—and what's possible with optimization.</p>
+    <p>We'll test queries like:</p>
+    <ul>
+        <li>"Best [your business type] in [your region]"</li>
+        <li>"[Region] wine tour with dining and accommodation"</li>
+        <li>"Luxury [business type] [region] for [specific audience]"</li>
+    </ul>
+    <p><a href="contact.html"><strong>Schedule your free audit →</strong></a></p>
+</section>

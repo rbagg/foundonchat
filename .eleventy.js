@@ -1,19 +1,20 @@
 module.exports = function(eleventyConfig) {
-  // Passthrough copy for static files
+  // Passthrough copy for static files ONLY (not HTML files that need processing)
   eleventyConfig.addPassthroughCopy("styles.css");
+  eleventyConfig.addPassthroughCopy("ai-tabs.js");
   eleventyConfig.addPassthroughCopy("ai");
-  eleventyConfig.addPassthroughCopy("contact.html");
-  eleventyConfig.addPassthroughCopy("index.html");
-  eleventyConfig.addPassthroughCopy("pricing.html");
-  eleventyConfig.addPassthroughCopy("faq.html");
-  eleventyConfig.addPassthroughCopy("how-it-works.html");
   eleventyConfig.addPassthroughCopy("llms.txt");
   eleventyConfig.addPassthroughCopy("robots.txt");
   eleventyConfig.addPassthroughCopy("sitemap.xml");
-  eleventyConfig.addPassthroughCopy("our-methodology.html");
-  eleventyConfig.addPassthroughCopy("ai-resources.html");
-  eleventyConfig.addPassthroughCopy("examples.html");
 
+  // Make data globally available to all templates
+  eleventyConfig.addGlobalData("aiAssessments", function() {
+    return require("./_data/ai-assessments.json");
+  });
+  
+  eleventyConfig.addGlobalData("aiExamples", function() {
+    return require("./_data/ai-examples.json");
+  });
 
   // Define blog collection for Markdown files in /blog/
   eleventyConfig.addCollection("blog", function(collectionApi) {
@@ -35,7 +36,7 @@ module.exports = function(eleventyConfig) {
     dir: {
       input: ".",
       output: "_site",
-      includes: "_includes", // Where layout templates live
+      includes: "_includes",
       data: "_data"
     },
     templateFormats: ["html", "njk", "md"],

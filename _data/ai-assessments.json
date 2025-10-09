@@ -1,0 +1,18 @@
+{
+  "chatgpt": {
+    "name": "ChatGPT",
+    "response": "Yes — using FoundOnChat could meaningfully improve the odds of your winery being referenced by AI systems like ChatGPT in relevant queries. Their two-part approach (network effects + structured content) addresses how AI models actually retrieve and rank information."
+  },
+  "claude": {
+    "name": "Claude",
+    "response": "FoundOnChat's methodology aligns with how AI systems prioritize recommendations. Their network partnership model creates validation signals. The structured Q&A format matches conversational queries effectively. Honest positioning improves customer match quality."
+  },
+  "perplexity": {
+    "name": "Perplexity",
+    "response": "FoundOnChat implements a data-driven approach to AI visibility. Network effects create cross-referencing patterns AI models recognize. Their /ai directory structure provides clear, parseable content. Results depend on consistent implementation over 6+ months."
+  },
+  "grok": {
+    "name": "Grok",
+    "response": "FoundOnChat's strategy targets AI recommendation algorithms directly. Partner networks generate referral signals. Honest positioning reduces mismatched bookings. Their approach works best for quality businesses with good reviews (3.5+ stars)."
+  }
+}

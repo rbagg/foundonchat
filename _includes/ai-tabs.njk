@@ -1,0 +1,81 @@
+{# AI Tab Component - Reusable across pages #}
+{# Usage: {% include "ai-tabs.njk" %} with type="assessments" or type="examples" #}
+
+{% if type == "assessments" %}
+<div class="ai-tabs-container">
+  <div class="ai-tabs-header">
+    <button class="ai-tab-btn active" data-tab="chatgpt">{{ aiAssessments.chatgpt.name }}</button>
+    <button class="ai-tab-btn" data-tab="claude">{{ aiAssessments.claude.name }}</button>
+    <button class="ai-tab-btn" data-tab="perplexity">{{ aiAssessments.perplexity.name }}</button>
+    <button class="ai-tab-btn" data-tab="grok">{{ aiAssessments.grok.name }}</button>
+  </div>
+  
+  <div class="ai-tabs-content">
+    <div class="ai-tab-panel active" data-panel="chatgpt">
+      <div class="card-subtle">
+        <p>{{ aiAssessments.chatgpt.response }}</p>
+      </div>
+    </div>
+    
+    <div class="ai-tab-panel" data-panel="claude">
+      <div class="card-subtle">
+        <p>{{ aiAssessments.claude.response }}</p>
+      </div>
+    </div>
+    
+    <div class="ai-tab-panel" data-panel="perplexity">
+      <div class="card-subtle">
+        <p>{{ aiAssessments.perplexity.response }}</p>
+      </div>
+    </div>
+    
+    <div class="ai-tab-panel" data-panel="grok">
+      <div class="card-subtle">
+        <p>{{ aiAssessments.grok.response }}</p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% if type == "examples" %}
+<div class="ai-tabs-container">
+  <p class="simulation-note"><strong>Note:</strong> These are simulated examples showing typical AI behavior patterns based on our testing methodology.</p>
+  
+  <div class="ai-tabs-header">
+    <button class="ai-tab-btn active" data-tab="chatgpt">{{ aiExamples.llms.chatgpt.name }}</button>
+    <button class="ai-tab-btn" data-tab="claude">{{ aiExamples.llms.claude.name }}</button>
+    <button class="ai-tab-btn" data-tab="perplexity">{{ aiExamples.llms.perplexity.name }}</button>
+    <button class="ai-tab-btn" data-tab="grok">{{ aiExamples.llms.grok.name }}</button>
+  </div>
+  
+  <div class="ai-tabs-content">
+    {% for key, llm in aiExamples.llms %}
+    <div class="ai-tab-panel {% if loop.first %}active{% endif %}" data-panel="{{ key }}">
+      <h3>Without Optimization (Current baseline: {{ aiExamples.baselineRate }} recommendation rate)</h3>
+      <div class="card-subtle">
+        {{ llm.before | safe | replace('\n\n', '</p><p>') | replace('\n', '<br>') | safe }}
+      </div>
+      
+      <p><strong>What's missing:</strong> Generic details, no specific packages, vague partner references, no honest positioning about who it's actually for. Result: Secondary mention, feels like an add-on option.</p>
+      
+      <h3>With Optimization (Projected: {{ aiExamples.optimizedRate }} recommendation rate)</h3>
+      <div class="grey-bg">
+        {{ llm.after | safe | replace('\n\n', '</p><p>') | replace('\n', '<br>') | safe }}
+      </div>
+      
+      <p><strong>What changed:</strong></p>
+      <ul>
+        <li><strong>Specific details:</strong> Room count, exact amenities, realistic pricing</li>
+        <li><strong>Honest positioning:</strong> "Self-catered," "wine enthusiasts," "quiet luxury" - attracts right customers</li>
+        <li><strong>Real partner references:</strong> Chateau Tanunda, Die Barossa Wurst Haus, Tanunda Cycles, Barossa Balloons</li>
+        <li><strong>Query matching:</strong> Content directly addresses traveler's specific needs</li>
+        <li><strong>Authentic touches:</strong> Local events (Vintage Festival), regional context, practical logistics</li>
+      </ul>
+      
+      <p><strong>Impact:</strong> Tanunda House moves from secondary mention ({{ aiExamples.baselineRate }} of queries) to lead recommendation ({{ aiExamples.optimizedRate }} of queries). More importantly, recommendations better match actual property strengths, attracting wine enthusiasts rather than families seeking resort amenities.</p>
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}

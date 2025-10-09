@@ -1,4 +1,4 @@
-/* Modern minimalist black-and-white CSS for FoundOnChat - Fixed version */
+/* Modern minimalist black-and-white CSS for FoundOnChat - Updated with tighter spacing and tabs */
 body {
   margin: 0;
   padding: 0;
@@ -13,7 +13,7 @@ body {
 header {
   border-bottom: 1px solid #000;
   padding: 24px 20px 20px 20px;
-  margin-bottom: 56px;
+  margin-bottom: 32px; /* reduced from 40px */
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
@@ -66,11 +66,11 @@ main {
 }
 
 section {
-  margin-bottom: 56px;
+  margin-bottom: 32px; /* reduced from 40px */
 }
 
 .blog-post {
-  margin-bottom: 56px;
+  margin-bottom: 40px; /* reduced from 56px */
 }
 
 h2 {
@@ -83,14 +83,14 @@ h2 {
 
 h3 {
   font-size: 19px;
-  margin: 32px 0 12px 0;
+  margin: 20px 0 10px 0; /* reduced from 24px 0 10px 0 */
   font-weight: 600;
   letter-spacing: -0.2px;
 }
 
 h4 {
   font-size: 17px;
-  margin: 24px 0 10px 0;
+  margin: 20px 0 8px 0; /* reduced from 24px 0 10px 0 */
   font-weight: 600;
 }
 
@@ -123,7 +123,7 @@ strong {
 hr {
   border: none;
   border-top: 1px solid #e0e0e0;
-  margin: 40px 0;
+  margin: 32px 0; /* reduced from 40px */
 }
 
 /* Code blocks */
@@ -156,14 +156,84 @@ p code, li code {
   background-color: #f8f8f8;
   padding: 20px;
   border-left: 2px solid #000;
-  margin: 24px 0;
+  margin: 20px 0; /* reduced from 24px */
 }
 
 .card-subtle {
   background-color: #fafafa;
   border: 1px solid #e0e0e0;
   padding: 20px;
-  margin: 24px 0;
+  margin: 20px 0; /* reduced from 24px */
+}
+
+/* AI Tabs Styling */
+.ai-tabs-container {
+  margin: 24px 0; /* reduced from 32px */
+}
+
+.simulation-note {
+  background-color: #f8f8f8;
+  border-left: 2px solid #000;
+  padding: 12px 16px;
+  margin: 0 0 16px 0;
+  font-size: 15px;
+}
+
+.ai-tabs-header {
+  display: flex;
+  gap: 0;
+  border-bottom: 2px solid #000;
+  margin-bottom: 20px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.ai-tabs-header::-webkit-scrollbar {
+  display: none;
+}
+
+.ai-tab-btn {
+  background: none;
+  border: none;
+  padding: 12px 20px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #666;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+  transition: all 0.2s;
+  white-space: nowrap;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+.ai-tab-btn:hover {
+  color: #000;
+  background-color: #f8f8f8;
+}
+
+.ai-tab-btn.active {
+  color: #000;
+  border-bottom-color: #000;
+}
+
+.ai-tabs-content {
+  position: relative;
+}
+
+.ai-tab-panel {
+  display: none;
+}
+
+.ai-tab-panel.active {
+  display: block;
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 /* Card layouts - STANDARD GRID (for most cards) */
@@ -171,8 +241,8 @@ p code, li code {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 24px;
-  margin-top: 32px;
-  margin-bottom: 40px;
+  margin-top: 20px; /* reduced from 32px */
+  margin-bottom: 32px; /* reduced from 40px */
 }
 
 .result-card, .region-card, .pricing-card, .blog-card {
@@ -221,11 +291,11 @@ p code, li code {
 }
 
 .blog-content h2 {
-  margin-top: 48px;
+  margin-top: 40px; /* reduced from 48px */
 }
 
 .blog-content h3 {
-  margin-top: 32px;
+  margin-top: 28px; /* reduced from 32px */
 }
 
 /* Lists */
@@ -244,7 +314,7 @@ table {
   width: 100%;
   max-width: 100%;
   border-collapse: collapse;
-  margin: 24px 0;
+  margin: 20px 0; /* reduced from 24px */
   border: 1px solid #000;
   font-size: 16px;
 }
@@ -270,7 +340,7 @@ table td a {
 /* Forms */
 form {
   max-width: 600px;
-  margin-top: 24px;
+  margin-top: 20px; /* reduced from 24px */
 }
 
 form label {
@@ -338,7 +408,7 @@ footer {
   text-align: left;
   font-size: 14px;
   line-height: 1.6;
-  margin-top: 80px;
+  margin-top: 64px; /* reduced from 80px */
   max-width: 900px;
   margin-left: auto;
   margin-right: auto;
@@ -362,7 +432,7 @@ footer a {
 
   header {
     padding: 16px 16px 14px 16px;
-    margin-bottom: 32px;
+    margin-bottom: 24px; /* reduced from 32px */
     position: relative;
   }
 
@@ -378,7 +448,7 @@ footer a {
 
   h3 {
     font-size: 18px;
-    margin-top: 24px;
+    margin-top: 20px; /* reduced from 24px */
   }
 
   nav {
@@ -417,7 +487,7 @@ footer a {
   }
 
   section {
-    margin-bottom: 40px;
+    margin-bottom: 32px; /* reduced from 40px */
   }
 
   .results-grid, .regions-grid, .pricing-grid, .blog-grid {
@@ -425,9 +495,14 @@ footer a {
     gap: 20px;
   }
 
+  .ai-tab-btn {
+    padding: 10px 16px;
+    font-size: 14px;
+  }
+
   footer {
     padding: 24px 16px;
-    margin-top: 48px;
+    margin-top: 40px; /* reduced from 48px */
   }
 
   table {
@@ -507,6 +582,15 @@ footer a {
 
   .result-card, .region-card, .pricing-card, .blog-card {
     border: 1px solid #000;
+    page-break-inside: avoid;
+  }
+
+  .ai-tabs-header {
+    display: none;
+  }
+
+  .ai-tab-panel {
+    display: block !important;
     page-break-inside: avoid;
   }
 }
