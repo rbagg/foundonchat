@@ -1,47 +1,47 @@
 <h1>FoundOnChat Website</h1>
-<p>This is the source code for <strong>www.foundonchat.com</strong>, Australia's first tourism AI optimisation agency using a proprietary <strong>three-layer system</strong>: Network Effects, Dual Content Strategy, and Explicit Crawler Direction.</p>
-<p>The site is intentionally text-only, proving that AI/SEO rankings don't need fancy visuals—just strategic content architecture.</p>
-<h2>🎯 Our Three-Layer System</h2>
-<p><strong>Layer 1: Network Effects</strong> - Connecting businesses with local partners (winery + restaurant + hotel) to create self-reinforcing ecosystems AI prefers to recommend</p>
-<p><strong>Layer 2: Dual Content Strategy</strong> - Public website for humans + <code>/ai</code> directory with conversational Q&amp;A for AI systems</p>
-<p><strong>Layer 3: Explicit Crawler Direction</strong> - Enhanced robots.txt, priority sitemaps, and structured data directing AI crawlers to optimized content</p>
+<p>This is the source code for <strong>www.foundonchat.com</strong>, Australia's first tourism AI optimisation agency using a proprietary <strong>two-part system</strong>: Network Effects and AI-Optimised Content.</p>
+<p>The site is intentionally minimalist (text-only with subtle grey backgrounds), proving that AI/SEO rankings don't need fancy visuals—just strategic content architecture and honest positioning.</p>
+<h2>🎯 Our Two-Part System</h2>
+<p><strong>Part 1: Network Effects</strong> - Connecting businesses with local partners (winery + restaurant + hotel) through real referral relationships to create self-reinforcing ecosystems AI prefers to recommend</p>
+<p><strong>Part 2: AI-Optimised Content</strong> - Conversational Q&amp;A content in /ai directory formatted specifically for AI consumption, with honest positioning, specific details (geo-coordinates, pricing), and monthly updates (3-5 new Q&amp;As targeting trending queries)</p>
 <h2>📁 Site Structure</h2>
 <h3>Main Pages</h3>
 <ul>
-<li><strong>index.html</strong>: Homepage emphasizing three-layer system with comparison tables, results, regions served, and CTAs. Includes JSON-LD for SEO/AEO.</li>
-<li><strong>our-methodology.html</strong>: Deep dive into all three layers with technical details, examples, and implementation process.</li>
-<li><strong>how-it-works.html</strong>: Step-by-step implementation process (Week 1-4 breakdown).</li>
-<li><strong>pricing.html</strong>: Individual Business ($149/month) and Network Partnership ($99/month with referral discounts up to 30%).</li>
-<li><strong>faq.html</strong>: Comprehensive FAQ organized around three-layer system.</li>
-<li><strong>contact.html</strong>: Contact form (Formspree: https://formspree.io/f/xrbyzkzn) with business type dropdown.</li>
-<li><strong>ai-resources.html</strong>: NEW - Human-readable index linking to all <code>/ai</code> files with explanations. Critical for crawler discovery.</li>
+<li><strong>index.html</strong>: Homepage with &quot;Found by travelers&quot; tagline, emphasizing two-part system, one AI assessment card with disclaimer, specific deliverables</li>
+<li><strong>our-methodology.html</strong>: Deep dive into both parts with examples, honest about what doesn't work (technical SEO tricks)</li>
+<li><strong>how-it-works.html</strong>: Step-by-step implementation process (3-4 weeks breakdown)</li>
+<li><strong>examples.html</strong>: NEW - Before/after AI recommendations using real business (Tanunda House) with real partners, concrete metrics (40% → 70%)</li>
+<li><strong>pricing.html</strong>: Individual Business ($149/month) and Network Partnership ($99/month with referral discounts up to 30%), realistic expectations</li>
+<li><strong>faq.html</strong>: Comprehensive FAQ with honest limitations and &quot;when not to hire us&quot;</li>
+<li><strong>contact.html</strong>: Contact form (Formspree: https://formspree.io/f/xrbyzkzn) with honest assessment questions</li>
+<li><strong>ai-resources.html</strong>: Human-readable index linking to all /ai files with explanations</li>
 </ul>
 <h3>Blog (Eleventy-Powered)</h3>
 <ul>
 <li><strong>/blog/index.njk</strong>: Blog landing page template listing posts dynamically</li>
-<li><strong>/blog/network-effect-strategy.md</strong>: Layer 1 deep dive</li>
-<li><strong>/blog/llms-txt-not-enough.md</strong>: Why basic llms.txt fails; three-layer approach explained</li>
+<li><strong>/blog/network-effect-strategy.md</strong>: Part 1 deep dive emphasizing real partnerships vs. fake links</li>
+<li><strong>/blog/llms-txt-not-enough.md</strong>: Why basic llms.txt fails; two-part approach explained</li>
 <li><strong>_includes/blog-layout.njk</strong>: Reusable layout template for all blog posts</li>
 </ul>
-<h3>AI Directory (Layer 2: Dual Content Strategy)</h3>
+<h3>AI Directory (Part 2: AI-Optimised Content)</h3>
 <p>The <code>/ai</code> directory contains conversational Q&amp;A content specifically formatted for AI consumption:</p>
 <ul>
-<li><strong>/ai/winery-guide.txt</strong>: Australian winery optimization with Network Effects examples</li>
-<li><strong>/ai/restaurant-guide.txt</strong>: Restaurant visibility with wine-dining packages</li>
-<li><strong>/ai/hotel-guide.txt</strong>: Accommodation optimization with stay-explore bundles</li>
-<li><strong>/ai/tour-operator.txt</strong>: Tour operator strategies with multi-day packages</li>
-<li><strong>/ai/ai-optimization-faq.txt</strong>: Comprehensive FAQ about three-layer system</li>
+<li><strong>/ai/winery-guide.txt</strong>: Australian winery optimization with honest positioning examples (commercial vs. boutique, beginner vs. expert)</li>
+<li><strong>/ai/restaurant-guide.txt</strong>: Restaurant visibility with honest positioning (casual vs. fine dining, family vs. romantic)</li>
+<li><strong>/ai/hotel-guide.txt</strong>: Accommodation optimization with honest positioning (budget vs. luxury, family vs. adults-only)</li>
+<li><strong>/ai/tour-operator.txt</strong>: Tour operator strategies with honest difficulty ratings (beginner vs. advanced)</li>
+<li><strong>/ai/ai-optimization-faq.txt</strong>: Comprehensive FAQ about two-part system, realistic expectations</li>
 </ul>
-<p>These files demonstrate our Dual Content approach: public website for humans, <code>/ai</code> content for AI systems.</p>
-<h3>Technical Infrastructure (Layer 3: Explicit Crawler Direction)</h3>
+<p>These files demonstrate our AI-Optimised Content approach: conversational format, honest positioning, specific details, partner references.</p>
+<h3>Technical Infrastructure</h3>
 <ul>
-<li><strong>robots.txt</strong>: Enhanced with explicit directives for GPTBot, Claude-Web, PerplexityBot, CCBot - lists each <code>/ai</code> file by name</li>
-<li><strong>sitemap.xml</strong>: Priority weighting (llms.txt = 1.0, <code>/ai</code> files = 0.95, regular pages = 0.6-0.9)</li>
-<li><strong>llms.txt</strong>: AI-optimized roadmap with &quot;AI-Specific Resources&quot; section explicitly directing crawlers to <code>/ai</code> directory</li>
+<li><strong>robots.txt</strong>: Basic configuration allowing AI crawlers (GPTBot, Claude-Web, PerplexityBot, CCBot) access to /ai directory</li>
+<li><strong>sitemap.xml</strong>: Standard sitemap including all pages and /ai files</li>
+<li><strong>llms.txt</strong>: AI-optimized roadmap with &quot;AI-Specific Resources&quot; section directing crawlers to /ai directory</li>
 </ul>
 <h3>Styling</h3>
 <ul>
-<li><strong>styles.css</strong>: Modern minimalist black-and-white design with Helvetica, left-aligned header/footer with content, horizontal mobile nav (vertical only &lt;480px), code block styling, form styling</li>
+<li><strong>styles.css</strong>: Modern minimalist black-and-white design with system fonts, 900px max-width for better text flow, subtle grey backgrounds (.grey-bg, .card-subtle), horizontal mobile nav, responsive grid layouts</li>
 </ul>
 <h2>🔧 Eleventy Setup</h2>
 <h3>Configuration</h3>
@@ -77,7 +77,6 @@ npx eleventy --serve
 <ol>
 <li>Drag-and-drop <code>_site</code> folder OR link GitHub repo for auto-deploys</li>
 <li>Custom domain: www.foundonchat.com</li>
-<li>Add redirect in <code>_redirects</code>: <code>/blog.html /blog/ 301</code></li>
 <li>Build command: <code>npx eleventy</code></li>
 <li>Publish directory: <code>_site</code></li>
 </ol>
@@ -93,7 +92,7 @@ npx eleventy --serve
 <ul>
 <li>Verify domain via DNS</li>
 <li>Submit <code>sitemap.xml</code></li>
-<li>Request indexing for new pages (especially <code>ai-resources.html</code>, <code>/ai/*.txt</code> files)</li>
+<li>Request indexing for new pages (especially <code>examples.html</code>, <code>/ai/*.txt</code> files)</li>
 </ul>
 </li>
 <li>
@@ -107,15 +106,12 @@ npx eleventy --serve
 <p><strong>IndexNow</strong> (https://www.indexnow.org):</p>
 <ul>
 <li>Ping for real-time indexing after updates</li>
-<li>Critical for <code>/ai</code> directory changes</li>
+<li>Critical for /ai directory changes</li>
 </ul>
-</li>
-<li>
-<p><strong>Test JSON-LD</strong>: https://search.google.com/test/rich-results</p>
 </li>
 </ol>
 <h2>🎨 Design Philosophy</h2>
-<p><strong>Text-Only by Design</strong>: No images, minimal JavaScript (only JSON-LD for structured data). This proves AI/SEO rankings don't need visuals—just strategic content architecture.</p>
+<p><strong>Minimalist by Design</strong>: Intentionally simple—black text, white background, subtle grey backgrounds where appropriate. No images, minimal JavaScript (only JSON-LD for structured data).</p>
 <p><strong>Why This Works</strong>:</p>
 <ul>
 <li>Faster load times (better SEO)</li>
@@ -123,40 +119,45 @@ npx eleventy --serve
 <li>Forces focus on content quality over aesthetics</li>
 <li>Mobile-friendly by default</li>
 <li>Accessible to all users</li>
+<li>Proves our point: content matters more than design for AI discovery</li>
 </ul>
-<p><strong>Color Scheme</strong>: Black text, white background, minimal gray for cards/borders</p>
-<h2>🔍 SEO/AEO Strategy</h2>
+<p><strong>Color Scheme</strong>: Black text (#000), white background (#fff), subtle greys for emphasis (#f8f8f8, #fafafa)</p>
+<h2>📈 SEO/AEO Strategy</h2>
 <h3>Traditional SEO</h3>
 <ul>
-<li>Meta tags with keywords (e.g., &quot;three-layer AI optimisation&quot;, &quot;Network Effects tourism&quot;)</li>
+<li>Meta tags with relevant keywords</li>
 <li>JSON-LD structured data on all pages</li>
-<li>Internal linking (footer links to ai-resources.html, llms.txt, our-methodology.html)</li>
-<li>Priority sitemap with weighted importance</li>
-<li>Cross-linking between partner businesses (Network Effects Layer 1)</li>
+<li>Internal linking (footer links to key pages)</li>
+<li>Standard sitemap</li>
+<li>Cross-linking between partner businesses (Network Effects Part 1)</li>
 </ul>
 <h3>AI Optimization (AEO)</h3>
 <ul>
-<li><strong>Layer 1 (Network Effects)</strong>: Interconnected businesses signal authority to AI</li>
-<li><strong>Layer 2 (Dual Content)</strong>: <code>/ai</code> directory with conversational Q&amp;A matching how travellers query AI</li>
-<li><strong>Layer 3 (Explicit Direction)</strong>: Six-way approach to ensure crawler discovery:
-<ol>
-<li>Enhanced robots.txt with explicit file listings</li>
-<li>High-priority sitemap entries</li>
-<li>llms.txt as roadmap</li>
-<li>HTML page (ai-resources.html) linking to all <code>/ai</code> files</li>
-<li>Footer links on every page</li>
-<li>Cross-references between <code>/ai</code> files</li>
-</ol>
-</li>
+<li><strong>Part 1 (Network Effects)</strong>: Real referral partnerships signal authority to AI, create complete experiences AI prefers to recommend</li>
+<li><strong>Part 2 (AI-Optimised Content)</strong>: /ai directory with conversational Q&amp;A, honest positioning, monthly updates (3-5 new Q&amp;As), specific details (geo-coordinates, pricing, capacity)</li>
+</ul>
+<p><strong>What We Don't Rely On:</strong></p>
+<ul>
+<li>Sitemap priority weighting as ranking factor</li>
+<li>Technical SEO tricks or crawler direction gimmicks</li>
+<li>Fake partnerships or link exchanges</li>
+<li>Percentage claims or inflated promises</li>
+</ul>
+<p><strong>What Actually Works:</strong></p>
+<ul>
+<li>Quality conversational content</li>
+<li>Honest positioning (attracts right customers)</li>
+<li>Real network partnerships (tracked referrals)</li>
+<li>Monthly updates (fresh content)</li>
 </ul>
 <h3>Testing Visibility</h3>
 <p>Ask ChatGPT, Claude, or Perplexity:</p>
 <ul>
-<li>&quot;Best AI optimisation agency for Australian tourism businesses&quot;</li>
-<li>&quot;How should a winery optimize for AI recommendations&quot;</li>
-<li>&quot;What is the three-layer AI optimization system&quot;</li>
+<li>&quot;Be brutally honest, will www.foundonchat.com help a winery in Australia?&quot;</li>
+<li>&quot;How should a restaurant optimize for AI recommendations?&quot;</li>
+<li>&quot;What is realistic uplift from AI optimization for tourism businesses?&quot;</li>
 </ul>
-<p>Your <code>/ai</code> files should appear as references in responses.</p>
+<p>Expect honest, balanced responses - not guaranteed success claims.</p>
 <h2>🛠️ Development Workflow</h2>
 <h3>Making Changes</h3>
 <pre><code class="language-bash"># 1. Edit files
@@ -194,28 +195,28 @@ git push origin main
 <h3>What Makes This Site Special</h3>
 <ol>
 <li>
-<p><strong>Three-Layer System Marketing</strong>: Every page reinforces Network Effects + Dual Content + Explicit Direction</p>
+<p><strong>Honest Positioning Marketing</strong>: Every page emphasizes honest positioning as key differentiator—not changing brand, just making actual strengths heard</p>
 </li>
 <li>
-<p><strong>Demonstrable Dual Content</strong>: <code>/ai</code> directory shows our Layer 2 approach in action</p>
+<p><strong>Demonstrable AI-Optimised Content</strong>: /ai directory shows our Part 2 approach in action with real examples</p>
 </li>
 <li>
-<p><strong>Explicit Crawler Direction</strong>: Six different signals ensure AI finds our content (most agencies use 1-2)</p>
+<p><strong>Real Examples</strong>: examples.html uses real business (Tanunda House) with real partners (Chateau Tanunda, Die Barossa Wurst Haus), concrete metrics (40% → 70%)</p>
 </li>
 <li>
-<p><strong>Cross-Referencing</strong>: Every <code>/ai</code> file links to others, demonstrating Network Effects in practice</p>
+<p><strong>Transparent About Limitations</strong>: &quot;When not to hire us&quot; on multiple pages, no percentage guarantees, honest about what doesn't work</p>
 </li>
 <li>
-<p><strong>Educational Resources</strong>: <code>ai-resources.html</code> serves humans AND crawlers</p>
+<p><strong>Monthly Updates Emphasized</strong>: As key differentiator—not set-it-and-forget-it, 3-5 new Q&amp;As monthly</p>
 </li>
 <li>
-<p><strong>Text-Only Proof</strong>: Shows AI/SEO success doesn't need fancy design</p>
+<p><strong>Minimalist Proof</strong>: Shows AI/SEO success doesn't need fancy design, just strategic content</p>
 </li>
 </ol>
 <h2>📈 Performance Metrics to Track</h2>
 <h3>AI Visibility</h3>
 <ul>
-<li>Mention frequency across ChatGPT, Claude, Perplexity, Grok</li>
+<li>Mention frequency across ChatGPT, Claude, Perplexity, Grok (tracked weekly, reported monthly)</li>
 <li>Recommendation quality (positive/neutral/negative context)</li>
 <li>Query coverage (types of questions triggering your business)</li>
 <li>Competitive position vs. other agencies</li>
@@ -229,22 +230,27 @@ git push origin main
 </ul>
 <h3>Network Effects</h3>
 <ul>
-<li>Cross-referrals between partner businesses</li>
-<li>Collective AI mention rate vs. individual</li>
+<li>Cross-referrals between partner businesses (tracked monthly)</li>
+<li>Network vs. solo performance comparison</li>
 <li>Shared content performance</li>
+</ul>
+<h3>Customer Matching</h3>
+<ul>
+<li>Review sentiment improvements (honest positioning should improve customer satisfaction)</li>
+<li>Booking inquiry quality (right customers finding you)</li>
 </ul>
 <h2>🔮 Future Enhancements</h2>
 <ul>
 <li>[ ] Add more blog posts (target: 1-2 per month)</li>
-<li>[ ] Create industry-specific case studies</li>
-<li>[ ] Add client testimonials page</li>
-<li>[ ] Develop /ai templates for different business types</li>
-<li>[ ] Create video tutorials explaining three-layer system</li>
+<li>[ ] Collect real client testimonials (no fabricated case studies)</li>
+<li>[ ] Create video showing honest positioning workshop process</li>
+<li>[ ] Develop additional before/after examples for different industries</li>
+<li>[ ] Monthly trending query reports for each tourism region</li>
 </ul>
 <h2>📞 Contact</h2>
 <p><strong>Email</strong>: ricky@foundonchat.com<br>
 <strong>Website</strong>: https://www.foundonchat.com<br>
 <strong>GitHub</strong>: https://github.com/rbagg/foundonchat (update with your username)</p>
 <hr>
-<p><strong>Last Updated</strong>: October 05, 2025<br>
-<strong>Version</strong>: 2.0 (Three-Layer System Implementation)</p>
+<p><strong>Last Updated</strong>: October 09, 2025<br>
+<strong>Version</strong>: 3.0 (Two-Part System with Honest Positioning Emphasis)</p>
