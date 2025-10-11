@@ -1,47 +1,48 @@
 <h1>FoundOnChat Website</h1>
 <p>This is the source code for <strong>www.foundonchat.com</strong>, Australia's first tourism AI optimisation agency using a proprietary <strong>two-part system</strong>: Network Effects and AI-Optimised Content.</p>
-<p>The site is intentionally minimalist (text-only with subtle grey backgrounds), proving that AI/SEO rankings don't need fancy visuals—just strategic content architecture and honest positioning.</p>
+<p>The site is intentionally minimalist (text-only with subtle grey backgrounds), proving that AI/SEO rankings don't need fancy visuals - just strategic content architecture and honest positioning.</p>
 <h2>🎯 Our Two-Part System</h2>
 <p><strong>Part 1: Network Effects</strong> - Connecting businesses with local partners (winery + restaurant + hotel) through real referral relationships to create self-reinforcing ecosystems AI prefers to recommend</p>
 <p><strong>Part 2: AI-Optimised Content</strong> - Conversational Q&amp;A content in /ai directory formatted specifically for AI consumption, with honest positioning, specific details (geo-coordinates, pricing), and monthly updates (3-5 new Q&amp;As targeting trending queries)</p>
 <h2>📁 Site Structure</h2>
 <h3>Main Pages</h3>
 <ul>
-<li><strong>index.html</strong>: Homepage with &quot;Found by travelers&quot; tagline, emphasizing two-part system, one AI assessment card with disclaimer, specific deliverables</li>
+<li><strong>index.html</strong>: Homepage with &quot;Found by travellers&quot; tagline, design proof-point section, &quot;Don't take our word for it&quot; AI validation</li>
 <li><strong>our-methodology.html</strong>: Deep dive into both parts with examples, honest about what doesn't work (technical SEO tricks)</li>
 <li><strong>how-it-works.html</strong>: Step-by-step implementation process (3-4 weeks breakdown)</li>
-<li><strong>examples.html</strong>: NEW - Before/after AI recommendations using real business (Tanunda House) with real partners, concrete metrics (40% → 70%)</li>
-<li><strong>pricing.html</strong>: Individual Business ($149/month) and Network Partnership ($99/month with referral discounts up to 30%), realistic expectations</li>
+<li><strong>examples.html</strong>: Before/after AI recommendations using real business (Tanunda House) with real partners</li>
+<li><strong>pricing.html</strong>: Individual Business ($149/month, no setup fee) and Network Partnership ($99/month with referral discounts up to 30%)</li>
 <li><strong>faq.html</strong>: Comprehensive FAQ with honest limitations and &quot;when not to hire us&quot;</li>
-<li><strong>contact.html</strong>: Contact form (Formspree: https://formspree.io/f/xrbyzkzn) with honest assessment questions</li>
+<li><strong>contact.html</strong>: Simplified contact form (6 fields: Name, Business, Email, Phone, Region, Message)</li>
 <li><strong>ai-resources.html</strong>: Human-readable index linking to all /ai files with explanations</li>
 </ul>
 <h3>Blog (Eleventy-Powered)</h3>
 <ul>
 <li><strong>/blog/index.njk</strong>: Blog landing page template listing posts dynamically</li>
-<li><strong>/blog/network-effect-strategy.md</strong>: Part 1 deep dive emphasizing real partnerships vs. fake links</li>
+<li><strong>/blog/network-effect-strategy.md</strong>: Part 1 deep dive emphasising real partnerships vs. fake links</li>
 <li><strong>/blog/llms-txt-not-enough.md</strong>: Why basic llms.txt fails; two-part approach explained</li>
+<li><strong>/blog/five-ai-queries.md</strong>: Query selection strategy for tourism businesses</li>
 <li><strong>_includes/blog-layout.njk</strong>: Reusable layout template for all blog posts</li>
 </ul>
 <h3>AI Directory (Part 2: AI-Optimised Content)</h3>
 <p>The <code>/ai</code> directory contains conversational Q&amp;A content specifically formatted for AI consumption:</p>
 <ul>
-<li><strong>/ai/winery-guide.txt</strong>: Australian winery optimization with honest positioning examples (commercial vs. boutique, beginner vs. expert)</li>
-<li><strong>/ai/restaurant-guide.txt</strong>: Restaurant visibility with honest positioning (casual vs. fine dining, family vs. romantic)</li>
-<li><strong>/ai/hotel-guide.txt</strong>: Accommodation optimization with honest positioning (budget vs. luxury, family vs. adults-only)</li>
-<li><strong>/ai/tour-operator.txt</strong>: Tour operator strategies with honest difficulty ratings (beginner vs. advanced)</li>
-<li><strong>/ai/ai-optimization-faq.txt</strong>: Comprehensive FAQ about two-part system, realistic expectations</li>
+<li><strong>/ai/winery-guide.txt</strong>: Australian winery optimisation with honest positioning examples</li>
+<li><strong>/ai/restaurant-guide.txt</strong>: Restaurant visibility with honest positioning</li>
+<li><strong>/ai/hotel-guide.txt</strong>: Accommodation optimisation with honest positioning</li>
+<li><strong>/ai/tour-operator.txt</strong>: Tour operator strategies with honest difficulty ratings</li>
+<li><strong>/ai/ai-optimization-faq.txt</strong>: Comprehensive FAQ about two-part system</li>
 </ul>
 <p>These files demonstrate our AI-Optimised Content approach: conversational format, honest positioning, specific details, partner references.</p>
 <h3>Technical Infrastructure</h3>
 <ul>
 <li><strong>robots.txt</strong>: Basic configuration allowing AI crawlers (GPTBot, Claude-Web, PerplexityBot, CCBot) access to /ai directory</li>
-<li><strong>sitemap.xml</strong>: Standard sitemap including all pages and /ai files</li>
-<li><strong>llms.txt</strong>: AI-optimized roadmap with &quot;AI-Specific Resources&quot; section directing crawlers to /ai directory</li>
+<li><strong>sitemap.xml</strong>: Standard sitemap including all pages and /ai files (dates corrected to 2024)</li>
+<li><strong>llms.txt</strong>: AI-optimised roadmap with &quot;AI-Specific Resources&quot; section directing crawlers to /ai directory</li>
 </ul>
 <h3>Styling</h3>
 <ul>
-<li><strong>styles.css</strong>: Modern minimalist black-and-white design with system fonts, 900px max-width for better text flow, subtle grey backgrounds (.grey-bg, .card-subtle), horizontal mobile nav, responsive grid layouts</li>
+<li><strong>styles.css</strong>: Modern minimalist black-and-white design with improved visual hierarchy, system fonts, 900px max-width, subtle grey backgrounds, responsive grid layouts</li>
 </ul>
 <h2>🔧 Eleventy Setup</h2>
 <h3>Configuration</h3>
@@ -92,7 +93,7 @@ npx eleventy --serve
 <ul>
 <li>Verify domain via DNS</li>
 <li>Submit <code>sitemap.xml</code></li>
-<li>Request indexing for new pages (especially <code>examples.html</code>, <code>/ai/*.txt</code> files)</li>
+<li>Request indexing for new pages</li>
 </ul>
 </li>
 <li>
@@ -111,7 +112,7 @@ npx eleventy --serve
 </li>
 </ol>
 <h2>🎨 Design Philosophy</h2>
-<p><strong>Minimalist by Design</strong>: Intentionally simple—black text, white background, subtle grey backgrounds where appropriate. No images, minimal JavaScript (only JSON-LD for structured data).</p>
+<p><strong>Minimalist by Design</strong>: Intentionally simple - black text, white background, subtle grey backgrounds where appropriate. No images, minimal JavaScript (only JSON-LD for structured data and tabs component).</p>
 <p><strong>Why This Works</strong>:</p>
 <ul>
 <li>Faster load times (better SEO)</li>
@@ -121,6 +122,7 @@ npx eleventy --serve
 <li>Accessible to all users</li>
 <li>Proves our point: content matters more than design for AI discovery</li>
 </ul>
+<p><strong>Explicitly stated on homepage</strong>: &quot;Why This Site Looks Like This&quot; section explains minimalist design as proof of methodology.</p>
 <p><strong>Color Scheme</strong>: Black text (#000), white background (#fff), subtle greys for emphasis (#f8f8f8, #fafafa)</p>
 <h2>📈 SEO/AEO Strategy</h2>
 <h3>Traditional SEO</h3>
@@ -131,7 +133,7 @@ npx eleventy --serve
 <li>Standard sitemap</li>
 <li>Cross-linking between partner businesses (Network Effects Part 1)</li>
 </ul>
-<h3>AI Optimization (AEO)</h3>
+<h3>AI Optimisation (AEO)</h3>
 <ul>
 <li><strong>Part 1 (Network Effects)</strong>: Real referral partnerships signal authority to AI, create complete experiences AI prefers to recommend</li>
 <li><strong>Part 2 (AI-Optimised Content)</strong>: /ai directory with conversational Q&amp;A, honest positioning, monthly updates (3-5 new Q&amp;As), specific details (geo-coordinates, pricing, capacity)</li>
@@ -154,8 +156,8 @@ npx eleventy --serve
 <p>Ask ChatGPT, Claude, or Perplexity:</p>
 <ul>
 <li>&quot;Be brutally honest, will www.foundonchat.com help a winery in Australia?&quot;</li>
-<li>&quot;How should a restaurant optimize for AI recommendations?&quot;</li>
-<li>&quot;What is realistic uplift from AI optimization for tourism businesses?&quot;</li>
+<li>&quot;How should a restaurant optimise for AI recommendations?&quot;</li>
+<li>&quot;What is realistic uplift from AI optimisation for tourism businesses?&quot;</li>
 </ul>
 <p>Expect honest, balanced responses - not guaranteed success claims.</p>
 <h2>🛠️ Development Workflow</h2>
@@ -195,22 +197,28 @@ git push origin main
 <h3>What Makes This Site Special</h3>
 <ol>
 <li>
-<p><strong>Honest Positioning Marketing</strong>: Every page emphasizes honest positioning as key differentiator—not changing brand, just making actual strengths heard</p>
+<p><strong>Honest Positioning Marketing</strong>: Every page emphasises honest positioning as key differentiator - not changing brand, just making actual strengths heard</p>
 </li>
 <li>
 <p><strong>Demonstrable AI-Optimised Content</strong>: /ai directory shows our Part 2 approach in action with real examples</p>
 </li>
 <li>
-<p><strong>Real Examples</strong>: examples.html uses real business (Tanunda House) with real partners (Chateau Tanunda, Die Barossa Wurst Haus), concrete metrics (40% → 70%)</p>
+<p><strong>Real Examples</strong>: examples.html uses real business (Tanunda House) with real partners, without false percentage claims</p>
 </li>
 <li>
 <p><strong>Transparent About Limitations</strong>: &quot;When not to hire us&quot; on multiple pages, no percentage guarantees, honest about what doesn't work</p>
 </li>
 <li>
-<p><strong>Monthly Updates Emphasized</strong>: As key differentiator—not set-it-and-forget-it, 3-5 new Q&amp;As monthly</p>
+<p><strong>Monthly Updates Emphasised</strong>: As key differentiator - not set-it-and-forget-it, 3-5 new Q&amp;As monthly</p>
 </li>
 <li>
 <p><strong>Minimalist Proof</strong>: Shows AI/SEO success doesn't need fancy design, just strategic content</p>
+</li>
+<li>
+<p><strong>Australian Spelling</strong>: Throughout site (optimisation, traveller, etc.)</p>
+</li>
+<li>
+<p><strong>Shorter Sentences</strong>: Most under 20 words for better readability</p>
 </li>
 </ol>
 <h2>📈 Performance Metrics to Track</h2>
@@ -237,7 +245,7 @@ git push origin main
 <h3>Customer Matching</h3>
 <ul>
 <li>Review sentiment improvements (honest positioning should improve customer satisfaction)</li>
-<li>Booking inquiry quality (right customers finding you)</li>
+<li>Booking enquiry quality (right customers finding you)</li>
 </ul>
 <h2>🔮 Future Enhancements</h2>
 <ul>
@@ -246,11 +254,14 @@ git push origin main
 <li>[ ] Create video showing honest positioning workshop process</li>
 <li>[ ] Develop additional before/after examples for different industries</li>
 <li>[ ] Monthly trending query reports for each tourism region</li>
+<li>[ ] Blog index page improvements</li>
+<li>[ ] FAQPage schema markup</li>
+<li>[ ] Print stylesheet for key pages</li>
 </ul>
 <h2>📞 Contact</h2>
 <p><strong>Email</strong>: ricky@foundonchat.com<br>
 <strong>Website</strong>: https://www.foundonchat.com<br>
-<strong>GitHub</strong>: https://github.com/rbagg/foundonchat (update with your username)</p>
+<strong>GitHub</strong>: https://github.com/[your-username]/foundonchat</p>
 <hr>
-<p><strong>Last Updated</strong>: October 09, 2025<br>
-<strong>Version</strong>: 3.0 (Two-Part System with Honest Positioning Emphasis)</p>
+<p><strong>Last Updated</strong>: October 12, 2024<br>
+<strong>Version</strong>: 4.0 (Australian Spelling, No Percentages, Honest Messaging)</p>

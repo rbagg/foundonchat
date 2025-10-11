@@ -40,7 +40,7 @@
 
 {% if type == "examples" %}
 <div class="ai-tabs-container">
-  <p class="simulation-note"><strong>Note:</strong> These are simulated examples showing typical AI behavior patterns based on our testing methodology.</p>
+  <p class="simulation-note"><strong>How we created these examples:</strong> We asked AI systems to demonstrate how they would respond to the same query with and without our optimisation approach. We told them to be brutally honest. These responses show what AI systems look for when making recommendations.</p>
   
   <div class="ai-tabs-header">
     <button class="ai-tab-btn active" data-tab="chatgpt">{{ aiExamples.llms.chatgpt.name }}</button>
@@ -52,14 +52,15 @@
   <div class="ai-tabs-content">
     {% for key, llm in aiExamples.llms %}
     <div class="ai-tab-panel {% if loop.first %}active{% endif %}" data-panel="{{ key }}">
-      <h3>Without Optimization (Current baseline: {{ aiExamples.baselineRate }} recommendation rate)</h3>
+      <h3>Without Optimisation (Baseline)</h3>
       <div class="card-subtle">
         {{ llm.before | safe | replace('\n\n', '</p><p>') | replace('\n', '<br>') | safe }}
       </div>
       
-      <p><strong>What's missing:</strong> Generic details, no specific packages, vague partner references, no honest positioning about who it's actually for. Result: Secondary mention, feels like an add-on option.</p>
+      <p><strong>What's missing:</strong> Generic details, no specific packages, vague partner references, no honest positioning about who it's actually for.</p>
+      <p><strong>Result:</strong> Secondary mention, feels like an add-on option.</p>
       
-      <h3>With Optimization (Projected: {{ aiExamples.optimizedRate }} recommendation rate)</h3>
+      <h3>With Optimisation (Enhanced)</h3>
       <div class="grey-bg">
         {{ llm.after | safe | replace('\n\n', '</p><p>') | replace('\n', '<br>') | safe }}
       </div>
@@ -69,11 +70,13 @@
         <li><strong>Specific details:</strong> Room count, exact amenities, realistic pricing</li>
         <li><strong>Honest positioning:</strong> "Self-catered," "wine enthusiasts," "quiet luxury" - attracts right customers</li>
         <li><strong>Real partner references:</strong> Chateau Tanunda, Die Barossa Wurst Haus, Tanunda Cycles, Barossa Balloons</li>
-        <li><strong>Query matching:</strong> Content directly addresses traveler's specific needs</li>
+        <li><strong>Query matching:</strong> Content directly addresses traveller's specific needs</li>
         <li><strong>Authentic touches:</strong> Local events (Vintage Festival), regional context, practical logistics</li>
       </ul>
       
-      <p><strong>Impact:</strong> Tanunda House moves from secondary mention ({{ aiExamples.baselineRate }} of queries) to lead recommendation ({{ aiExamples.optimizedRate }} of queries). More importantly, recommendations better match actual property strengths, attracting wine enthusiasts rather than families seeking resort amenities.</p>
+      <p><strong>Impact:</strong> Tanunda House moves from secondary mention to lead recommendation.</p>
+      <p>More importantly, recommendations better match actual property strengths.</p>
+      <p>This attracts wine enthusiasts rather than families seeking resort amenities.</p>
     </div>
     {% endfor %}
   </div>
