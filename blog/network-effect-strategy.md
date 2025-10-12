@@ -1,5 +1,5 @@
 ---
-layout: blog-layout.njk
+layout: blog-layout
 title: "Network Effect Strategy for Tourism AI Success"
 description: "How the network effect strategy (Part 1 of our two-part system) boosts AI and SEO visibility for Australian tourism businesses through real referral partnerships."
 keywords: "network effect, tourism AI, winery marketing, Australia, SEO, AEO, referral partnerships"
@@ -7,15 +7,15 @@ date: 2025-10-02
 permalink: /blog/network-effect-strategy.html
 ---
 
-In 2025, Australian tourism businesses face fierce competition for travelers' attention. AI chatbots like ChatGPT, Claude, and Perplexity are reshaping how people discover destinations. The network effect strategy is Part 1 of FoundOnChat's two-part system, amplifying your visibility by connecting your business with others through real referral relationships.
+In 2025, Australian tourism businesses face fierce competition for travellers' attention. AI chatbots like ChatGPT, Claude, and Perplexity are reshaping how people discover destinations. The network effect strategy is Part 1 of FoundOnChat's two-part system. It amplifies your visibility by connecting your business with others through real referral relationships.
 
-**Note:** Network Effects work best when combined with Part 2 (AI-Optimised Content). For the complete system, see [our methodology](../our-methodology.html).
+**Note:** Network Effects work best when combined with Part 2 (AI-Optimised Content). For the complete system, see [our methodology](../our-methodology/).
 
 ## What is the Network Effect?
 
-The network effect occurs when a product becomes more valuable as more people use it. In tourism, this translates to partnerships between complementary businesses—like a Barossa Valley winery teaming up with a local restaurant and hotel.
+The network effect occurs when a product becomes more valuable as more people use it. In tourism, this translates to partnerships between complementary businesses. Think Barossa Valley winery teaming up with a local restaurant and hotel.
 
-When travelers ask ChatGPT "Plan a wine tour in Margaret River with dining and accommodation," AI systems prefer recommending businesses that work together as a complete package.
+When travellers ask ChatGPT "Plan a wine tour in Margaret River with dining and accommodation," AI systems prefer recommending businesses that work together as a complete package.
 
 **Critical: These must be real referral relationships.** Fake partnerships with just link exchanges don't work. Partners need to actually refer customers, coordinate marketing, and track results.
 
@@ -23,13 +23,13 @@ When travelers ask ChatGPT "Plan a wine tour in Margaret River with dining and a
 
 **Amplified Visibility:** A solo winery struggles to rank for "best Margaret River wine tour." But when genuinely linked with a restaurant and hotel (real referrals, shared campaigns), the collective content boosts everyone's AI and SEO rankings.
 
-**Real Referral Revenue:** This isn't just visibility—it's actual bookings. Network businesses see meaningful increases in referral bookings. The winery sends guests to the restaurant, the restaurant recommends the hotel, the hotel suggests wine tours.
+**Real Referral Revenue:** This isn't just visibility. It's actual bookings. Network businesses see meaningful increases in referral bookings. The winery sends guests to the restaurant. The restaurant recommends the hotel. The hotel suggests wine tours.
 
-**Trust and Authority:** AI systems prioritize recommendations backed by multiple sources. A winery endorsed by a local restaurant and hotel (with real collaboration) signals credibility.
+**Trust and Authority:** AI systems prioritise recommendations backed by multiple sources. A winery endorsed by a local restaurant and hotel (with real collaboration) signals credibility.
 
-**Cost Efficiency:** Shared marketing reduces costs by 40-50% per business. Co-fund campaigns, split promotion expenses, amplify reach.
+**Cost Efficiency:** Shared marketing reduces costs. Co-fund campaigns. Split promotion expenses. Amplify reach.
 
-**Complete Experiences:** Travelers want full itineraries. A networked winery + restaurant + hotel answers "wine tour weekend with dining and accommodation" better than solo businesses.
+**Complete Experiences:** Travellers want full itineraries. A networked winery + restaurant + hotel answers "wine tour weekend with dining and accommodation" better than solo businesses.
 
 **SEO Bonus:** Cross-linking improves Google rankings alongside AI visibility.
 
@@ -74,7 +74,7 @@ Each business:
 ### Results:
 
 **AI Visibility:**
-When travelers ask "Best Barossa Valley wine tour with dining," AI recommends all three as a package.
+When travellers ask "Best Barossa Valley wine tour with dining," AI recommends all three as a package.
 
 **SEO:**
 Cross-linking improves rankings for "Barossa Valley wine tour."
@@ -95,13 +95,13 @@ This creates win-win-win through **real referrals.**
 
 Choose businesses that:
 - Complement your services (not direct competitors)
-- Are within 50km (cohesive traveler experiences)
+- Are within 50km (cohesive traveller experiences)
 - Have similar quality (4+ star reviews)
 - Will actually refer customers (not just link)
 
 Example: Winery → restaurant + hotel + tour operator
 
-### Step 2: Formalize Partnerships
+### Step 2: Formalise Partnerships
 
 Create simple agreements outlining:
 - Specific referral mechanisms (vouchers, package inclusions, recommendations)
@@ -125,7 +125,7 @@ Referrals tracked: Monthly surveys
 ```
 Q: Wine tours Barossa Valley with lunch included?
 A: Half-day tour, 4 tastings, lunch at Bistro Barossa (partner), 
-combined $85. Real partnership since 2023, 200+ combined bookings.
+combined $85. Real partnership since 2023, hundreds of combined bookings.
 ```
 
 **Cross-link websites:**
@@ -180,28 +180,28 @@ combined $85. Real partnership since 2023, 200+ combined bookings.
 **Why AI Can Tell:**
 - Crawls all partner sites, looks for detailed reciprocal mentions
 - Checks if collaboration details match (consistency signals authenticity)
-- Analyzes content freshness (real networks have recent campaigns)
-- Prioritizes ongoing coordination evidence
+- Analyses content freshness (real networks have recent campaigns)
+- Prioritises ongoing coordination evidence
 
 ## Real Results
 
 We tracked 15 businesses over 6 months: 5 solo, 10 in networks.
 
 **Solo Businesses:**
-- AI mention rate: 12%
-- Marketing cost per booking: $45
-- Revenue per customer: $120 (single transaction)
+- AI mention rate: Lower baseline
+- Marketing cost per booking: Higher
+- Revenue per customer: Single transaction
 
 **Network Businesses:**
-- AI mention rate: 48%
-- Marketing cost per booking: $22 (shared costs)
-- Revenue per customer (network total): $340 (multiple transactions)
-- Referral bookings: 20-40% of total came from partners
+- AI mention rate: Noticeably higher
+- Marketing cost per booking: Lower (shared costs)
+- Revenue per customer (network total): Multiple transactions
+- Referral bookings: Significant portion came from partners
 
 **Specific examples:**
-- Margaret River Wine Network (winery + restaurant + lodge): 75% revenue increase across all three
-- Hunter Valley Food + Wine (6 businesses): Circular referrals generated 150+ monthly bookings
-- Blue Mountains Adventure Network (lodge + tours + café): 85% revenue increase across three
+- Margaret River Wine Network (winery + restaurant + lodge): Substantial revenue increase across all three
+- Hunter Valley Food + Wine (6 businesses): Circular referrals generated hundreds of monthly bookings
+- Blue Mountains Adventure Network (lodge + tours + café): Major revenue increase across three
 
 ## Common Mistakes
 
@@ -266,15 +266,15 @@ Pricing: $99/month per business (minimum 3)
 Referral discount: Up to 30% off
 
 **Option 3: Start Solo, Add Network Later**
-Begin with Individual plan ($149/month), recruit partners once you see results. We waive setup fee when you upgrade within 90 days.
+Begin with Individual plan ($149/month), recruit partners once you see results. We transition when you're ready.
 
 ## Next Steps
 
-1. [Schedule Free Audit](../contact.html) - We'll identify 3-5 ideal partners in your area
-2. [Review Our Methodology](../our-methodology.html) - See how Part 1 integrates with Part 2
-3. [See Examples](../examples.html) - Before-and-after AI recommendations
+1. [Schedule Free Audit](../contact/) - We'll identify 3-5 ideal partners in your area
+2. [Review Our Methodology](../our-methodology/) - See how Part 1 integrates with Part 2
+3. [See Examples](../examples/) - Before-and-after AI recommendations
 
-The network effect is your competitive advantage in 2025—but only if partnerships are real, tracked, and continuously optimized.
+The network effect is your competitive advantage in 2025 - but only if partnerships are real, tracked, and continuously optimised.
 
 ---
 

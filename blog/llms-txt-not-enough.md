@@ -80,12 +80,12 @@ AI sees cross-references. Treats your network as validated. Recommends you toget
 ### Real Example: Before and After
 
 **Before (llms.txt only):**
-- AI mention rate: 15% of relevant queries
+- AI mention rate: Lower baseline
 - Generic descriptions when mentioned
 - Rarely recommended with complementary businesses
 
 **After (llms.txt + optimised content + network):**
-- AI mention rate: 65% of relevant queries
+- AI mention rate: Noticeably higher
 - Specific, accurate descriptions
 - Bundled recommendations with partners
 
@@ -113,10 +113,10 @@ llms.txt gets AI crawlers to your site. But quality content and network validati
 
 Or hire someone who already knows this system. We do this for Australian tourism businesses monthly.
 
-<a href="/contact.html">Schedule free audit</a> to see where you currently stand.
+<a href="/contact/">Schedule free audit</a> to see where you currently stand.
 
 ### Further Reading
 
-- <a href="/our-methodology.html">Our Two-Part System Explained</a>
-- <a href="/examples.html">Before and After AI Responses</a>
+- <a href="/our-methodology/">Our Two-Part System Explained</a>
+- <a href="/examples/">Before and After AI Responses</a>
 - <a href="/blog/network-effect-strategy.html">Why Networks Win</a>

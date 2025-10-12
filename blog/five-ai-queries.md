@@ -261,11 +261,11 @@ Test: If you ask 10 people whether they'd search this, 3-4 should say yes.
 
 Or hire someone who does this professionally. We track AI queries for Australian tourism businesses monthly.
 
-<a href="/contact.html">Schedule free audit</a> - we'll identify your five queries together.
+<a href="/contact/">Schedule free audit</a> - we'll identify your five queries together.
 
 ### Further Reading
 
-- <a href="/our-methodology.html">Our Two-Part System</a>
-- <a href="/examples.html">Before and After AI Responses</a>
+- <a href="/our-methodology/">Our Two-Part System</a>
+- <a href="/examples/">Before and After AI Responses</a>
 - <a href="/blog/network-effect-strategy.html">Why Networks Win</a>
 - <a href="/blog/llms-txt-not-enough.html">Why llms.txt Isn't Enough</a>
