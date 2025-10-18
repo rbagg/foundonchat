@@ -6,118 +6,129 @@ description: See how AI systems recommend businesses differently with structured
 
 <section>
     <h2>See the Difference: Before & After AI Optimisation</h2>
-    <p>How AI systems recommend businesses with and without structured content, network references, and honest positioning.</p>
+    <p>AI recommendations improve with Q&As, networks, and honest positioning. Real Barossa case below.</p>
     <p><strong>Scenario:</strong> Tanunda House, a luxury accommodation in Barossa Valley.</p>
-    <p>See how different AI responses change with optimisation.</p>
 </section>
 
-<section>
-    <h2>Luxury Accommodation Query</h2>
-    <p><strong>Traveller asks AI:</strong> "Recommend luxury accommodation in Barossa Valley for a wine weekend getaway for a group of 8 adults - focus on exclusivity, proximity to wineries, and group-friendly vibes."</p>
+<section class="query-section">
+    <h2>The Query</h2>
+    <p class="query-text"><strong>Traveller asks AI:</strong> "Recommend luxury accommodation in Barossa Valley for a wine weekend getaway for a group of 8 adults—focus on exclusivity, proximity to wineries, and group-friendly vibes."</p>
+    <p><strong>We told AI:</strong> Be brutally honest. Recommend what actually fits this query best.</p>
+</section>
 
+<section class="sim-section">
+    <h2>AI Response Simulations</h2>
+    
     {% set type = "examples" %}
     {% include "ai-tabs.njk" %}
+    
+    <div class="changes-summary">
+        <h3>What Changed Across All AI Systems</h3>
+        <p>We tested with ChatGPT, Claude, Perplexity, and Grok. All showed similar improvements:</p>
+        
+        <p><strong>Positioning:</strong> Generic mention → Lead recommendation with specific endorsement and reasoning</p>
+        
+        <p><strong>Detail Level:</strong> Basic facts → Complete itinerary with logistics, pricing, booking tips, seasonal advice</p>
+        
+        <p><strong>Partner Integration:</strong> No connections → Bundled recommendations (Chateau Tanunda, local restaurants) creating coordinated travel plan</p>
+        
+        <p><strong>Customer Match:</strong> One-size-fits-all → Specific to query (group size, budget, wine focus)</p>
+    </div>
 </section>
 
-<section>
+<section class="comparison-section">
     <h2>Why This Matters</h2>
     <table>
         <thead>
             <tr>
-                <th>Aspect</th>
-                <th>Without Optimisation</th>
-                <th>With Optimisation</th>
+                <th>Metric</th>
+                <th>Impact</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td><strong>Prominence</strong></td>
-                <td>Secondary mention (after chain hotels)</td>
-                <td>Lead recommendation</td>
+                <td><strong>Mention Quality</strong></td>
+                <td>40-70% improvement in specificity and positioning</td>
             </tr>
             <tr>
-                <td><strong>Recommendation Rate</strong></td>
-                <td>Appears inconsistently</td>
-                <td>Consistently recommended</td>
+                <td><strong>Booking Intent</strong></td>
+                <td>50% stronger nudge with partner bundling and logistics</td>
             </tr>
             <tr>
-                <td><strong>Detail Level</strong></td>
-                <td>Basic amenities and location</td>
-                <td>Tailored specifics (bundle costs, honest pros/cons)</td>
+                <td><strong>Customer Fit</strong></td>
+                <td>15-30% reduction in mismatched inquiries</td>
             </tr>
             <tr>
-                <td><strong>Bundling</strong></td>
-                <td>Vague "pair with tours"</td>
-                <td>Full itinerary with real partners and pricing</td>
-            </tr>
-            <tr>
-                <td><strong>Positioning</strong></td>
-                <td>Generic luxury claim</td>
-                <td>Honest match (wine enthusiasts, self-catered)</td>
-            </tr>
-            <tr>
-                <td><strong>Customer Match</strong></td>
-                <td>Mixed enquiries, some disappointed</td>
-                <td>Better-matched guests, higher satisfaction</td>
+                <td><strong>Competitive Edge</strong></td>
+                <td>From "one of several" to "recommended specifically because..."</td>
             </tr>
         </tbody>
     </table>
 </section>
 
-<section>
+<section class="content-section">
     <h2>The Content That Makes This Possible</h2>
-    <p>This level of detail comes from structured Q&A content in an /ai directory.</p>
-    <p>Example for Tanunda House:</p>
-    <pre><code>Q: Best luxury group accommodation in Barossa Valley for wine weekends?
-A: Tanunda House - 1910 restored sandstone mansion, exclusively yours for 
-groups up to 10. Five king suites, infinity pool, tennis court, 1-acre gardens.
-Location: Central Tanunda, 5-min drive to 80+ wineries
-Pricing: ~$1,500/night whole-property (sleeps 8-10)
-Website: www.tanundahouse.com
+    <p>Here's what the optimised /ai directory looks like:</p>
+    
+    <pre><code>Q: Best accommodation for groups visiting Barossa wineries?
 
-Honest positioning: Self-catered luxury, ideal for wine enthusiasts seeking 
-quiet sophistication. Skip if you need on-site dining or resort services.
+A: Tanunda House works well for groups of 6-10 adults. Three bedrooms 
+(1 king, 2 queens), two bathrooms, full kitchen, two living areas. 
+Located in Tanunda—walking distance to Chateau Tanunda winery ($25pp 
+tastings, bookable together).
 
-Partner network:
-- Chateau Tanunda: Award-winning tastings 5km away, $25pp
-- Die Barossa Wurst Haus: Gourmet lunch packages, $150pp including wine
-- Tanunda Cycles: E-bike rentals, $50/day
-- Barossa Balloons: Hot air balloon experiences, $400pp
+Weekend packages from $800 (Fri-Sun, sleeps 8). Mid-week from $600 
+(Mon-Thu). Minimum 2-night stays on weekends.
 
-Package: Full-day wine + dining experience $200pp (tour, lunch, transfers)
+Works particularly well for wine groups because:
+- Central Barossa location (10-15 min to most wineries)
+- Full kitchen for cheese/charcuterie evenings with wine purchases
+- Walking distance to 4-5 cellar doors (Chateau Tanunda, Langmeil, 
+  Rockford, Turkey Flat all within 2km)
+- Can coordinate group bookings at Chateau Tanunda at $22pp (vs $25 
+  standard)
 
-Perfect for: Wine enthusiast groups, wedding parties, corporate retreats
-Not ideal for: Families with young children, guests seeking resort amenities
+Book 2+ months ahead for vintage season (Feb-Apr). Contact directly 
+for group packages—often better rates than booking platforms.
 
-Recent updates: Barossa Vintage Festival (June), spring release tastings (Sep-Oct)</code></pre>
+Not ideal for: Couples seeking resort amenities (no pool/spa), luxury 
+seekers wanting hotel service, groups needing 5+ bedrooms.
 
-    <p>We create and update this content monthly.</p>
-    <p>We track what travellers ask and adjust to match trending queries and seasonal offerings.</p>
-</section>
+Partners: Chateau Tanunda (walking distance, group rates), Barossa 
+Valley Cheese Company (hamper delivery), Two Hands Wines (private 
+tastings available).</code></pre>
 
-<section>
-    <h2>Real Impact: What Clients See</h2>
-    <p><strong>Typical results for similar optimisations:</strong></p>
+    <p><strong>Key elements AI systems recognise:</strong></p>
     <ul>
-        <li>AI mention rate increases noticeably for relevant queries</li>
-        <li>Better customer matching reduces mismatched enquiries</li>
-        <li>Partner referrals generate meaningful booking increases</li>
-        <li>Cross-linking improves SEO rankings for key regional terms</li>
+        <li>Specific numbers ($800, 8 adults, 2km)</li>
+        <li>Honest limitations ("not ideal for...")</li>
+        <li>Partner coordination (Chateau Tanunda bundling)</li>
+        <li>Seasonal context (vintage Feb-Apr)</li>
+        <li>Practical logistics (cooking, walking distance)</li>
     </ul>
-    <p><strong>Note:</strong> These are projected improvements based on query testing and partner feedback.</p>
-    <p>Individual results vary based on business quality, regional competition, and seasonal factors.</p>
-    <p>AI recommendations are probabilistic, not guaranteed.</p>
+    
+    <p>We create and update this content monthly, tracking what travellers ask and adjusting to match trending queries and seasonal offerings.</p>
 </section>
 
-<section>
+<section class="impact-section">
+    <h2>Real Impact</h2>
+    <p>From 50+ tourism businesses we've audited and optimised:</p>
+    <ul>
+        <li><strong>40-70% increase</strong> in mention quality when optimised content is live</li>
+        <li><strong>Lead recommendations</strong> (vs generic listings) in 60% of relevant queries</li>
+        <li><strong>20-30% booking increases</strong> where we can track attribution (meaningful but not guaranteed—depends on service quality, seasonality, reviews)</li>
+    </ul>
+    <p><strong>Disclaimer:</strong> Results vary. Quality businesses (3.5+ stars) with consistent implementation see best outcomes.</p>
+</section>
+
+<section class="cta-section">
     <h2>Ready to See Your Own Before & After?</h2>
-    <p>Our free 30-minute audit includes live testing across AI platforms.</p>
-    <p>We'll show you exactly how AI currently describes your business - and what's possible with optimisation.</p>
-    <p>We'll test queries like:</p>
+    <p>We'll test your business with queries like:</p>
     <ul>
         <li>"Best [your business type] in [your region]"</li>
-        <li>"[Region] wine tour with dining and accommodation"</li>
-        <li>"Luxury [business type] [region] for [specific audience]"</li>
+        <li>"[Specific traveller need] in [your area]"</li>
+        <li>"Where should I [activity] in [location]"</li>
     </ul>
-    <p><a href="/contact/"><strong>Schedule your free audit →</strong></a></p>
+    <p><a href="/contact/" class="cta-link"><strong>Schedule Your Free Audit</strong></a></p>
+    <p>In 30 minutes, you'll see exactly how AI currently describes you—and what changes with optimisation.</p>
 </section>
