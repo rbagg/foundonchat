@@ -54,7 +54,7 @@ Travellers don't ask "show me llms.txt files." They ask "best family wineries Ba
 
 Your content needs to match how travellers actually ask questions.
 
-### What Actually Works: The partner networks + AI-friendly content
+**What Actually Works: Partner networks + AI-friendly content optimized for ChatGPT**
 
 **Part 1: llms.txt + AI-Optimised Content**
 

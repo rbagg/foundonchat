@@ -1,6 +1,6 @@
 ---
 layout: blog-layout
-title: Five AI Queries Your Tourism Business Should Own
+title: 5 ChatGPT Queries Your Tourism Business Should Own
 description: The specific questions travellers ask AI about your region. How to identify and optimise for the queries that actually drive bookings.
 keywords: AI queries, tourism optimisation, ChatGPT queries, search intent
 date: 2025-10-11

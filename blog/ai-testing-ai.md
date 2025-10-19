@@ -15,7 +15,7 @@ Here's why that matters—and the 40-70% visibility uplift we documented.
 
 ## The Problem With AI Optimisation Claims
 
-Every agency claims they can "get you recommended by AI."
+Every agency claims they can "get you recommended by ChatGPT and AI chatbots."
 
 But how do you know it works?
 
@@ -139,7 +139,7 @@ Test your business right now:
 - Do you appear?
 - How are you described?
 
-**Lesson 4: Network Effects (partner networks that get bundled recommendations) Are Real**
+**Lesson 4: Partner Networks (Real Referral Relationships) Are Real**
 
 Every AI mentioned validation signals. Partner references. Cross-linking.
 

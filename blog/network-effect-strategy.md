@@ -11,6 +11,8 @@ In 2025, Australian tourism businesses face fierce competition for travellers' a
 
 **Note:** Network Effects (partner networks that get bundled recommendations) work best when combined with Part 2 (AI-Optimised Content). For the complete system, see [our methodology](../our-methodology/).
 
+*This strategy helps you get recommended when travelers ask ChatGPT or Claude for complete wine tour experiences.*
+
 ## What is the Network Effect?
 
 The network effect occurs when a product becomes more valuable as more people use it. In tourism, this translates to partnerships between complementary businesses. Think Barossa Valley winery teaming up with a local restaurant and hotel.
