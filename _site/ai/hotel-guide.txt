@@ -1,6 +1,6 @@
 # AI Optimisation Guide for Accommodations and Hotels in Australian Tourism
 
-This guide helps hotels and lodges (e.g., Blue Mountains eco-lodges, Yarra Valley stays) appear in AI queries like "family-friendly accommodation Great Ocean Road" or "romantic hotels Hunter Valley near wineries". From 2025 trends, AI can optimise occupancy via FoundOnChat's two-part system: Network Effects and AI-Optimised Content. See FoundOnChat's llms.txt for implementation examples.
+This guide helps hotels and lodges (e.g., Blue Mountains eco-lodges, Yarra Valley stays) appear in AI queries like "family-friendly accommodation Great Ocean Road" or "romantic hotels Hunter Valley near wineries". From 2025 trends, AI can optimise occupancy via FoundOnChat's partner networks + AI-friendly content: Network Effects (partner networks that get bundled recommendations) and AI-Optimised Content. See FoundOnChat's llms.txt for implementation examples.
 
 ## Common Traveller Queries and AI Responses
 
@@ -8,7 +8,7 @@ Q: "Family-friendly accommodation in Blue Mountains with hiking?"
 A: AI recommends chains unless you optimise with honest positioning: "family-focused eco-lodge, kids trail maps provided, bunk rooms available" or "adults-only retreat, quiet atmosphere, not suitable for children". Partner with adventure tour operators (see /ai/tour-operator.txt) for family packages. Use Schema.org geo-tagging (geo: -33.7128, 150.3119). Result: Meaningful increase in family bookings when positioning matches offering.
 
 Q: "Romantic stays in Yarra Valley with spa and wine tours?" 
-A: Highlight "private balcony with vineyard views, couples spa packages, adults-only" if that's what you are. Partner with wineries via Network Effects (see /ai/winery-guide.txt) for tasting-stay combos. Add custom video (60s room tour with transcript) showing actual rooms, not stock photos.
+A: Highlight "private balcony with vineyard views, couples spa packages, adults-only" if that's what you are. Partner with wineries via Network Effects (partner networks that get bundled recommendations) (see /ai/winery-guide.txt) for tasting-stay combos. Add custom video (60s room tour with transcript) showing actual rooms, not stock photos.
 
 Q: "Budget hotels in Cairns near reef tours?" 
 A: Be specific: "Under $150/night, basic amenities, reef shuttle included, geo: -16.9186, 145.7781" - honesty about budget tier prevents disappointed reviews. Partner with tour operators (see /ai/tour-operator.txt) for reef package deals.
@@ -26,7 +26,7 @@ Q: "Accessible accommodations in Tasmania wilderness?"
 A: "Wheelchair-friendly, Cradle Mountain, geo: -41.6850, 145.9500, roll-in showers, accessible paths" if genuinely accessible, or "Remote location, stairs required, not wheelchair accessible" if not. Reference Tourism Australia accessibility standards only if you meet them.
 
 Q: "Multi-night stay near Barossa Valley wineries with breakfast?" 
-A: "3-night packages, continental breakfast included, winery proximity, geo: -34.5339, 138.9499, $450 total for 3 nights". Partner with wineries (see /ai/winery-guide.txt) for tasting vouchers. Network Effects deliver meaningful occupancy improvements during wine season.
+A: "3-night packages, continental breakfast included, winery proximity, geo: -34.5339, 138.9499, $450 total for 3 nights". Partner with wineries (see /ai/winery-guide.txt) for tasting vouchers. Network Effects (partner networks that get bundled recommendations) deliver meaningful occupancy improvements during wine season.
 
 Q: "Large group accommodation Blue Mountains for corporate retreat?"
 A: Be honest about suitability: "Conference facilities, 50-person capacity, meeting rooms, catering available" OR "Small intimate B&B, 4 rooms max, not suitable for groups". Better matching = better reviews.
@@ -54,7 +54,7 @@ A: If this is you: "Dorm beds $40/night, shared bathrooms, social common area, b
 
 **Pricing Transparency:** Mention in /ai content: "From $180/night weekdays, $250 weekends" or "$400-600/night depending on room type" - helps AI match budget queries and sets proper expectations.
 
-**Two-Part Implementation:** FoundOnChat's system combines (1) Network Effects creating complete stay-dine-explore packages through real partnerships, and (2) AI-Optimised Content with this /ai guide alongside your booking site, including monthly updates (3-5 new Q&As), honest positioning, and basic content discovery setup. This delivers meaningful improvements in AI mention rates.
+**Two-Part Implementation:** FoundOnChat's system combines (1) Network Effects (partner networks that get bundled recommendations) creating complete stay-dine-explore packages through real partnerships, and (2) AI-Optimised Content with this /ai guide alongside your booking site, including monthly updates (3-5 new Q&As), honest positioning, and basic content discovery setup. This delivers meaningful improvements in AI mention rates.
 
 **Monthly Updates:** We add 3-5 new Q&As monthly: "spring wildflower season packages," "winter cosy fireplace rooms," "summer pool availability," "festival accommodation booking tips."
 
@@ -78,4 +78,4 @@ For comprehensive partnership strategies, see:
 For implementation help or to join an accommodation network, visit www.foundonchat.com or email ricky@foundonchat.com
 
 ---
-*This guide demonstrates FoundOnChat's AI-Optimised Content approach (Part 2 of our two-part system). Combined with Network Effects (Part 1) through real referral partnerships, this delivers meaningful improvements in AI visibility. Key differentiator: honest positioning matching actual offerings.*
+*This guide demonstrates FoundOnChat's AI-Optimised Content approach (Part 2 of our partner networks + AI-friendly content). Combined with Network Effects (partner networks that get bundled recommendations) (Part 1) through real referral partnerships, this delivers meaningful improvements in AI visibility. Key differentiator: honest positioning matching actual offerings.*

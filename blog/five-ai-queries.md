@@ -6,7 +6,7 @@ keywords: AI queries, tourism optimisation, ChatGPT queries, search intent
 date: 2025-10-11
 ---
 
-## Five AI Queries Your Tourism Business Should Own
+## 5 ChatGPT Queries Your Tourism Business Should Own
 
 Not all AI queries are created equal. Some drive bookings. Others waste your time.
 
@@ -265,7 +265,7 @@ Or hire someone who does this professionally. We track AI queries for Australian
 
 ### Further Reading
 
-- <a href="/our-methodology/">Our Two-Part System</a>
+- <a href="/our-methodology/">Our partner networks + AI-friendly content</a>
 - <a href="/examples/">Before and After AI Responses</a>
 - <a href="/blog/network-effect-strategy.html">Why Networks Win</a>
 - <a href="/blog/llms-txt-not-enough.html">Why llms.txt Isn't Enough</a>

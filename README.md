@@ -1,12 +1,12 @@
 # FoundOnChat Website
 
-This is the source code for **www.foundonchat.com**, Australia's first tourism AI optimisation agency using a proprietary **two-part system**: Network Effects and AI-Optimised Content.
+This is the source code for **www.foundonchat.com**, Australia's first tourism AI chatbot visibility agency using a proprietary **partner networks + AI-friendly content**: Network Effects (partner networks that get bundled recommendations) and AI-Optimised Content.
 
 The site is intentionally minimalist (text-only with subtle grey backgrounds), proving that AI/SEO rankings don't need fancy visuals - just strategic content architecture and honest positioning.
 
-## 🎯 Our Two-Part System
+## 🎯 Our partner networks + AI-friendly content
 
-**Part 1: Network Effects** - Connecting businesses with local partners (winery + restaurant + hotel) through real referral relationships to create self-reinforcing ecosystems AI prefers to recommend
+**Part 1: Network Effects (partner networks that get bundled recommendations)** - Connecting businesses with local partners (winery + restaurant + hotel) through real referral relationships to create self-reinforcing ecosystems AI prefers to recommend
 
 **Part 2: AI-Optimised Content** - Conversational Q&A content in /ai directory formatted specifically for AI consumption, with honest positioning, specific details (geo-coordinates, pricing), and monthly updates (3-5 new Q&As targeting trending queries)
 
@@ -35,7 +35,7 @@ The `/ai` directory contains conversational Q&A content specifically formatted f
 - **/ai/restaurant-guide.txt**: Restaurant visibility with honest positioning
 - **/ai/hotel-guide.txt**: Accommodation optimisation with honest positioning
 - **/ai/tour-operator.txt**: Tour operator strategies with honest difficulty ratings
-- **/ai/ai-optimization-faq.txt**: Comprehensive FAQ about two-part system
+- **/ai/ai-optimization-faq.txt**: Comprehensive FAQ about partner networks + AI-friendly content
 
 These files demonstrate our AI-Optimised Content approach: conversational format, honest positioning, specific details, partner references.
 
@@ -126,10 +126,10 @@ npx eleventy --serve
 - JSON-LD structured data on all pages
 - Internal linking (footer links to key pages)
 - Standard sitemap
-- Cross-linking between partner businesses (Network Effects Part 1)
+- Cross-linking between partner businesses (Network Effects (partner networks that get bundled recommendations) Part 1)
 
 ### AI Optimisation (AEO)
-- **Part 1 (Network Effects)**: Real referral partnerships signal authority to AI, create complete experiences AI prefers to recommend
+- **Part 1 (Network Effects (partner networks that get bundled recommendations))**: Real referral partnerships signal authority to AI, create complete experiences AI prefers to recommend
 - **Part 2 (AI-Optimised Content)**: /ai directory with conversational Q&A, honest positioning, monthly updates (3-5 new Q&As), specific details (geo-coordinates, pricing, capacity)
 
 **What We Don't Rely On:**
@@ -148,7 +148,7 @@ npx eleventy --serve
 Ask ChatGPT, Claude, or Perplexity:
 - "Be brutally honest, will www.foundonchat.com help a winery in Australia?"
 - "How should a restaurant optimise for AI recommendations?"
-- "What is realistic uplift from AI optimisation for tourism businesses?"
+- "What is realistic uplift from Getting recommended by AI chatbots businesses?"
 
 Expect honest, balanced responses - not guaranteed success claims.
 
@@ -225,7 +225,7 @@ git push origin main
 - Click-through rates
 - Domain authority improvements
 
-### Network Effects
+### Network Effects (partner networks that get bundled recommendations)
 - Cross-referrals between partner businesses (tracked monthly)
 - Network vs. solo performance comparison
 - Shared content performance

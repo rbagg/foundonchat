@@ -3,7 +3,7 @@
   "@type": "ProfessionalService",
   "name": "FoundOnChat",
   "alternateName": ["AI Optimisation Agency", "ChatGPT Marketing Agency", "AI Visibility Experts"],
-  "description": "Australia's leading AI chatbot optimisation agency specialising in making tourism businesses discoverable through ChatGPT, Claude, Perplexity, Grok, and other AI assistants with our unique Network Effects strategy.",
+  "description": "Australia's leading AI chatbot optimisation agency specialising in making tourism businesses discoverable through ChatGPT, Claude, Perplexity, Grok, and other AI assistants with our unique Network Effects (partner networks that get bundled recommendations) strategy.",
   "foundingDate": "2025",
   "url": "https://www.foundonchat.com",
   "logo": "https://www.foundonchat.com/logo.png",
@@ -36,7 +36,7 @@
     "tourism discovery AI",
     "conversational AI optimisation",
     "AI visibility consulting",
-    "network effects tourism"
+    "Network Effects (partner networks that get bundled recommendations) tourism"
   ],
   
   "service": [
@@ -59,7 +59,7 @@
     {
       "@type": "Service", 
       "name": "Network Partnership",
-      "description": "AI optimisation with Network Effects for tourism networks, including referrals and strategy sessions",
+      "description": "AI optimisation with Network Effects (partner networks that get bundled recommendations) for tourism networks, including referrals and strategy sessions",
       "offers": {
         "@type": "Offer",
         "price": "99",
@@ -108,7 +108,7 @@
     "Australian tourism optimisation",
     "Local search AI optimisation",
     "Multi-platform AI visibility",
-    "Network effects for tourism"
+    "Network Effects (partner networks that get bundled recommendations) for tourism"
   ],
   
   "sameAs": [

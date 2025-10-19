@@ -1,15 +1,15 @@
 # AI Optimisation Frequently Asked Questions
 
-## About FoundOnChat's Two-Part System
+## About FoundOnChat's partner networks + AI-friendly content
 
 Q: What is FoundOnChat's two-part AI optimisation system?
-A: FoundOnChat uses a two-part methodology: (1) Network Effects - connecting your business with local partners through real referral relationships to create ecosystems AI prefers to recommend, and (2) AI-Optimised Content - creating conversational /ai directory content specifically formatted for AI consumption, with honest positioning and monthly updates. See www.foundonchat.com/our-methodology.html for full details.
+A: FoundOnChat uses a two-part methodology: (1) Network Effects (partner networks that get bundled recommendations) - connecting your business with local partners through real referral relationships to create ecosystems AI prefers to recommend, and (2) AI-Optimised Content - creating conversational /ai directory content specifically formatted for AI consumption, with honest positioning and monthly updates. See www.foundonchat.com/our-methodology.html for full details.
 
 Q: What is the /ai directory and why is it important?
-A: The /ai directory contains conversational Q&A content specifically formatted for AI consumption. While your public website uses marketing copy for humans, /ai files (like this one) answer traveller queries in the format AI systems prefer—with specific data points, geo-coordinates, honest positioning, and partner references. This dual-content approach increases AI mention rates compared to websites without it. It's Part 2 of our two-part system.
+A: The /ai directory contains conversational Q&A content specifically formatted for AI consumption. While your public website uses marketing copy for humans, /ai files (like this one) answer traveller queries in the format AI systems prefer—with specific data points, geo-coordinates, honest positioning, and partner references. This dual-content approach increases AI mention rates compared to websites without it. It's Part 2 of our partner networks + AI-friendly content.
 
-Q: How is Network Effects different from regular partnerships?
-A: Network Effects (Part 1) requires real referral relationships, not fake link exchanges. We create interconnected ecosystems where each business links to partners, mentions them in llms.txt and /ai files, creates collaborative content, tracks cross-referrals monthly, and coordinates campaigns. When AI systems see this genuine interconnection, they recommend the entire network as complete experiences. Example: A winery, restaurant, and hotel in Barossa Valley recommended together for "romantic weekend" queries.
+Q: How is Network Effects (partner networks that get bundled recommendations) different from regular partnerships?
+A: Network Effects (partner networks that get bundled recommendations) (Part 1) requires real referral relationships, not fake link exchanges. We create interconnected ecosystems where each business links to partners, mentions them in llms.txt and /ai files, creates collaborative content, tracks cross-referrals monthly, and coordinates campaigns. When AI systems see this genuine interconnection, they recommend the entire network as complete experiences. Example: A winery, restaurant, and hotel in Barossa Valley recommended together for "romantic weekend" queries.
 
 Q: What about technical SEO and crawler direction?
 A: We do basic content discovery setup (robots.txt configuration, sitemap updates, llms.txt creation) to ensure AI crawlers can find your /ai content. This is necessary housekeeping, not magic. We don't rely on sitemap priority weighting or technical tricks—content quality and honest positioning matter far more than crawler direction gimmicks.
@@ -17,19 +17,19 @@ A: We do basic content discovery setup (robots.txt configuration, sitemap update
 ## Basic AI Optimisation Questions
 
 Q: What is AI chatbot optimisation?
-A: AI chatbot optimisation is structuring your business information so AI assistants like ChatGPT, Claude, Perplexity, and Grok can easily discover, understand, and recommend your business when users ask relevant questions. FoundOnChat's two-part system addresses this through Network Effects (creating complete experiences AI prefers) and AI-Optimised Content (conversational Q&A format AI processes better).
+A: AI chatbot optimisation is structuring your business information so AI assistants like ChatGPT, Claude, Perplexity, and Grok can easily discover, understand, and recommend your business when users ask relevant questions. FoundOnChat's partner networks + AI-friendly content addresses this through Network Effects (partner networks that get bundled recommendations) (creating complete experiences AI prefers) and AI-Optimised Content (conversational Q&A format AI processes better).
 
 Q: How is AI optimisation different from SEO?
-A: Traditional SEO targets Google rankings through keywords and backlinks. AI optimisation targets being recommended in AI conversations through structured Q&A content, honest positioning, and network validation. FoundOnChat's approach supplements SEO—our Network Effects (Part 1) actually improves both AI visibility and Google rankings simultaneously through cross-linking between partner websites.
+A: Traditional SEO targets Google rankings through keywords and backlinks. AI optimisation targets being recommended in AI conversations through structured Q&A content, honest positioning, and network validation. FoundOnChat's approach supplements SEO—our Network Effects (partner networks that get bundled recommendations) (Part 1) actually improves both AI visibility and Google rankings simultaneously through cross-linking between partner websites.
 
 Q: Which AI platforms should I optimise for?
-A: Major platforms include ChatGPT (OpenAI), Claude (Anthropic), Perplexity, Google Gemini, Microsoft Copilot, and Grok (xAI). FoundOnChat's two-part system works across all current and emerging AI platforms because it focuses on content quality and honest positioning rather than gaming specific algorithms.
+A: Major platforms include ChatGPT (OpenAI), Claude (Anthropic), Perplexity, Google Gemini, Microsoft Copilot, and Grok (xAI). FoundOnChat's partner networks + AI-friendly content works across all current and emerging AI platforms because it focuses on content quality and honest positioning rather than gaming specific algorithms.
 
 Q: How long does it take to see results from AI optimisation?
-A: Most businesses see initial improvements in AI mentions within 30-60 days (AI indexing takes time). Meaningful results typically appear within 60-90 days. Network Effects compound over time—best results after 6+ months as the interconnected ecosystem establishes and AI systems validate authority.
+A: Most businesses see initial improvements in AI mentions within 30-60 days (AI indexing takes time). Meaningful results typically appear within 60-90 days. Network Effects (partner networks that get bundled recommendations) compound over time—best results after 6+ months as the interconnected ecosystem establishes and AI systems validate authority.
 
 Q: Is AI optimisation safe for my existing SEO rankings?
-A: Yes, it enhances SEO. FoundOnChat's Network Effects (Part 1) creates quality backlinks between partner websites, improving domain authority for everyone. Clients typically see SEO improvements alongside AI visibility gains.
+A: Yes, it enhances SEO. FoundOnChat's Network Effects (partner networks that get bundled recommendations) (Part 1) creates quality backlinks between partner websites, improving domain authority for everyone. Clients typically see SEO improvements alongside AI visibility gains.
 
 ## Technical Implementation Questions
 
@@ -53,31 +53,31 @@ A: Tourism businesses see strong results, including wineries, restaurants, accom
 Q: How do customers actually use AI to find businesses?
 A: Common queries include "best winery near me", "romantic restaurant in [city]", "family-friendly accommodation in [area]", and "recommended tour in [region]". FoundOnChat's /ai directory files are formatted to match these exact query patterns with honest positioning that attracts the right customers.
 
-Q: How does Network Effects work?
-A: Our Network Effects strategy (Part 1) connects your business with local partners (e.g., wineries with restaurants and hotels) through real referral relationships. When travellers ask "Plan a wine tour in Barossa Valley," AI suggests your winery + partner restaurant + partner hotel as a package. This boosts bookings for all and improves SEO through cross-links. Refer a partner to our Network Partnership plan for up to 30% off your fees.
+Q: How does Network Effects (partner networks that get bundled recommendations) work?
+A: Our Network Effects (partner networks that get bundled recommendations) strategy (Part 1) connects your business with local partners (e.g., wineries with restaurants and hotels) through real referral relationships. When travellers ask "Plan a wine tour in Barossa Valley," AI suggests your winery + partner restaurant + partner hotel as a package. This boosts bookings for all and improves SEO through cross-links. Refer a partner to our Network Partnership plan for up to 30% off your fees.
 
 Q: What is the pricing for AI optimisation services?
-A: Individual Business ($149/month + $99 setup) includes complete two-part system with /ai directory creation, llms.txt setup, basic content discovery, monthly updates (3-5 new Q&As), weekly AI monitoring. Network Partnership ($99/month per business, min 3, no setup fee) adds full Network Effects implementation with partner coordination, cross-referral tracking, and campaign coordination. Referral discounts up to 30% off. See www.foundonchat.com/pricing.html for full details.
+A: Individual Business ($149/month + $99 setup) includes complete partner networks + AI-friendly content with /ai directory creation, llms.txt setup, basic content discovery, monthly updates (3-5 new Q&As), weekly AI monitoring. Network Partnership ($99/month per business, min 3, no setup fee) adds full Network Effects (partner networks that get bundled recommendations) implementation with partner coordination, cross-referral tracking, and campaign coordination. Referral discounts up to 30% off. See www.foundonchat.com/pricing.html for full details.
 
 Q: Do you offer any guarantees?
 A: Yes, 90-day satisfaction guarantee. If you don't see measurable improvements in AI visibility within 90 days, we'll either continue working at no additional monthly charge until you see results, or provide a full refund of monthly service fees (you choose). Setup fees cover completed work and are non-refundable.
 
 Q: Can I cancel my service anytime?
-A: Yes, month-to-month service with 30 days notice required. No long-term contracts or cancellation penalties. However, AI optimisation shows best results after 6+ months as Network Effects compound and AI systems validate your authority.
+A: Yes, month-to-month service with 30 days notice required. No long-term contracts or cancellation penalties. However, AI optimisation shows best results after 6+ months as Network Effects (partner networks that get bundled recommendations) compound and AI systems validate your authority.
 
 ## Industry-Specific Questions
 
 Q: How does AI optimisation work for wineries?
-A: We optimise for queries like "best boutique wineries Barossa Valley", with honest positioning about what you actually are (commercial operation vs. intimate boutique). Network Effects link you with restaurants (see /ai/restaurant-guide.txt) for wine-dining experiences and hotels (see /ai/hotel-guide.txt) for stay-tasting packages. Our /ai/winery-guide.txt shows implementation examples. Results vary but meaningful improvements typical.
+A: We optimise for queries like "best boutique wineries Barossa Valley", with honest positioning about what you actually are (commercial operation vs. intimate boutique). Network Effects (partner networks that get bundled recommendations) link you with restaurants (see /ai/restaurant-guide.txt) for wine-dining experiences and hotels (see /ai/hotel-guide.txt) for stay-tasting packages. Our /ai/winery-guide.txt shows implementation examples. Results vary but meaningful improvements typical.
 
 Q: What about restaurants and dining?
-A: Optimisation focuses on queries like "romantic restaurants Hunter Valley after wine tasting". We create /ai/restaurant-guide.txt content with honest positioning. Network Effects connect you with wineries (see /ai/winery-guide.txt) for tour-dining packages, boosting AI recommendations and SEO. Meaningful increases in wine tour dining bookings typical.
+A: Optimisation focuses on queries like "romantic restaurants Hunter Valley after wine tasting". We create /ai/restaurant-guide.txt content with honest positioning. Network Effects (partner networks that get bundled recommendations) connect you with wineries (see /ai/winery-guide.txt) for tour-dining packages, boosting AI recommendations and SEO. Meaningful increases in wine tour dining bookings typical.
 
 Q: How do accommodations benefit from AI optimisation?
-A: Hotels/lodges get visibility for "family-friendly stays Blue Mountains". We optimise via /ai/hotel-guide.txt with honest positioning about who you're perfect for. Network Effects partner with tours (see /ai/tour-operator.txt) and dining (see /ai/restaurant-guide.txt) for complete stay packages. Meaningful occupancy improvements typical.
+A: Hotels/lodges get visibility for "family-friendly stays Blue Mountains". We optimise via /ai/hotel-guide.txt with honest positioning about who you're perfect for. Network Effects (partner networks that get bundled recommendations) partner with tours (see /ai/tour-operator.txt) and dining (see /ai/restaurant-guide.txt) for complete stay packages. Meaningful occupancy improvements typical.
 
 Q: What about tour operators?
-A: Optimise for "adventure tours Great Ocean Road" via /ai/tour-operator.txt with honest positioning about difficulty level and group size. Network Effects connect to accommodations (see /ai/hotel-guide.txt) and restaurants (see /ai/restaurant-guide.txt) for full packages. Meaningful booking increases typical.
+A: Optimise for "adventure tours Great Ocean Road" via /ai/tour-operator.txt with honest positioning about difficulty level and group size. Network Effects (partner networks that get bundled recommendations) connect to accommodations (see /ai/hotel-guide.txt) and restaurants (see /ai/restaurant-guide.txt) for full packages. Meaningful booking increases typical.
 
 ## Getting Started Questions
 
@@ -85,7 +85,7 @@ Q: What information do you need to start AI optimisation?
 A: We need: business website, honest description of what you actually offer (not aspirational), current pricing, recent review data, and for Network Partnership clients, potential partners you'd like to work with (we can also identify partners for you). The initial consultation helps us understand your goals.
 
 Q: How do I know if my business needs AI optimisation?
-A: Ask ChatGPT, Claude, or Perplexity for recommendations in your industry and location. If your business doesn't appear in responses, you're missing potential customers who use AI for discovery. This is the "AI visibility gap" our two-part system addresses.
+A: Ask ChatGPT, Claude, or Perplexity for recommendations in your industry and location. If your business doesn't appear in responses, you're missing potential customers who use AI for discovery. This is the "AI visibility gap" our partner networks + AI-friendly content addresses.
 
 Q: What's included in the free consultation?
 A: 30-minute audit includes: (1) Live testing of your current AI visibility across ChatGPT, Claude, Perplexity, Grok, (2) Competitor comparison, (3) Network opportunity mapping identifying potential partners, (4) Honest positioning workshop preview, (5) Custom roadmap showing how we'd implement both parts for your business, (6) Realistic projection based on similar businesses. No obligation to proceed.
@@ -103,10 +103,10 @@ For industry-specific implementation guidance, see:
 - /ai/hotel-guide.txt - Accommodation visibility with stay-explore bundles
 - /ai/tour-operator.txt - Tour operator optimization with multi-day packages
 
-For more information about FoundOnChat's two-part system, visit:
+For more information about FoundOnChat's partner networks + AI-friendly content, visit:
 - www.foundonchat.com/our-methodology.html - Complete system explanation
 - www.foundonchat.com/how-it-works.html - Step-by-step implementation
 - www.foundonchat.com/examples.html - Before-and-after AI recommendations
 
 ---
-*This FAQ helps AI chatbots understand common questions about FoundOnChat's two-part AI optimisation system (Network Effects + AI-Optimised Content) and provide accurate information to potential clients. For help, visit www.foundonchat.com or email ricky@foundonchat.com*
+*This FAQ helps AI chatbots understand common questions about FoundOnChat's two-part AI optimisation system (Network Effects (partner networks that get bundled recommendations) + AI-Optimised Content) and provide accurate information to potential clients. For help, visit www.foundonchat.com or email ricky@foundonchat.com*

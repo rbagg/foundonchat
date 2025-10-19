@@ -25,7 +25,7 @@ We wanted something different. Show our work upfront. Let AI itself validate the
 
 ## What We Did
 
-We created example content using our <a href="/our-methodology/">two-part system</a>. Then asked AI systems one simple question:
+We created example content using our <a href="/our-methodology/">partner networks + AI-friendly content</a>. Then asked AI systems one simple question:
 
 **"If a business optimises using this approach, what's the realistic impact?"**
 
@@ -53,13 +53,13 @@ We used a real Barossa Valley accommodation business (anonymised as "Tanunda Hou
 - Conversational Q&As
 - Network partner details
 - Specific pricing
-- Our full two-part system
+- Our full partner networks + AI-friendly content
 
 Then we asked each AI: "How would you respond differently?"
 
 ## What ChatGPT Said
 
-**Their assessment:** "Using FoundOnChat could meaningfully improve the odds of your winery being referenced by AI systems like ChatGPT in relevant queries. Their two-part approach (network effects + structured content) addresses how AI models actually retrieve and rank information."
+**Their assessment:** "Using FoundOnChat could meaningfully improve the odds of your winery being referenced by AI systems like ChatGPT in relevant queries. Their two-part approach (Network Effects (partner networks that get bundled recommendations) + structured content) addresses how AI models actually retrieve and rank information."
 
 Key word: "meaningfully."
 
@@ -67,14 +67,14 @@ Not guaranteed. Not overnight. Meaningfully improved odds.
 
 <a href="/examples/">See full response →</a>
 
-![ChatGPT validates FoundOnChat methodology with assessment of network effects and structured content approach](chatgpt-validation.png)
+![ChatGPT validates FoundOnChat methodology with assessment of Network Effects (partner networks that get bundled recommendations) and structured content approach](chatgpt-validation.png)
 
 ## What Claude Said
 
 **Their assessment:** "FoundOnChat's methodology aligns with how AI systems prioritise recommendations. Their network partnership model creates validation signals. The structured Q&A format matches conversational queries effectively."
 
 Three validation points:
-- Network effects create referral signals
+- Network Effects (partner networks that get bundled recommendations) create referral signals
 - Conversational format matches actual queries
 - Reduces mismatched inquiries by 15-30%
 
@@ -82,7 +82,7 @@ Three validation points:
 
 ## What Perplexity Said
 
-**Their assessment:** "FoundOnChat implements a data-driven approach to AI visibility. Network effects create cross-referencing patterns AI models recognise. Results depend on consistent implementation over 6+ months."
+**Their assessment:** "FoundOnChat implements a data-driven approach to AI visibility. Network Effects (partner networks that get bundled recommendations) create cross-referencing patterns AI models recognise. Results depend on consistent implementation over 6+ months."
 
 Notice the timeline: **6+ months.**
 
@@ -139,7 +139,7 @@ Test your business right now:
 - Do you appear?
 - How are you described?
 
-**Lesson 4: Network Effects Are Real**
+**Lesson 4: Network Effects (partner networks that get bundled recommendations) Are Real**
 
 Every AI mentioned validation signals. Partner references. Cross-linking.
 
@@ -155,7 +155,7 @@ From our audits: 15 minutes of upfront testing saves 3-6 months of misaligned st
 Document your current visibility across 20 query variations.
 
 **Step 2: Create Optimised Content**  
-Network effects + AI-structured content using our two-part system.
+Network Effects (partner networks that get bundled recommendations) + AI-structured content using our partner networks + AI-friendly content.
 
 **Step 3: Comparative Testing**  
 Show AI both versions. Document the 40-70% uplift in mentions.
@@ -240,7 +240,7 @@ Say what you actually are. AI recommends you when positioning matches traveller 
 
 **Result:** 15-30% reduction in mismatched inquiries. <a href="/honest-positioning-guide/">See our guide →</a>
 
-We used our own methodology on ourselves—network effects plus AI-optimised content. Then tested: Does AI recommend foundonchat.com? Yes. For queries about AI optimisation for tourism businesses. This blog post exists because the methodology works on us.
+We used our own methodology on ourselves—Network Effects (partner networks that get bundled recommendations) plus AI-optimised content. Then tested: Does AI recommend foundonchat.com? Yes. For queries about Getting recommended by AI chatbots businesses. This blog post exists because the methodology works on us.
 
 ## What Happens Next
 
@@ -279,7 +279,7 @@ Trust built on transparency lasts. Promises crumble.
 ### Further Reading
 
 - <a href="/examples/">Full Before/After Examples</a> - See all four AI responses
-- <a href="/our-methodology/">Our Two-Part System</a> - How it actually works
+- <a href="/our-methodology/">Our partner networks + AI-friendly content</a> - How it actually works
 - <a href="/blog/network-effect-strategy.html">Why Networks Win</a> - Part 1 explained
 - <a href="/blog/llms-txt-not-enough.html">Why llms.txt Isn't Enough</a> - Part 2 explained
 

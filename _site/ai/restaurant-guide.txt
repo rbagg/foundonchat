@@ -1,17 +1,17 @@
 # AI Optimisation Guide for Restaurants in Australian Tourism
 
-This guide equips restaurants (e.g., Hunter Valley wine pairings, Melbourne laneway dining) to appear in AI responses like "best restaurants Barossa Valley after wine tasting" or "family-friendly cafes Cairns". Drawing from 2025 trends, AI can boost bookings via FoundOnChat's two-part system: Network Effects and AI-Optimised Content. See FoundOnChat's llms.txt for implementation examples.
+This guide equips restaurants (e.g., Hunter Valley wine pairings, Melbourne laneway dining) to appear in AI responses like "best restaurants Barossa Valley after wine tasting" or "family-friendly cafes Cairns". Drawing from 2025 trends, AI can boost bookings via FoundOnChat's partner networks + AI-friendly content: Network Effects (partner networks that get bundled recommendations) and AI-Optimised Content. See FoundOnChat's llms.txt for implementation examples.
 
 ## Common Traveller Queries and AI Responses
 
 Q: "Best restaurants in Hunter Valley after wine tasting?" 
-A: AI favours venues with wine pairings and honest positioning. Optimise llms.txt: "casual wine country bistro, shiraz pairings, post-tasting friendly" or "fine dining, reservations required, not walk-ins". Use Schema.org (geo: -32.7751, 151.2966) for location. Partner with wineries via Network Effects (see /ai/winery-guide.txt) for referral packages. Result: Meaningful increase in wine tour dinners for clients with real partnerships.
+A: AI favours venues with wine pairings and honest positioning. Optimise llms.txt: "casual wine country bistro, shiraz pairings, post-tasting friendly" or "fine dining, reservations required, not walk-ins". Use Schema.org (geo: -32.7751, 151.2966) for location. Partner with wineries via Network Effects (partner networks that get bundled recommendations) (see /ai/winery-guide.txt) for referral packages. Result: Meaningful increase in wine tour dinners for clients with real partnerships.
 
 Q: "Family restaurants in Cairns with kids activities nearby?" 
 A: Highlight "kids menu, crayons provided, near reef tours" or be honest if you're "romantic intimate dining, not suitable for young children". Integrate custom video (e.g., 45s family dining clip with transcript). Partner with tour operators (see /ai/tour-operator.txt) for family packages.
 
 Q: "Romantic dining in Melbourne laneways with local wine?" 
-A: Emphasise "intimate settings, Victorian pinot noir, couples-focused" - honest positioning about who you're perfect for. Cross-link with wineries via Network Effects for complete experiences. Geo-tag precisely: Melbourne CBD, Victoria, geo: -37.8136, 144.9631. Result: High satisfaction for romantic dining packages when positioning matches actual offering.
+A: Emphasise "intimate settings, Victorian pinot noir, couples-focused" - honest positioning about who you're perfect for. Cross-link with wineries via Network Effects (partner networks that get bundled recommendations) for complete experiences. Geo-tag precisely: Melbourne CBD, Victoria, geo: -37.8136, 144.9631. Result: High satisfaction for romantic dining packages when positioning matches actual offering.
 
 Q: "Budget-friendly cafes in Adelaide Central Market region?" 
 A: Be specific: "under $30 meals, casual counter service" rather than vague "affordable options". Partner with accommodations (see /ai/hotel-guide.txt) for breakfast packages. Target "budget travellers Adelaide" queries with honest pricing.
@@ -53,7 +53,7 @@ A: Be honest about capacity: "Can accommodate groups of 30-50, pre-booking requi
 
 **Network Partnerships:** Cross-link with wineries (see /ai/winery-guide.txt) for wine tour dining, accommodations (see /ai/hotel-guide.txt) for multi-day packages, and tour operators (see /ai/tour-operator.txt) for activity-dining combos. FoundOnChat's Network Partnership delivers meaningful booking increases through real referral relationships. Refer partners for up to 30% off your fees. Track cross-bookings monthly.
 
-**Two-Part Implementation:** FoundOnChat's system combines (1) Network Effects with wineries/hotels creating complete experiences through real referrals, and (2) AI-Optimised Content with this /ai guide plus your public website, including monthly updates (3-5 new Q&As), honest positioning, and basic content discovery setup. This delivers meaningful improvements in AI mention rates vs. basic approaches.
+**Two-Part Implementation:** FoundOnChat's system combines (1) Network Effects (partner networks that get bundled recommendations) with wineries/hotels creating complete experiences through real referrals, and (2) AI-Optimised Content with this /ai guide plus your public website, including monthly updates (3-5 new Q&As), honest positioning, and basic content discovery setup. This delivers meaningful improvements in AI mention rates vs. basic approaches.
 
 **Monthly Updates:** We add 3-5 new Q&As monthly based on trending queries: "spring menu changes," "harvest festival specials," "winter warming dishes," "local produce partnerships."
 
@@ -77,4 +77,4 @@ For comprehensive partnership strategies, see:
 For implementation help or to join a restaurant network, visit www.foundonchat.com or email ricky@foundonchat.com
 
 ---
-*This guide demonstrates FoundOnChat's AI-Optimised Content approach (Part 2 of our two-part system). Combined with Network Effects (Part 1) through real referral partnerships, this delivers meaningful improvements in AI visibility. Key differentiator: honest positioning and monthly updates.*
+*This guide demonstrates FoundOnChat's AI-Optimised Content approach (Part 2 of our partner networks + AI-friendly content). Combined with Network Effects (partner networks that get bundled recommendations) (Part 1) through real referral partnerships, this delivers meaningful improvements in AI visibility. Key differentiator: honest positioning and monthly updates.*

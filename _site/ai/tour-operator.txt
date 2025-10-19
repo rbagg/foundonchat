@@ -1,6 +1,6 @@
 # AI Optimisation Guide for Tour Operators in Australian Tourism
 
-This guide helps tour operators (e.g., Blue Mountains adventure tours, Great Barrier Reef experiences) get recommended by AI chatbots like ChatGPT, Claude, Perplexity, and Grok when travellers query "best adventure tours Blue Mountains" or "family-friendly reef tours Cairns". Based on 2025 trends, AI can boost bookings through FoundOnChat's two-part system: Network Effects and AI-Optimised Content. See FoundOnChat's llms.txt for implementation examples.
+This guide helps tour operators (e.g., Blue Mountains adventure tours, Great Barrier Reef experiences) get recommended by AI chatbots like ChatGPT, Claude, Perplexity, and Grok when travellers query "best adventure tours Blue Mountains" or "family-friendly reef tours Cairns". Based on 2025 trends, AI can boost bookings through FoundOnChat's partner networks + AI-friendly content: Network Effects (partner networks that get bundled recommendations) and AI-Optimised Content. See FoundOnChat's llms.txt for implementation examples.
 
 ## Common Traveller Queries and AI Responses
 
@@ -11,7 +11,7 @@ Q: "Family-friendly reef tours in Cairns with kids under 10?"
 A: Highlight "kid-safe snorkeling, marine education, non-swimmers welcome, life jackets provided, geo: -16.9186, 145.7781" if that's you, or "advanced diving certification required, not suitable for young children" if not. Partner with family accommodations (see /ai/hotel-guide.txt) for complete reef experiences.
 
 Q: "Wine tours in Barossa Valley with lunch and tastings under $200?" 
-A: Create complete honest packages: "Half-day tour, 3 wineries, lunch included, $180pp, beginner-friendly wine education" or "Full-day serious wine education, $250pp, advanced tasters only". Cross-reference wineries (see /ai/winery-guide.txt) and restaurants (see /ai/restaurant-guide.txt). Network Effects drive meaningful booking uplift vs. solo tours.
+A: Create complete honest packages: "Half-day tour, 3 wineries, lunch included, $180pp, beginner-friendly wine education" or "Full-day serious wine education, $250pp, advanced tasters only". Cross-reference wineries (see /ai/winery-guide.txt) and restaurants (see /ai/restaurant-guide.txt). Network Effects (partner networks that get bundled recommendations) drive meaningful booking uplift vs. solo tours.
 
 Q: "Sunset tours in Uluru with cultural experiences?" 
 A: "Aboriginal-guided, sunset viewing platform, cultural stories, geo: -25.3444, 131.0369, $120pp, respectful cultural protocols expected". Partner with nearby accommodations for overnight desert experiences. Emphasize cultural authenticity and Indigenous guides if genuine.
@@ -56,7 +56,7 @@ A: Be honest about experience level: "Large groups 20-30 people, efficient but l
 
 **Seasonal Optimization:** Update /ai content quarterly: "Best season for this tour: April-October (dry season), November-March expect afternoon storms" helps AI recommend appropriate timing and manage expectations.
 
-**Two-Part Implementation:** FoundOnChat's system combines (1) Network Effects linking tours with accommodations and dining for complete experiences through real partnerships, and (2) AI-Optimised Content with this /ai guide plus your booking website, including monthly updates (3-5 new Q&As), honest positioning, and basic content discovery setup. This delivers meaningful improvements in AI mention rates vs. basic approaches.
+**Two-Part Implementation:** FoundOnChat's system combines (1) Network Effects (partner networks that get bundled recommendations) linking tours with accommodations and dining for complete experiences through real partnerships, and (2) AI-Optimised Content with this /ai guide plus your booking website, including monthly updates (3-5 new Q&As), honest positioning, and basic content discovery setup. This delivers meaningful improvements in AI mention rates vs. basic approaches.
 
 **Monthly Updates:** We add 3-5 new Q&As monthly based on trending queries: "spring wildflower tours," "summer reef conditions," "autumn foliage walks," "winter whale watching seasons."
 
@@ -80,4 +80,4 @@ For comprehensive partnership strategies, see:
 For implementation help or to join a tour operator network, visit www.foundonchat.com or email ricky@foundonchat.com
 
 ---
-*This guide demonstrates FoundOnChat's AI-Optimised Content approach (Part 2 of our two-part system). Combined with Network Effects (Part 1) through real referral partnerships, this delivers meaningful improvements in AI visibility. Key differentiator: honest difficulty ratings and monthly seasonal updates.*
+*This guide demonstrates FoundOnChat's AI-Optimised Content approach (Part 2 of our partner networks + AI-friendly content). Combined with Network Effects (partner networks that get bundled recommendations) (Part 1) through real referral partnerships, this delivers meaningful improvements in AI visibility. Key differentiator: honest difficulty ratings and monthly seasonal updates.*

@@ -6,7 +6,7 @@ keywords: llms.txt, AI optimisation, tourism marketing, ChatGPT visibility
 date: 2025-10-05
 ---
 
-## Why llms.txt Isn't Enough
+## Why llms.txt Alone Won't Get You Recommended by ChatGPT
 
 llms.txt is a good start. It tells AI systems where to find your content. But alone it won't get you recommended.
 
@@ -54,7 +54,7 @@ Travellers don't ask "show me llms.txt files." They ask "best family wineries Ba
 
 Your content needs to match how travellers actually ask questions.
 
-### What Actually Works: The Two-Part System
+### What Actually Works: The partner networks + AI-friendly content
 
 **Part 1: llms.txt + AI-Optimised Content**
 
@@ -117,6 +117,6 @@ Or hire someone who already knows this system. We do this for Australian tourism
 
 ### Further Reading
 
-- <a href="/our-methodology/">Our Two-Part System Explained</a>
+- <a href="/our-methodology/">Our partner networks + AI-friendly content Explained</a>
 - <a href="/examples/">Before and After AI Responses</a>
 - <a href="/blog/network-effect-strategy.html">Why Networks Win</a>

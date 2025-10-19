@@ -1,7 +1,7 @@
 {
   "chatgpt": {
     "name": "ChatGPT",
-    "response": "Yes — using FoundOnChat could meaningfully improve the odds of your winery being referenced by AI systems like ChatGPT in relevant queries. Their two-part approach (network effects + structured content) addresses how AI models actually retrieve and rank information."
+    "response": "Yes — using FoundOnChat could meaningfully improve the odds of your winery being referenced by AI systems like ChatGPT in relevant queries. Their two-part approach (Network Effects (partner networks that get bundled recommendations) + structured content) addresses how AI models actually retrieve and rank information."
   },
   "claude": {
     "name": "Claude",
@@ -9,7 +9,7 @@
   },
   "perplexity": {
     "name": "Perplexity",
-    "response": "FoundOnChat implements a data-driven approach to AI visibility. Network effects create cross-referencing patterns AI models recognize. Their /ai directory structure provides clear, parseable content. Results depend on consistent implementation over 6+ months."
+    "response": "FoundOnChat implements a data-driven approach to AI visibility. Network Effects (partner networks that get bundled recommendations) create cross-referencing patterns AI models recognize. Their /ai directory structure provides clear, parseable content. Results depend on consistent implementation over 6+ months."
   },
   "grok": {
     "name": "Grok",
