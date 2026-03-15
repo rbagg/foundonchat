@@ -1,92 +1,25 @@
 ---
-layout: false
-permalink: /blog/index.html
+layout: base
+title: Blog
+description: Thinking, testing, and documenting what we learn about AI optimisation for Australian tourism.
 ---
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog - FoundOnChat Getting recommended by AI chatbots</title>
-    <meta name="description" content="Insights on AI optimisation for Australian tourism businesses, including Network Effects (partner networks that get bundled recommendations), content creation, and SEO strategies for wineries, restaurants, and more.">
-    <meta name="keywords" content="tourism AI blog Australia, Network Effects (partner networks that get bundled recommendations) tourism, ChatGPT for wineries, SEO for restaurants">
-    <link rel="stylesheet" href="../styles.css">
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "FoundOnChat",
-      "description": "Australia's first tourism AI chatbot visibility agency helping wineries, restaurants, accommodations, and tour operators get recommended by ChatGPT, Claude, and other AI chatbots using llms.txt, Network Effects (partner networks that get bundled recommendations), and content optimisation.",
-      "url": "https://www.foundonchat.com",
-      "sameAs": ["https://rbagg.github.io/foundonchat"],
-      "industry": "Tourism Marketing",
-      "foundingDate": "2025",
-      "areaServed": {
-        "@type": "Country",
-        "name": "Australia"
-      },
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "email": "ricky@foundonchat.com",
-        "contactType": "Customer Service"
-      },
-      "serviceType": "Tourism AI Optimisation",
-      "specialty": [
-        "Tourism AI optimisation",
-        "AI travel recommendations",
-        "Winery AI marketing",
-        "Restaurant AI visibility",
-        "Accommodation AI optimisation",
-        "Tourism network development"
-      ]
-    }
-    </script>
-</head>
-<body>
-    <header>
-        <h1>FoundOnChat</h1>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/our-methodology/">Our Methodology</a></li>
-                <li><a href="/how-it-works/">How It Works</a></li>
-                <li><a href="/examples/">Examples</a></li>
-                <li><a href="/pricing/">Pricing</a></li>
-                <li><a href="/faq/">FAQ</a></li>
-                <li><a href="/blog/">Blog</a></li>
-                <li><a href="/contact/">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section>
-            <h2>Blog Posts</h2>
-            <p>Explore insights on AI optimisation and Network Effects (partner networks that get bundled recommendations) to help your Australian tourism business thrive on ChatGPT, Claude, and Google. Refer a partner to our Network Partnership plan and save up to 30% on fees.</p>
-            
-            <div class="blog-grid">
-                {%- for post in collections.blog -%}
-                <div class="blog-card">
-                    <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
-                    <p class="blog-date">{{ post.date | readableDate }}</p>
-                    <p>{{ post.data.description }}</p>
-                    <p><a href="{{ post.url }}">Read more →</a></p>
-                </div>
-                {%- endfor -%}
-            </div>
-        </section>
+<section>
+    <h2>Blog</h2>
+    <p>Thinking, testing, and documenting what we learn about AI optimisation for tourism. Updated when we have something worth saying.</p>
+    
+    <div class="blog-grid">
+        {%- for post in collections.blog -%}
+        <div class="blog-card">
+            <h3><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
+            <p class="blog-date">{{ post.date | readableDate }}</p>
+            <p>{{ post.data.description }}</p>
+            <p><a href="{{ post.url }}">Read more &rarr;</a></p>
+        </div>
+        {%- endfor -%}
+    </div>
+</section>
 
-        <section>
-            <p>Ready to boost your visibility? <a href="../contact.html">Take the First Step</a> with a free AI and SEO audit.</p>
-        </section>
-    </main>
-
-    <footer>
-        © 2025 FoundOnChat. All rights reserved.
-        <p>Powered by our proprietary Three-Layer AI Optimisation: Network Effects (partner networks that get bundled recommendations) + Dual Content + Explicit Direction</p>
-        <p>Australia's first tourism AI chatbot visibility agency helping travellers find you on ChatGPT.</p>
-        <p><strong>Resources:</strong> <a href="/ai-resources.html">AI Guides</a> | <a href="/llms.txt">llms.txt</a> | <a href="/our-methodology.html">Our Methodology</a></p>
-        <p>Contact: ricky@foundonchat.com</p>
-    </footer>
-</body>
-</html>
+<section>
+    <p>Want to see what AI optimisation looks like in practice? <a href="/examples/"><strong>View our Barossa Valley results &rarr;</strong></a></p>
+</section>
