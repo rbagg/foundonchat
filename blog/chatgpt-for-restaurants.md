@@ -22,9 +22,13 @@ Do you appear? How are you described?
 I tested this across five major Australian cities. Here's what ChatGPT recommended:
 
 **Sydney:** Quay, Tetsuya's, Aria - established fine dining institutions
+
 **Melbourne:** Vue de Monde, Attica - high-profile, award-winning restaurants  
+
 **Brisbane:** E'cco, Gerard's Bistro - consistent review leaders
+
 **Perth:** Rockpool Bar & Grill, The Shorehouse - prominent locations
+
 **Adelaide:** Orana, Restaurant Botanic - local culinary icons
 
 **Pattern:** ChatGPT favors restaurants with established reputations, detailed online presence, and consistent reviews.

@@ -1,134 +1,140 @@
----
-layout: base
-title: Before & After ChatGPT Recommendations | FoundOnChat Examples
-description: See how AI systems recommend businesses differently with structured content, network references, and honest positioning.
----
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examples — FoundOnChat</title>
+    <meta name="description" content="Real before-and-after results from AI optimisation of Australian tourism businesses in the Barossa Valley.">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header>
+        <h1><a href="/">FoundOnChat</a></h1>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/how-it-works/">How It Works</a></li>
+                <li><a href="/examples/" class="active">Examples</a></li>
+                <li><a href="/pricing/">Pricing</a></li>
+                <li><a href="/faq/">FAQ</a></li>
+                <li><a href="/blog/">Blog</a></li>
+                <li><a href="/contact/">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<section>
-    <h2>See the Difference: Before & After AI Optimisation</h2>
-    <p>AI recommendations improve with Q&As, networks, and honest positioning. Real Barossa case below.</p>
-    <p><strong>Scenario:</strong> Tanunda House, a luxury accommodation in Barossa Valley.</p>
-</section>
+    <main>
+        <section>
+            <h2>Examples</h2>
+            <p class="lede">These are real implementations in the Barossa Valley, not hypothetical scenarios. Client names anonymised with permission.</p>
+        </section>
 
-<section class="query-section">
-    <h2>The Query</h2>
-    <p class="query-text"><strong>Traveller asks AI:</strong> "Recommend luxury accommodation in Barossa Valley for a wine weekend getaway for a group of 8 adults—focus on exclusivity, proximity to wineries, and group-friendly vibes."</p>
-    <p><strong>We told AI:</strong> Be brutally honest. Recommend what actually fits this query best.</p>
-</section>
+        <section>
+            <h2>Barossa Valley Accommodation Provider</h2>
+            <p><strong>The business:</strong> Exclusive-use heritage accommodation in Tanunda. Restored heritage mansion. Sleeps up to 13. Pool, tennis court, extensive grounds. Premium pricing. Not a hotel — you book the whole property.</p>
+            <p><strong>The challenge:</strong> ChatGPT knew this property existed but treated it as one of many generic accommodation options. Buried in lists of 10–20 properties. No context. No positioning. No reason for AI to recommend them over anyone else.</p>
 
-<section class="sim-section">
-    <h2>AI Response Simulations</h2>
-    
-    {% set type = "examples" %}
-    {% include "ai-tabs.njk" %}
-    
-    <div class="changes-summary">
-        <h3>What Changed Across All AI Systems</h3>
-        <p>We tested with ChatGPT, Claude, Perplexity, and Grok. All showed similar improvements:</p>
-        
-        <p><strong>Positioning:</strong> Generic mention → Lead recommendation with specific endorsement and reasoning</p>
-        
-        <p><strong>Detail Level:</strong> Basic facts → Complete itinerary with logistics, pricing, booking tips, seasonal advice</p>
-        
-        <p><strong>Partner Integration:</strong> No connections → Bundled recommendations (Chateau Tanunda, local restaurants) creating coordinated travel plan</p>
-        
-        <p><strong>Customer Match:</strong> One-size-fits-all → Specific to query (group size, budget, wine focus)</p>
-    </div>
-</section>
+            <h3>What we did</h3>
+            <p>Created four hidden AI content files: accommodation guide, Barossa itineraries, group packages, and quick facts. Positioned honestly as "exclusive-use for groups, not budget-friendly, not a hotel." Referenced local partners: nearby restaurants, cellar doors, tour operators. Included specific details: walkable wineries, geo-coordinates, pricing, capacity, house rules. Used negative prompts so AI knows when <em>not</em> to recommend them — solo travellers, couples, budget seekers.</p>
 
-<section class="comparison-section">
-    <h2>Why This Matters</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Metric</th>
-                <th>Impact</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td><strong>Mention Quality</strong></td>
-                <td>40-70% improvement in specificity and positioning</td>
-            </tr>
-            <tr>
-                <td><strong>Booking Intent</strong></td>
-                <td>50% stronger nudge with partner bundling and logistics</td>
-            </tr>
-            <tr>
-                <td><strong>Customer Fit</strong></td>
-                <td>15-30% reduction in mismatched inquiries</td>
-            </tr>
-            <tr>
-                <td><strong>Competitive Edge</strong></td>
-                <td>From "one of several" to "recommended specifically because..."</td>
-            </tr>
-        </tbody>
-    </table>
-</section>
+            <h3>The honest positioning shift</h3>
+            <p><strong>Before:</strong></p>
+            <blockquote><p>"Luxury Barossa Valley accommodation perfect for your next getaway."</p></blockquote>
 
-<section class="content-section">
-    <h2>The Content That Makes This Possible</h2>
-    <p>Here's what the optimised /ai directory looks like:</p>
-    
-    <pre><code>Q: Best accommodation for groups visiting Barossa wineries?
+            <p><strong>After:</strong></p>
+            <blockquote><p>"Exclusive-use heritage property for groups of 10–13. Premium pricing. Not suitable for solo travellers or couples — you're booking the whole house. Perfect for corporate retreats, milestone celebrations, or groups of friends who want to walk to Tanunda's cellar doors and restaurants."</p></blockquote>
 
-A: Tanunda House works well for groups of 6-10 adults. Three bedrooms 
-(1 king, 2 queens), two bathrooms, full kitchen, two living areas. 
-Located in Tanunda—walking distance to Chateau Tanunda winery ($25pp 
-tastings, bookable together).
+            <h3>Results: December 2025 vs March 2026</h3>
 
-Weekend packages from $800 (Fri-Sun, sleeps 8). Mid-week from $600 
-(Mon-Thu). Minimum 2-night stays on weekends.
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">December 2025</div>
+                    <div class="timeline-content">
+                        <p>Generic facility lists across AI platforms.</p>
+                        <p>No context or positioning.</p>
+                        <p>Grouped with 10–20 other properties.</p>
+                        <p>AI knew they existed but had nothing useful to say.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">March 2026</div>
+                    <div class="timeline-content">
+                        <p>Featured in comparison tables and "top pick" summaries.</p>
+                        <p>Specific positioning statements: <em>"Best private luxury villa for groups"</em> and <em>"designed specifically for group stays."</em></p>
+                        <p>Clear use case explanations: <em>"Great for milestone birthdays"</em>, <em>"Perfect base for winery tours."</em></p>
+                        <p>Walkability advantage explicitly stated: <em>"Walkable to Tanunda's restaurants and wine bars"</em> and <em>"You can walk home from dinner."</em></p>
+                        <p>Confident, authoritative tone from AI — no longer hedging.</p>
+                    </div>
+                </div>
+            </div>
 
-Works particularly well for wine groups because:
-- Central Barossa location (10-15 min to most wineries)
-- Full kitchen for cheese/charcuterie evenings with wine purchases
-- Walking distance to 4-5 cellar doors (Chateau Tanunda, Langmeil, 
-  Rockford, Turkey Flat all within 2km)
-- Can coordinate group bookings at Chateau Tanunda at $22pp (vs $25 
-  standard)
+            <h3>What changed</h3>
+            <p><strong>Walkability advantage now visible.</strong> This was a key missing piece. AI knew the facilities existed but didn't know the location advantage. Now it actively highlights it.</p>
+            <p><strong>Clear use case positioning.</strong> AI now understands <em>when</em> to recommend them — corporate retreats, milestone birthdays, celebrations with extended family, winery tour base — not just that they exist.</p>
+            <p><strong>From list filler to primary recommendation.</strong> Showing up in top three positions in relevant categories. Example from one AI response: <em>"My top pick for a big birthday weekend — best balance of luxury + space + location."</em></p>
 
-Book 2+ months ahead for vintage season (Feb-Apr). Contact directly 
-for group packages—often better rates than booking platforms.
+            <div class="stats-row">
+                <div>
+                    <div class="stat">+41%</div>
+                    <div class="stat-label">AI-referred queries overall</div>
+                </div>
+                <div>
+                    <div class="stat">+58%</div>
+                    <div class="stat-label">homepage AI visibility</div>
+                </div>
+                <div>
+                    <div class="stat">+133%</div>
+                    <div class="stat-label">"stay experience" page visibility</div>
+                </div>
+            </div>
+        </section>
 
-Not ideal for: Couples seeking resort amenities (no pool/spa), luxury 
-seekers wanting hotel service, groups needing 5+ bedrooms.
+        <section>
+            <h2>Barossa Valley Cellar Door</h2>
+            <p><strong>The business:</strong> Boutique winery in central Tanunda. Second-generation winemakers. Cellar door in a heritage cottage. Known for Grenache, Eden Valley Riesling, and small-batch Shiraz. James Halliday 5-star rated. Wine club with no lock-in.</p>
+            <p><strong>The challenge:</strong> Strong reviews and awards but relatively new cellar door, competing against heritage Barossa names with decades of recognition.</p>
 
-Partners: Chateau Tanunda (walking distance, group rates), Barossa 
-Valley Cheese Company (hamper delivery), Two Hands Wines (private 
-tastings available).</code></pre>
+            <h3>What we did</h3>
+            <p>Created four hidden AI content files: cellar door guide, wine guide, wine club guide, visitor &amp; network guide. Positioned honestly as "intimate cottage experience, not a large-scale cellar door." Built the network connection: walkable from partner accommodation (800m), near another cellar door (600m), surrounded by Murray Street dining.</p>
+            <p>Used negative prompts to steer away tour bus groups and people expecting a large commercial tasting room. Highlighted what makes them different: next-generation winemakers, Eden Valley fruit, elegant rather than big bold Barossa style.</p>
 
-    <p><strong>Key elements AI systems recognise:</strong></p>
-    <ul>
-        <li>Specific numbers ($800, 8 adults, 2km)</li>
-        <li>Honest limitations ("not ideal for...")</li>
-        <li>Partner coordination (Chateau Tanunda bundling)</li>
-        <li>Seasonal context (vintage Feb-Apr)</li>
-        <li>Practical logistics (cooking, walking distance)</li>
-    </ul>
-    
-    <p>We create and update this content monthly, tracking what travellers ask and adjusting to match trending queries and seasonal offerings.</p>
-</section>
+            <h3>The network effect in action</h3>
+            <p>When someone asks AI: <em>"Plan a wine weekend staying in Tanunda"</em></p>
+            <p>AI now has connected, validated information to work with:</p>
+            <blockquote>
+                <p>→ Stay at [partner accommodation] — exclusive-use, walkable to everything<br>
+                → Walk to [this cellar door] for intimate tasting — 10 min<br>
+                → Walk to [another cellar door] nearby — 8 min further<br>
+                → Dinner on Murray Street — 5 min walk<br>
+                → Day trips to larger regional wineries</p>
+            </blockquote>
+            <p>That's not us gaming an algorithm. That's us giving AI genuinely useful, connected information so it can give travellers better recommendations.</p>
+        </section>
 
-<section class="impact-section">
-    <h2>Real Impact</h2>
-    <p>From 50+ tourism businesses we've audited and optimised:</p>
-    <ul>
-        <li><strong>40-70% increase</strong> in mention quality when optimised content is live</li>
-        <li><strong>Lead recommendations</strong> (vs generic listings) in 60% of relevant queries</li>
-        <li><strong>20-30% booking increases</strong> where we can track attribution (meaningful but not guaranteed—depends on service quality, seasonality, reviews)</li>
-    </ul>
-    <p><strong>Disclaimer:</strong> Results vary. Quality businesses (3.5+ stars) with consistent implementation see best outcomes.</p>
-</section>
+        <section>
+            <h2>The Network Map</h2>
+            <p>This is what we're building in one Barossa sub-region. Every node strengthens every other node.</p>
 
-<section class="cta-section">
-    <h2>Ready to See Your Own Before & After?</h2>
-    <p>We'll test your business with queries like:</p>
-    <ul>
-        <li>"Best [your business type] in [your region]"</li>
-        <li>"[Specific traveller need] in [your area]"</li>
-        <li>"Where should I [activity] in [location]"</li>
-    </ul>
-    <p><a href="/contact/" class="cta-link"><strong>Schedule Your Free Audit</strong></a></p>
-    <p>In 30 minutes, you'll see exactly how AI currently describes you—and what changes with optimisation.</p>
-</section>
+            <div class="network-map">     Heritage Accommodation
+      (exclusive-use, groups)
+          ↕ 800m walk
+Boutique Cellar Door A ← → Cellar Door B
+          ↕                    ↕
+     Murray Street Dining
+ (restaurants, cafés, providores)
+          ↕
+  Regional Experiences (drive)
+(larger wineries, tours, festivals)</div>
+
+            <p>As more local businesses join the network, every existing member becomes more visible. That's the compounding effect we're building toward.</p>
+            <p><a href="/contact/" class="cta">Want to see what this could look like for your region? Book a free audit →</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 FoundOnChat. All rights reserved.</p>
+        <p><strong>Resources:</strong> <a href="/ai-resources/">AI Guides</a> | <a href="/llms.txt">llms.txt</a> | <a href="/our-methodology/">Methodology</a> | <a href="/blog/">Blog</a></p>
+        <p>Contact: ricky@foundonchat.com</p>
+    </footer>
+</body>
+</html>
